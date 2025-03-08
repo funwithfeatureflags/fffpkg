@@ -1,0 +1,39 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+# Sample debian/rules that uses debhelper.
+# This file was originally written by Joey Hess and Craig Small.
+# As a special exception, when this file is copied by dh-make into a
+# dh-make output file, you may use that output file without restriction.
+# This special exception was added by Craig Small in version 0.37 of dh-make.
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+
+# Stuff to allow go to download dependencies
+export GOPROXY=proxy.golang.org
+export GOSUMDB=sum.golang.org
+export GO111MODULE=on
+
+# Dubious, but I'm lazy
+DEST=$$(pwd)/debian/@NAME@
+
+# also Dubious, but easier than managing GOPATH/GOROOT/etc
+ifeq ($(HOME),/nonexistent)
+export HOME=/build
+endif
+
+%:
+	dh $@ 
+
+override_dh_auto_build:
+	make workspace-init
+	go build -ldflags "-X main.version=@VERSION@ -X main.commit=@VERSION@ -X main.date=1970-01-00T00:01:00Z" -o ./bin/flagd ./flagd
+
+override_dh_auto_install:
+	mkdir -p $(DEST)/usr/bin
+	mkdir -p $(DEST)/etc/flagd/
+	mkdir -p $(DEST)/etc/systemd/system/
+	install -m 640 systemd/flags.json $(DEST)/etc/flagd/
+	install -m 640 systemd/flagd.service $(DEST)/etc/systemd/system/flagd.service
+	install -m 755 bin/flagd $(DEST)/usr/bin
