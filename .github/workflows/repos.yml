@@ -1,0 +1,63 @@
+name: packages repositories
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'common/docs/**'
+      - '.github/workflows/docs.yml'
+      - 'README.rst'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'common/docs/**'
+      - '.github/workflows/docs.yml'
+      - 'README.rst'
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  check_repo:
+    runs-on: ubuntu-latest
+    outputs:
+      is_main_repo: ${{ steps.check.outputs.is_main_repo }}
+    steps:
+      - id: check
+        run: |
+          if [[ "$GITHUB_REPOSITORY" == "kakwa/pakste" ]]; then
+            echo "is_main_repo=true" >> $GITHUB_OUTPUT
+          else
+            echo "is_main_repo=false" >> $GITHUB_OUTPUT
+          fi
+          echo "Repository: $GITHUB_REPOSITORY"
+
+  build:
+    needs: check_repo
+    if: github.ref == 'refs/heads/main' && needs.check_repo.outputs.is_main_repo == 'false'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Install GPG Key
+        run: |
+          echo "${{ secrets.GPG_SIGNING_KEY }}" | gpg --import
+
+      - name: Install dependencies
+        run: |
+          wget -qO - https://mirror.kakwalab.ovh/debian-rpm-build-tools/GPG-KEY.pub | gpg --dearmor > kakwalab.gpg
+          install -o root -g root -m 644 kakwalab.gpg /etc/apt/trusted.gpg.d/
+          echo "deb [arch=amd64] https://mirror.kakwalab.ovh/debian-rpm-build-tools/deb.noble/ noble main" > /etc/apt/sources.list.d/kakwalab-rpm-build-tools.list
+          apt update
+          apt install -y make debhelper reprepro cowbuilder wget mock binfmt-support qemu qemu-system-arm qemu-system-riscv
+
+      - name: Build Repositories
+        run: make all_repos
+
+      - name: Deploy to GitHub Pages
+        if: ${{ github.event_name != 'pull_request' }}
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./out
