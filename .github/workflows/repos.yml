@@ -47,10 +47,10 @@ jobs:
       - name: Install dependencies
         run: |
           wget -qO - https://mirror.kakwalab.ovh/debian-rpm-build-tools/GPG-KEY.pub | gpg --dearmor > kakwalab.gpg
-          install -o root -g root -m 644 kakwalab.gpg /etc/apt/trusted.gpg.d/
-          echo "deb [arch=amd64] https://mirror.kakwalab.ovh/debian-rpm-build-tools/deb.noble/ noble main" > /etc/apt/sources.list.d/kakwalab-rpm-build-tools.list
-          apt update
-          apt install -y make debhelper reprepro cowbuilder wget mock binfmt-support qemu qemu-system-arm qemu-system-riscv
+          sudo install -o root -g root -m 644 kakwalab.gpg /etc/apt/trusted.gpg.d/
+          sudo echo "deb [arch=amd64] https://mirror.kakwalab.ovh/debian-rpm-build-tools/deb.noble/ noble main" > /etc/apt/sources.list.d/kakwalab-rpm-build-tools.list
+          sudo apt update
+          sudo apt install -y make debhelper reprepro cowbuilder wget mock binfmt-support qemu qemu-system-arm qemu-system-riscv
 
       - name: Build Repositories
         run: make all_repos
