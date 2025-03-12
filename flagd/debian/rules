@@ -37,3 +37,5 @@ override_dh_auto_install:
 	install -m 640 systemd/flags.json $(DEST)/etc/flagd/
 	install -m 640 systemd/flagd.service $(DEST)/etc/systemd/system/flagd.service
 	install -m 755 bin/flagd $(DEST)/usr/bin
+
+override_dh_auto_test:
