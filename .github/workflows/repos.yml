@@ -56,7 +56,7 @@ jobs:
           sudo apt install -y mock createrepo-c rpm dnf
 
       - name: Build Repositories
-        run: make export_key
+        run: make all_repos
 
       - name: Deploy to GitHub Pages
         if: ${{ github.event_name != 'pull_request' }}
