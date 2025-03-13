@@ -62,7 +62,7 @@ jobs:
           sudo apt install -y make debhelper reprepro cowbuilder wget
           sudo apt install -y binfmt-support qemu-utils qemu-user-static qemu-system-arm qemu-system-misc
           sudo apt install -y debian-archive-keyring debian-keyring debian-ports-archive-keyring ubuntu-keyring
-          sudo apt install -y mock createrepo-c rpm dnf
+          [ "${{ matrix.target }}" == "rpm" ] && sudo apt install -y mock createrepo-c rpm dnf
 
       - name: Create Tmpfs
         run: |
