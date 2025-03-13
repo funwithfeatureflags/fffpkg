@@ -44,10 +44,26 @@ jobs:
           sudo apt install -y debian-archive-keyring debian-keyring debian-ports-archive-keyring ubuntu-keyring
           sudo apt install -y mock createrepo-c rpm dnf
 
-      - name: Build Repositories
-        run: make all_repos
+      - name: Recover existing Published Repositories content
+        run: |
+          mkdir -p out
+          REPO_NAME="${GITHUB_REPOSITORY#*/}"
+          echo "Recovering existing repositories content for $REPO_NAME..."
+          # Clone the gh-pages branch into a temporary directory
+          git clone --branch=gh-pages --single-branch --depth=1 https://github.com/${GITHUB_REPOSITORY}.git gh-pages-temp || true
+          # If the clone was successful, copy all contents to out directory
+          if [ -d "gh-pages-temp" ]; then
+            cp -r gh-pages-temp/* out/ 2>/dev/null || true
+            rm -rf gh-pages-temp
+            echo "Successfully recovered existing repositories content"
+          else
+            echo "No existing repositories content found or branch doesn't exist yet"
+          fi
 
-      - name: Deploy to GitHub Pages
+      - name: Build Repositories
+        run: make all_repos -j8
+
+      - name: Deploy Repositories to GitHub Pages
         if: ${{ github.event_name != 'pull_request' }}
         uses: peaceiris/actions-gh-pages@v3
         with:
