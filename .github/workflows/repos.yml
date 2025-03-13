@@ -20,10 +20,26 @@ jobs:
           fi
           echo "Repository: $GITHUB_REPOSITORY"
 
-  build:
-    needs: check_repo
-    if: github.ref == 'refs/heads/main' && needs.check_repo.outputs.is_main_repo == 'false'
+  generate-matrix:
     runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
+    steps:
+      - name: Generate Matrix
+        id: set-matrix
+        run: |
+          MATRIX=$(make github_matrix);
+          echo "matrix=$MATRIX" >> "$GITHUB_OUTPUT"
+
+  build:
+    needs:
+      - check_repo
+      - generate-matrix
+    if: github.ref == 'refs/heads/main' && needs.check_repo.outputs.is_main_repo == 'false'
+    runs-on: ${{ matrix.host }}
+    strategy:
+      matrix: ${{ fromJson(needs.generate-matrix.outputs.matrix) }}
+    name: Build ${{ matrix.target }} - ${{ matrix.arch }} - ${{ matrix.dist }} - matrix.host
     steps:
       - uses: actions/checkout@v3
         with:
@@ -65,7 +81,7 @@ jobs:
           fi
 
       - name: Build Repositories
-        run: make all_repos -j8
+        run: make ${{ matrix.target }}_repo ARCH=${{ matrix.arch }} DIST=${{ matrix.dist }} -j8
 
       - name: Deploy Repositories to GitHub Pages
         if: ${{ github.event_name != 'pull_request' }}
