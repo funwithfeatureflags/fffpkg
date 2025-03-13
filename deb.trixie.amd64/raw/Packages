@@ -1,0 +1,68 @@
+Package: python3-openfeature-hooks-opentelemetry
+Version: 0.1.1-1~amk+deb13
+Architecture: all
+Maintainer: anonymous <anonymous@dev>
+Installed-Size: 39
+Depends: python3
+Filename: ./python3-openfeature-hooks-opentelemetry_0.1.1-1~amk+deb13_all.deb
+Size: 7924
+MD5sum: 6158324e29c76391b0e51ced4d31dd8e
+SHA1: d49423c058f95e58d46f5f4b75a4d9aa096117df
+SHA256: de29b199cee3a93c2decb60d97f6301b14cf56f3e27aa29853de3f4acf210da1
+Section: misc
+Priority: extra
+Homepage: https://github.com/open-feature/python-sdk-contrib
+Description: Python SDK for OpenFeature
+ Python SDK for OpenFeature
+
+Package: python3-openfeature-provider-flagd
+Version: 0.1.5-1~amk+deb13
+Architecture: all
+Maintainer: anonymous <anonymous@dev>
+Installed-Size: 143
+Depends: python3
+Filename: ./python3-openfeature-provider-flagd_0.1.5-1~amk+deb13_all.deb
+Size: 18608
+MD5sum: 10dd6cd6cb9391b21986b1f2badb9d13
+SHA1: 98e6ef65eddc7963a801e70a06edf7f7c765061a
+SHA256: c721b05ebe1c0e3230006e17fe5ebd4782075c956869df8d9e2562229cbadca0
+Section: misc
+Priority: extra
+Homepage: https://github.com/open-feature/python-sdk-contrib
+Description: Python SDK for OpenFeature
+ Python SDK for OpenFeature
+
+Package: python3-openfeature-provider-ofrep
+Version: 0.1.0-1~amk+deb13
+Architecture: all
+Maintainer: anonymous <anonymous@dev>
+Installed-Size: 42
+Depends: python3
+Filename: ./python3-openfeature-provider-ofrep_0.1.0-1~amk+deb13_all.deb
+Size: 8724
+MD5sum: bf87642b691418bfd842ebd844df3ad7
+SHA1: 494676c465e14755f684b75ce70284d9a7aeac4b
+SHA256: 53264b9b82cfe3cf0450ec1bea38b7f3410678e40886f6180928cd90b93d2dbc
+Section: misc
+Priority: extra
+Homepage: https://github.com/open-feature/python-sdk-contrib
+Description: Python SDK for OpenFeature
+ Python SDK for OpenFeature
+
+Package: python3-openfeature-sdk
+Version: 0.7.4-1~amk+deb13
+Architecture: all
+Maintainer: anonymous <anonymous@dev>
+Installed-Size: 135
+Depends: python3
+Filename: ./python3-openfeature-sdk_0.7.4-1~amk+deb13_all.deb
+Size: 29132
+MD5sum: 73259a483c027e9e90dcf028af339450
+SHA1: 79c66ea3b6ed44af265703947d977340bf364eb5
+SHA256: dcd5a764a34cae796baab35091447f23543ce95e0347a30c6eef61f5623ebf67
+Section: misc
+Priority: extra
+Homepage: https://github.com/open-feature/python-sdk
+Description: Python SDK for OpenFeature
+ Python SDK for OpenFeature
+
