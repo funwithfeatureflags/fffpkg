@@ -43,7 +43,7 @@ jobs:
     strategy:
       matrix: 
         include: ${{ fromJson(needs.generate-matrix.outputs.matrix) }}
-    name: Build ${{ matrix.target }} - ${{ matrix.arch }} - ${{ matrix.dist }} - matrix.host
+    name: ${{ matrix.target }}:${{ matrix.arch }}:${{ matrix.dist }}:${{ matrix.host }}
     steps:
       - uses: actions/checkout@v3
         with:
