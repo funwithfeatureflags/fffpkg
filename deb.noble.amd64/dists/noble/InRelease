@@ -1,0 +1,31 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: kakwa
+Label: kakwa
+Suite: noble
+Codename: noble
+Version: 3.1
+Date: Thu, 13 Mar 2025 00:09:49 UTC
+Architectures: amd64
+Components: main
+Description: Repository containing misc packages
+MD5Sum:
+ 5c435d781017e5a95a0a0169a429237e 3025 main/binary-amd64/Packages
+ 2037592a90d7b8e241beb78c8685720d 962 main/binary-amd64/Packages.gz
+ a5d63693f4076c33ebec6ce107f85fca 140 main/binary-amd64/Release
+SHA1:
+ 29ffbf32276365640940a1e7115000d78fd0a4da 3025 main/binary-amd64/Packages
+ c6e558fa2db05f66d2af90f09fda7bab1574e941 962 main/binary-amd64/Packages.gz
+ a4047b1a55da48903693fd5a05426765a034d59e 140 main/binary-amd64/Release
+SHA256:
+ 341149ad0d8f375c1ce2c7bc72d71bafdc26ea4ebf8bf71e4fbd078f79815af1 3025 main/binary-amd64/Packages
+ df68f312a0322c7cf6513c0de3d8b082337e407fe19b5feb7ed4e055c56456a7 962 main/binary-amd64/Packages.gz
+ c2ba4e997f2b61c47c9c0a4d6766d427baff1c460e5cc7d86a6e37ff1d94a73f 140 main/binary-amd64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQQxYVG5ovH4dh290mEsBFhECLWI5AUCZ9IiTQAKCRAsBFhECLWI
+5MoxAQC9nkb0SIgFNDyWT7I3Xe5Y5FqT5EC7AIEraERF7u1YxQD/RNq484zUS1/e
+mn3umwgBHCL8gTWk9D3r9gaiH1PNggY=
+=2EtE
+-----END PGP SIGNATURE-----

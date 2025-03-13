@@ -1,0 +1,21 @@
+Origin: kakwa
+Label: kakwa
+Suite: bookworm
+Codename: bookworm
+Version: 3.1
+Date: Thu, 13 Mar 2025 00:17:13 UTC
+Architectures: amd64
+Components: main
+Description: Repository containing misc packages
+MD5Sum:
+ a882d2f647be546bb1067e594f352eff 2995 main/binary-amd64/Packages
+ c998bb9af6c513f362d64304a8f7ab4d 952 main/binary-amd64/Packages.gz
+ cea68cd1edcd7de4084ec92683c965fb 143 main/binary-amd64/Release
+SHA1:
+ e6f6a1a2c225869e6dee763acbbf2dc8eeb95bd0 2995 main/binary-amd64/Packages
+ 9272d76bc77f4ab99bff376a32c25c4dd33f52f1 952 main/binary-amd64/Packages.gz
+ 86c1896fcfb42a6a886b8ae016c50004603f6b4d 143 main/binary-amd64/Release
+SHA256:
+ 0d355b1840105675ab7265891643f9909a1a52d5c606a87776a3bdd38a8f04a9 2995 main/binary-amd64/Packages
+ 3e3ea1e1f7759eb34adfc5577a1aba14ee93af7a912b720cf91566d03d778d8b 952 main/binary-amd64/Packages.gz
+ cc0f1105d9eab9e02e61b69d02cddc3d5ce325dace2263ded9ec6fb6440128e7 143 main/binary-amd64/Release

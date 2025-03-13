@@ -1,0 +1,21 @@
+Origin: kakwa
+Label: kakwa
+Suite: trixie
+Codename: trixie
+Version: 3.1
+Date: Thu, 13 Mar 2025 00:00:47 UTC
+Architectures: amd64
+Components: main
+Description: Repository containing misc packages
+MD5Sum:
+ 9c60b756d3af5638cd3f6cf79105b511 3581 main/binary-amd64/Packages
+ 391b85adf5cad9876261803d5bc57330 1159 main/binary-amd64/Packages.gz
+ 77bea3dee2e277afb966d8a1aadc51fe 141 main/binary-amd64/Release
+SHA1:
+ b8bc83d926eb639756654eb265944ce3bb9750af 3581 main/binary-amd64/Packages
+ f570edb9dae34ec55f7960bff6e6d70d366ba457 1159 main/binary-amd64/Packages.gz
+ 34c2d5ef360655d42ad25b9c2652c35e44a10133 141 main/binary-amd64/Release
+SHA256:
+ 26c87a69bae4f6ab2f4a58f6ba1a4c72a197f58628857890c82e688062fe32f4 3581 main/binary-amd64/Packages
+ 15bced6df872e81aa0d70fc36b45f9baad64abafdceccee7caddbba33e00e8a0 1159 main/binary-amd64/Packages.gz
+ b88f8c7f0e1025a5f99063be6414b41e8b3e4cbbf996551133008f47c270522c 141 main/binary-amd64/Release

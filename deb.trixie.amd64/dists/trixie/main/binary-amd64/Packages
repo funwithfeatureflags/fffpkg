@@ -1,0 +1,102 @@
+Package: flagd
+Version: 0.11.4-1~amk+deb13
+Architecture: amd64
+Maintainer: anonymous <anonymous@dev>
+Installed-Size: 51584
+Homepage: https://github.com/open-feature/flagd
+Priority: optional
+Section: kakwa
+Filename: pool/main/f/flagd/flagd_0.11.4-1~amk+deb13_amd64.deb
+Size: 11663300
+SHA256: 6985dab7a8e1a85d450458dc66100bba81e973b34ed6a5c294995b4e53807f29
+SHA1: 08c046b531474cc93fd6fc9b942443445164dfcd
+MD5sum: 3109330bb90a89448fde21c454e2ee9a
+Description: A feature flag daemon with a Unix philosophy
+ A feature flag daemon with a Unix philosophy
+
+Package: flagd-dbgsym
+Source: flagd
+Version: 0.11.4-1~amk+deb13
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: anonymous <anonymous@dev>
+Installed-Size: 47327
+Depends: flagd (= 0.11.4-1~amk+deb13)
+Priority: optional
+Section: kakwa
+Filename: pool/main/f/flagd/flagd-dbgsym_0.11.4-1~amk+deb13_amd64.deb
+Size: 14790036
+SHA256: 676fc2150c5fb2bd5d07e7af5528d6f35d2c8fa8fa68966439231494b0b4ee41
+SHA1: cd2fc8065142d453ec8e2929fdc3d95f9275180b
+MD5sum: 30eefdca3b2601ad17d9031dc08f84c1
+Description: debug symbols for flagd
+Build-Ids: 9929abd1774fdfb56cb2629ca36f068749d310ec
+
+Package: python3-openfeature-hooks-opentelemetry
+Version: 0.1.1-1~amk+deb13
+Architecture: all
+Maintainer: anonymous <anonymous@dev>
+Installed-Size: 39
+Depends: python3
+Homepage: https://github.com/open-feature/python-sdk-contrib
+Priority: optional
+Section: kakwa
+Filename: pool/main/p/python3-openfeature-hooks-opentelemetry/python3-openfeature-hooks-opentelemetry_0.1.1-1~amk+deb13_all.deb
+Size: 7928
+SHA256: 7b0ed64560b3b9ab1af5d009ec00e0f9ec960a0e14cebb0cf62857b65720c0d6
+SHA1: c69cc7e9be32e9d6a5311206595361f1d91c7072
+MD5sum: 3dbebc6540b1970d7ef858aa77f5ac7f
+Description: Python SDK for OpenFeature
+ Python SDK for OpenFeature
+
+Package: python3-openfeature-provider-flagd
+Version: 0.1.5-1~amk+deb13
+Architecture: all
+Maintainer: anonymous <anonymous@dev>
+Installed-Size: 143
+Depends: python3
+Homepage: https://github.com/open-feature/python-sdk-contrib
+Priority: optional
+Section: kakwa
+Filename: pool/main/p/python3-openfeature-provider-flagd/python3-openfeature-provider-flagd_0.1.5-1~amk+deb13_all.deb
+Size: 18616
+SHA256: 8d31a7cf6a80cc6c4017d692bccb3061aa63a51cf49818c6cc7921071cdab705
+SHA1: 986a100cfbf17597cad4e32ad51f4ebb24613d19
+MD5sum: 6b7fae3fc8c087b2aea76a22e69e3614
+Description: Python SDK for OpenFeature
+ Python SDK for OpenFeature
+
+Package: python3-openfeature-provider-ofrep
+Version: 0.1.0-1~amk+deb13
+Architecture: all
+Maintainer: anonymous <anonymous@dev>
+Installed-Size: 42
+Depends: python3
+Homepage: https://github.com/open-feature/python-sdk-contrib
+Priority: optional
+Section: kakwa
+Filename: pool/main/p/python3-openfeature-provider-ofrep/python3-openfeature-provider-ofrep_0.1.0-1~amk+deb13_all.deb
+Size: 8724
+SHA256: 78c7b56e92920a35d14cf27a47f652ad2c6f87613f6ab3b11cef123260d77ccd
+SHA1: cb1c70b1c97339ea2e1f0de6038e8362df621c8b
+MD5sum: 4a81d1120af01f223b954b57ef316056
+Description: Python SDK for OpenFeature
+ Python SDK for OpenFeature
+
+Package: python3-openfeature-sdk
+Version: 0.7.4-1~amk+deb13
+Architecture: all
+Maintainer: anonymous <anonymous@dev>
+Installed-Size: 135
+Depends: python3
+Homepage: https://github.com/open-feature/python-sdk
+Priority: optional
+Section: kakwa
+Filename: pool/main/p/python3-openfeature-sdk/python3-openfeature-sdk_0.7.4-1~amk+deb13_all.deb
+Size: 29128
+SHA256: 854177664e4041df487a1d80feeb860278f5120e3d13ae74ba61244a7ed3e4b7
+SHA1: 47e97253dc8aa5ec4f4d3cd6aac8c8453cc81bd7
+MD5sum: 31c24546886e4b1532677374f6a3292e
+Description: Python SDK for OpenFeature
+ Python SDK for OpenFeature
+
