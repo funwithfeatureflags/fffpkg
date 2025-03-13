@@ -41,7 +41,8 @@ jobs:
     if: github.ref == 'refs/heads/main' && needs.check_repo.outputs.is_main_repo == 'false'
     runs-on: ${{ matrix.host }}
     strategy:
-      matrix: ${{ fromJson(needs.generate-matrix.outputs.matrix) }}
+      matrix: 
+        include: ${{ fromJson(needs.generate-matrix.outputs.matrix) }}
     name: Build ${{ matrix.target }} - ${{ matrix.arch }} - ${{ matrix.dist }} - matrix.host
     steps:
       - uses: actions/checkout@v3
