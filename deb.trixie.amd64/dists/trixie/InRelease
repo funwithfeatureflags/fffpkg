@@ -6,7 +6,7 @@ Label: kakwa
 Suite: trixie
 Codename: trixie
 Version: 3.1
-Date: Thu, 13 Mar 2025 15:45:56 UTC
+Date: Thu, 13 Mar 2025 17:16:09 UTC
 Architectures: amd64
 Components: main
 Description: Repository containing misc packages
@@ -24,8 +24,8 @@ SHA256:
  b88f8c7f0e1025a5f99063be6414b41e8b3e4cbbf996551133008f47c270522c 141 main/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQxYVG5ovH4dh290mEsBFhECLWI5AUCZ9L9tAAKCRAsBFhECLWI
-5N71AQCeRdfp32Ga6LfNUEYkcl7ev3wwzeAi41suJ63fRUuBVAEAz5RJliFc+8uL
-D4QGT0GQ3Mjg9HL3QrUR/ekzFDnJ4w8=
-=xqFT
+iHUEARYKAB0WIQQxYVG5ovH4dh290mEsBFhECLWI5AUCZ9MS2QAKCRAsBFhECLWI
+5N5oAQCvz3LNt7vMFNHRUvNC/3EZk7a/4OjUcc2EXghQfVQBHgEAzT1+kgvAioZW
+Yal5q4nbPxzHjJQyN5agVDzR1xGxAwM=
+=0MNv
 -----END PGP SIGNATURE-----
