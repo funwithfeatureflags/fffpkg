@@ -7,10 +7,10 @@ Homepage: https://github.com/open-feature/flagd
 Priority: optional
 Section: kakwa
 Filename: pool/main/f/flagd/flagd_0.11.4-1~amk+ubu24.04_amd64.deb
-Size: 12576974
-SHA256: 412c95a0db28038dc679f2789afb9bd051cbfece66b2c90fbb0527eb0a270c9b
-SHA1: 1f2e08f42089a4ab81dee9ba58ac571ab556b981
-MD5sum: e63f8cf95dba6b0e17b1e7ecb49ead34
+Size: 12577030
+SHA256: 068147ddf6ada0ebf7eb7b1bb0507467e2453525d9498c3934f844b6797448e4
+SHA1: 30fd8c431185fe536aac1086df711e3350a9d1b9
+MD5sum: 8aceff36bae29a0bda184c8dda32d9ac
 Description: A feature flag daemon with a Unix philosophy
  A feature flag daemon with a Unix philosophy
 
@@ -25,9 +25,9 @@ Priority: optional
 Section: kakwa
 Filename: pool/main/p/python3-openfeature-hooks-opentelemetry/python3-openfeature-hooks-opentelemetry_0.1.1-1~amk+ubu24.04_all.deb
 Size: 7524
-SHA256: 14c51715508e2267bf676c3bbe59e05435638a53556f31a6d802a290a9c223e9
-SHA1: c2fccdff7f222a76c15445ba2930375b04d370d2
-MD5sum: 936666bdda7d96566a64bbc5ddce638a
+SHA256: ef02a2643092fce5e10e396fb79cdba5bb7621e161a53a956c9712c8b8520439
+SHA1: 2a5aab910c3e7b40fc2b9e8cd57b0ea1dfe804f1
+MD5sum: 44bf67f8b42aed9ff7ecd9ceb4189938
 Description: Python SDK for OpenFeature
  Python SDK for OpenFeature
 
@@ -41,10 +41,10 @@ Homepage: https://github.com/open-feature/python-sdk-contrib
 Priority: optional
 Section: kakwa
 Filename: pool/main/p/python3-openfeature-provider-flagd/python3-openfeature-provider-flagd_0.1.5-1~amk+ubu24.04_all.deb
-Size: 17714
-SHA256: e3b573c30790b9b6ade7df8488674f0ef5c79e85b169309a1c044a2ebf65333f
-SHA1: 10621909d20cecb6accddcf3dbbc1fc3fa7339ca
-MD5sum: e60d7973be754772a48be181b8a2b239
+Size: 17718
+SHA256: aedd424ce354ee314dab41c364e25497c2ae2212c8c41c8af020dbb15b42cc59
+SHA1: 6c13ed638d97506138f2ef0251d36e4a02e0595d
+MD5sum: 32308f00645b324a1ee79e382f04008b
 Description: Python SDK for OpenFeature
  Python SDK for OpenFeature
 
@@ -58,10 +58,10 @@ Homepage: https://github.com/open-feature/python-sdk-contrib
 Priority: optional
 Section: kakwa
 Filename: pool/main/p/python3-openfeature-provider-ofrep/python3-openfeature-provider-ofrep_0.1.0-1~amk+ubu24.04_all.deb
-Size: 8390
-SHA256: cdd71e30fe4b05db3a467a2d8e6dc6e6812694b6d2e1e5686f980088085e8171
-SHA1: 2da39604ca0bb23c0fd91c9be425f08fcdf7bd04
-MD5sum: 182fb4e679c3d543ea743885edb03031
+Size: 8388
+SHA256: d70e2b216b4cee3415d705d0693e2a8d58fd6a04df572ca9ad028b7696572e0b
+SHA1: 5b5de8f1a39345fe4f5bbea4c567d019224d53cf
+MD5sum: 168e9e0de6cc4668dbf33151423432e4
 Description: Python SDK for OpenFeature
  Python SDK for OpenFeature
 
@@ -76,9 +76,9 @@ Priority: optional
 Section: kakwa
 Filename: pool/main/p/python3-openfeature-sdk/python3-openfeature-sdk_0.7.4-1~amk+ubu24.04_all.deb
 Size: 21418
-SHA256: b0f87d18395216699a1faa5cbfa83a31c3aff9acd2e4783e883c4d7a206cbc8a
-SHA1: 097d6ab040dc477a38644ce6db286db47aab78d0
-MD5sum: 681339be500f0867040a4b78aefe5151
+SHA256: b167e3be7e063e32034af68eb5a26020aa984eb038f9a8eecc376c16276feb5d
+SHA1: feb1e5d1ce8702c2452f58dbfcd283f65bdda19c
+MD5sum: e8cca8057264ef3badd33d52bba901f4
 Description: Python SDK for OpenFeature
  Python SDK for OpenFeature
 
