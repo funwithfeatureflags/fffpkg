@@ -53,7 +53,7 @@ jobs:
         run: |
           wget -qO - https://mirror.kakwalab.ovh/debian-rpm-build-tools/GPG-KEY.pub | gpg --dearmor > kakwalab.gpg
           sudo install -o root -g root -m 644 kakwalab.gpg /etc/apt/trusted.gpg.d/
-          echo "deb [arch=amd64] https://mirror.kakwalab.ovh/debian-rpm-build-tools/deb.noble/ noble main" | sudo tee /etc/apt/sources.list.d/kakwalab-rpm-build-tools.list
+          echo "deb https://mirror.kakwalab.ovh/debian-rpm-build-tools/deb.noble/ noble main" | sudo tee /etc/apt/sources.list.d/kakwalab-rpm-build-tools.list
           sudo apt update
           sudo apt install -y make debhelper reprepro cowbuilder wget
           sudo apt install -y binfmt-support qemu-utils qemu-user-static qemu-system-arm qemu-system-misc
@@ -64,22 +64,6 @@ jobs:
         run: |
           sudo mount -t tmpfs -o size=16G tmpfs /var/cache/pbuilder/
 
-      - name: Recover Existing Published Repositories Content
-        run: |
-          mkdir -p out
-          REPO_NAME="${GITHUB_REPOSITORY#*/}"
-          echo "Recovering existing repositories content for $REPO_NAME..."
-          # Clone the gh-pages branch into a temporary directory
-          git clone --branch=gh-pages --single-branch --depth=1 https://github.com/${GITHUB_REPOSITORY}.git gh-pages-temp || true
-          # If the clone was successful, copy all contents to out directory
-          if [ -d "gh-pages-temp" ]; then
-            cp -r gh-pages-temp/* out/ 2>/dev/null || true
-            rm -rf gh-pages-temp
-            echo "Successfully recovered existing repositories content"
-          else
-            echo "No existing repositories content found or branch doesn't exist yet"
-          fi
-
       - name: Build Repositories
         run: make ${{ matrix.target }}_repo ARCH=${{ matrix.arch }} DIST=${{ matrix.dist }} -j8
 
@@ -89,3 +73,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./out
+          keep_files: true
+          force_orphan: false
