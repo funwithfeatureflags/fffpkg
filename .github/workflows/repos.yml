@@ -1,4 +1,4 @@
-name: packages repositories
+name: Build Packages Repositories
 
 on:
   push:
@@ -33,7 +33,7 @@ jobs:
         run: |
           echo "${{ secrets.GPG_SIGNING_KEY }}" | gpg --import
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: |
           wget -qO - https://mirror.kakwalab.ovh/debian-rpm-build-tools/GPG-KEY.pub | gpg --dearmor > kakwalab.gpg
           sudo install -o root -g root -m 644 kakwalab.gpg /etc/apt/trusted.gpg.d/
@@ -44,7 +44,11 @@ jobs:
           sudo apt install -y debian-archive-keyring debian-keyring debian-ports-archive-keyring ubuntu-keyring
           sudo apt install -y mock createrepo-c rpm dnf
 
-      - name: Recover existing Published Repositories content
+      - name: Create Tmpfs
+        run: |
+          mount -t tmpfs -o size=16G tmpfs /var/cache/pbuilder/
+
+      - name: Recover Existing Published Repositories Content
         run: |
           mkdir -p out
           REPO_NAME="${GITHUB_REPOSITORY#*/}"
