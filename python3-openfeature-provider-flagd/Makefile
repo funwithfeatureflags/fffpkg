@@ -52,7 +52,7 @@ include buildenv/Makefile.common
 $(SOURCE_ARCHIVE): $(SOURCE_DIR) $(CACHE) Makefile MANIFEST
 	$(WGS) -u $(URL_SRC) -o $(BUILD_DIR)/$(NAME)-$(VERSION).tar.gz
 	mkdir -p $(BUILD_DIR)/tmp
-	tar -vxf $(BUILD_DIR)/$(NAME)-$(VERSION).tar.gz -C $(BUILD_DIR)/tmp
+	tar -xf $(BUILD_DIR)/$(NAME)-$(VERSION).tar.gz -C $(BUILD_DIR)/tmp
 	rm -rf $(BUILD_DIR)/tmp/$(NAME)-$(VERSION)/debian
 	mv $(BUILD_DIR)/tmp/python-sdk-contrib-openfeature-provider-flagd-v$(VERSION)/providers/openfeature-provider-flagd/* $(SOURCE_DIR)
 	rm -rf $(BUILD_DIR)/tmp
