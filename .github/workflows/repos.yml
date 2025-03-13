@@ -3,17 +3,6 @@ name: packages repositories
 on:
   push:
     branches: [ main ]
-    paths:
-      - 'common/docs/**'
-      - '.github/workflows/docs.yml'
-      - 'README.rst'
-  pull_request:
-    branches: [ main ]
-    paths:
-      - 'common/docs/**'
-      - '.github/workflows/docs.yml'
-      - 'README.rst'
-  # Allow manual trigger
   workflow_dispatch:
 
 jobs:
