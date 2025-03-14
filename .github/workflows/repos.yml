@@ -71,6 +71,9 @@ jobs:
       - name: Build Repositories
         run: make ${{ matrix.target }}_repo ARCH=${{ matrix.arch }} DIST=${{ matrix.dist }} -j8
 
+      - name: Random delay to mitigate for publication collision
+        run: sleep $(( $RANDOM % 120 ))
+
       - name: Deploy Repositories to GitHub Pages
         if: ${{ github.event_name != 'pull_request' }}
         uses: peaceiris/actions-gh-pages@v3
