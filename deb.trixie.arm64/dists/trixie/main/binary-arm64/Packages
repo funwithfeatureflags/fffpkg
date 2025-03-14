@@ -1,68 +1,68 @@
 Package: python3-openfeature-hooks-opentelemetry
-Version: 0.1.1-1~amk+deb13
+Version: 0.1.1-1~fff+deb13
 Architecture: all
-Maintainer: anonymous <anonymous@dev>
+Maintainer: kawkwa <carpentier.pf@gmail.com>
 Installed-Size: 39
 Depends: python3
 Homepage: https://github.com/open-feature/python-sdk-contrib
 Priority: optional
 Section: kakwa
-Filename: pool/main/p/python3-openfeature-hooks-opentelemetry/python3-openfeature-hooks-opentelemetry_0.1.1-1~amk+deb13_all.deb
-Size: 7924
-SHA256: bc24af9e155bffba52471b34e75d7f8d919d20526f5d4276a8078f83e58aca25
-SHA1: 418b3fc7083460f4883db6ea4197d20a5f8c619d
-MD5sum: db9efd3e4d3c01941b1451d57b864c2f
+Filename: pool/main/p/python3-openfeature-hooks-opentelemetry/python3-openfeature-hooks-opentelemetry_0.1.1-1~fff+deb13_all.deb
+Size: 7956
+SHA256: b07a2d19e0138c201d69423c6188e2ad282d4b05416c6af2f1f359c1df1b0caf
+SHA1: 926f6f0220f422985f038a27d3467e4aa31d97b5
+MD5sum: 805db7d76baafe4f3656d05c9f2b62ca
 Description: Python SDK for OpenFeature
  Python SDK for OpenFeature
 
 Package: python3-openfeature-provider-flagd
-Version: 0.1.5-1~amk+deb13
+Version: 0.1.5-1~fff+deb13
 Architecture: all
-Maintainer: anonymous <anonymous@dev>
+Maintainer: kawkwa <carpentier.pf@gmail.com>
 Installed-Size: 143
 Depends: python3
 Homepage: https://github.com/open-feature/python-sdk-contrib
 Priority: optional
 Section: kakwa
-Filename: pool/main/p/python3-openfeature-provider-flagd/python3-openfeature-provider-flagd_0.1.5-1~amk+deb13_all.deb
-Size: 18616
-SHA256: 0610cf807dba7bb8b57e17e436869293c734985e1a83aa52c34e15d47ba68288
-SHA1: 83e2c88ca25a711444e6bfaf3f620c84f223bbc0
-MD5sum: cb2eca14ae20acb5065274a091f7afb8
+Filename: pool/main/p/python3-openfeature-provider-flagd/python3-openfeature-provider-flagd_0.1.5-1~fff+deb13_all.deb
+Size: 18644
+SHA256: 466b284d57ed184a52410238512ffe320bc8279c3aa238e971418495398fe9c7
+SHA1: 7fb78a486777b43be5b9bc8e46bee446bd7a2828
+MD5sum: 7cc63433dde31cc4cc758d3345ab42a4
 Description: Python SDK for OpenFeature
  Python SDK for OpenFeature
 
 Package: python3-openfeature-provider-ofrep
-Version: 0.1.0-1~amk+deb13
+Version: 0.1.0-1~fff+deb13
 Architecture: all
-Maintainer: anonymous <anonymous@dev>
+Maintainer: kawkwa <carpentier.pf@gmail.com>
 Installed-Size: 42
 Depends: python3
 Homepage: https://github.com/open-feature/python-sdk-contrib
 Priority: optional
 Section: kakwa
-Filename: pool/main/p/python3-openfeature-provider-ofrep/python3-openfeature-provider-ofrep_0.1.0-1~amk+deb13_all.deb
-Size: 8720
-SHA256: 1462f60aa6d1bc501e93a52c65685368a27734b797f52a939f445fc0a9ec0e1e
-SHA1: 54757b45b9692a732ee1b99f2145f0c69e8b03f8
-MD5sum: cb0377916c805b26a2d9e36880ec9550
+Filename: pool/main/p/python3-openfeature-provider-ofrep/python3-openfeature-provider-ofrep_0.1.0-1~fff+deb13_all.deb
+Size: 8752
+SHA256: 9424f6d38eea1f1003bc5d79ef5dba477a147b2bd6ca352309391ad628bd8bff
+SHA1: 5fd2a96dccb78b134f372719647054737e97044b
+MD5sum: 36ffaf2afde9e065b8aa238cad273b47
 Description: Python SDK for OpenFeature
  Python SDK for OpenFeature
 
 Package: python3-openfeature-sdk
-Version: 0.7.4-1~amk+deb13
+Version: 0.7.4-1~fff+deb13
 Architecture: all
-Maintainer: anonymous <anonymous@dev>
+Maintainer: kawkwa <carpentier.pf@gmail.com>
 Installed-Size: 135
 Depends: python3
 Homepage: https://github.com/open-feature/python-sdk
 Priority: optional
 Section: kakwa
-Filename: pool/main/p/python3-openfeature-sdk/python3-openfeature-sdk_0.7.4-1~amk+deb13_all.deb
-Size: 29116
-SHA256: 4e0d18bc68e6c0a0a90d0329d640ef5d9920350ae1405471b2bcbc83c5206e1f
-SHA1: 875f5f85ddcf8d7728311b032bc670d5da59d1b0
-MD5sum: 46660d283240067c31dc357c172f6cae
+Filename: pool/main/p/python3-openfeature-sdk/python3-openfeature-sdk_0.7.4-1~fff+deb13_all.deb
+Size: 29156
+SHA256: f5fad8640f9e1c5b4981c74431b8ac57a836b76cb73265c0e75413f3020fc71b
+SHA1: 9eb1729c2428301f7096a2ef33467c765796e45d
+MD5sum: bb446b9596bfd25a74f9bc1c66d39553
 Description: Python SDK for OpenFeature
  Python SDK for OpenFeature
 
