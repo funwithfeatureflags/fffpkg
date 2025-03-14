@@ -3,19 +3,19 @@ Label: kakwa
 Suite: trixie
 Codename: trixie
 Version: 3.1
-Date: Fri, 14 Mar 2025 00:05:37 UTC
+Date: Fri, 14 Mar 2025 00:09:58 UTC
 Architectures: amd64
 Components: main
 Description: Repository containing misc packages
 MD5Sum:
- 86ef618b86b27c1bb22304fca09afb0d 2474 main/binary-amd64/Packages
- 50dbebadc4c2709c9c51df9cfdd1186c 791 main/binary-amd64/Packages.gz
+ 2f7ad9c630a33840d943c1e8cee6ac16 2474 main/binary-amd64/Packages
+ ee2209e2d95fb726f238d6af5f81c55f 789 main/binary-amd64/Packages.gz
  77bea3dee2e277afb966d8a1aadc51fe 141 main/binary-amd64/Release
 SHA1:
- fa8f8327ff735423488ba404b4e983804baa4018 2474 main/binary-amd64/Packages
- 47e9dbc1ddddd0877fd577b39c07a7837ff54bf7 791 main/binary-amd64/Packages.gz
+ 697c8e0b899fd67dc3ebfd754c1f9ad61158b9e1 2474 main/binary-amd64/Packages
+ 5e066ab0b31a4907149a38c1242fbe0dac29e894 789 main/binary-amd64/Packages.gz
  34c2d5ef360655d42ad25b9c2652c35e44a10133 141 main/binary-amd64/Release
 SHA256:
- 8586599b5e4706b37ef66784b1b6ba7f38b7e07171ed479f40eba8e242c0c9a6 2474 main/binary-amd64/Packages
- e4aeb557248e3e11723b1443bfcedd6aa3844bf5c387de6561dfbee096b561fb 791 main/binary-amd64/Packages.gz
+ b51f25d01171bc45d31c81fe404d6490d969c2b7d5ba02b8f1e78bee20a308d8 2474 main/binary-amd64/Packages
+ 9abcd9783c559bc27458434a8c699ecc9944ff93f74676c3d7c1ca55547fb30f 789 main/binary-amd64/Packages.gz
  b88f8c7f0e1025a5f99063be6414b41e8b3e4cbbf996551133008f47c270522c 141 main/binary-amd64/Release
