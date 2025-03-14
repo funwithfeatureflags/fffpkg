@@ -8,10 +8,10 @@ Homepage: https://github.com/open-feature/python-sdk-contrib
 Priority: optional
 Section: kakwa
 Filename: pool/main/p/python3-openfeature-hooks-opentelemetry/python3-openfeature-hooks-opentelemetry_0.1.1-1~fff+deb13_all.deb
-Size: 7960
-SHA256: 4ad91df9825409eb899c8213c314f8b70c6bee59eb6c3be04b00dfb239c09ef2
-SHA1: 0754288d24dd32ab461527e2c96e056ca240e111
-MD5sum: 444b9eb48f355af4f9ae6e51e78782fb
+Size: 7956
+SHA256: efb35f01da1f1ee5e497b874cae8db01a736d4840da844d2222f28f9de1f01ef
+SHA1: 246d65eebbbc75e4f4d0b6290eceafff93eaa853
+MD5sum: be566ac0f512f9df7389b941dca38b1f
 Description: Python SDK for OpenFeature
  Python SDK for OpenFeature
 
@@ -26,9 +26,9 @@ Priority: optional
 Section: kakwa
 Filename: pool/main/p/python3-openfeature-provider-flagd/python3-openfeature-provider-flagd_0.1.5-1~fff+deb13_all.deb
 Size: 18640
-SHA256: bea4cb4bb5d69b98dc026db977e074f8b4ace9338c985cff99784c03d89c008b
-SHA1: f7e04b81ef587f10cdb55ab44c87717d353a053e
-MD5sum: a4eb4c6571951c305c349013173012e3
+SHA256: d1dda07be1e57788d346f109ad47765195c613842cea2fd649181e8c3c75a097
+SHA1: 70f7515fc7a7ab40057ce911f0ba13c201bd8549
+MD5sum: 8edbf2c8a9917e916f8fe4828a90d33c
 Description: Python SDK for OpenFeature
  Python SDK for OpenFeature
 
@@ -42,10 +42,10 @@ Homepage: https://github.com/open-feature/python-sdk-contrib
 Priority: optional
 Section: kakwa
 Filename: pool/main/p/python3-openfeature-provider-ofrep/python3-openfeature-provider-ofrep_0.1.0-1~fff+deb13_all.deb
-Size: 8744
-SHA256: a9d2b47e1c2600f589fa8a0fbff58c5924eab099f283030865ee090d4d622c2b
-SHA1: c2c74a2819dc53dfedd871ceb19b0ae034fa2bdd
-MD5sum: 5f333148b3aff4e656a6b50644485487
+Size: 8740
+SHA256: f17039d06a3221b82f810d19eaf0031a1bf3d3f91d3090f47d1e7da8b3fe1fe0
+SHA1: a4d79d3a1de34d966cf893b9212f218ff7a54fdd
+MD5sum: f2d7f43a9abb093f573fec9fe87a6f67
 Description: Python SDK for OpenFeature
  Python SDK for OpenFeature
 
@@ -59,10 +59,10 @@ Homepage: https://github.com/open-feature/python-sdk
 Priority: optional
 Section: kakwa
 Filename: pool/main/p/python3-openfeature-sdk/python3-openfeature-sdk_0.7.4-1~fff+deb13_all.deb
-Size: 29156
-SHA256: d1beb73c534c2648237aa5d8442fa2ebc98bbd8235a92f3aae6574e7f46b7522
-SHA1: 0a2059462e5e6096dd2bcdd167638b12fcf7a3d1
-MD5sum: cdbad20a28ecb6a6fd583b40d041274a
+Size: 29160
+SHA256: 9ddd65606ec506716043a5570491d17e9998eebd7d9a8cd862eaec512277e4c4
+SHA1: 18f637a161f1f28c385b88462fd3d0247444b9c4
+MD5sum: 05a4bb80da82b58d683192d78dd9fa45
 Description: Python SDK for OpenFeature
  Python SDK for OpenFeature
 
