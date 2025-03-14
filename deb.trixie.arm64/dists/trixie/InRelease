@@ -6,26 +6,26 @@ Label: kakwa
 Suite: trixie
 Codename: trixie
 Version: 3.1
-Date: Fri, 14 Mar 2025 00:12:20 UTC
+Date: Fri, 14 Mar 2025 00:26:45 UTC
 Architectures: arm64
 Components: main
 Description: Repository containing misc packages
 MD5Sum:
- 808e98632196006b6ff5c64378d0451f 2474 main/binary-arm64/Packages
- cfe1a9cd695fb73d355d041cf94294fc 786 main/binary-arm64/Packages.gz
+ b0b55537acc1ae495a3fd34d4f9ede1e 2474 main/binary-arm64/Packages
+ c0b0e62f4d7b2e3ad80d4c924d508bab 789 main/binary-arm64/Packages.gz
  d3782bff1d62cc10f16d1b6f08b4bfb2 141 main/binary-arm64/Release
 SHA1:
- 58ab6afa1a83cc33a9d8054f6ac0847cf0b8d440 2474 main/binary-arm64/Packages
- 456bb6626534dd7be3a6ae9a40bab729d0ba1693 786 main/binary-arm64/Packages.gz
+ ad9de89e09521a1e6c8439cb2af816a7c42e3474 2474 main/binary-arm64/Packages
+ 44ed209ef5fbb2e4ed777934e163401cfbebc0df 789 main/binary-arm64/Packages.gz
  cf27b01051361270799139eb1773bd8f383c4eb9 141 main/binary-arm64/Release
 SHA256:
- b8a83329e6861068fc431c71f6ccad2d32388814e7bed03099f892a4e9cead4f 2474 main/binary-arm64/Packages
- 8721330b070b3f3e00c1a5e3564f4aeaaac1dad7cf329d360121b263d812d5f4 786 main/binary-arm64/Packages.gz
+ 5f560d265573e1d57f3765b364ab97cedf378fb1c66ab6cc2c1cd4f83e8101a9 2474 main/binary-arm64/Packages
+ 375db2e9d271dd56e0b111f9fbd0dab4452cb0a921275fac2b34556b20110f31 789 main/binary-arm64/Packages.gz
  125c4ff1bc755e379e2ca80a59107ec4d82508aca1d98ea3a591305e41ec6d76 141 main/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQxYVG5ovH4dh290mEsBFhECLWI5AUCZ9N0ZAAKCRAsBFhECLWI
-5C1DAQDoVx/ghPLXF5mARfUjNzCGm3vxzrdckMOVkaTcxHqwWwEAxNIDY4ryVi5F
-Y7Ghh6q8VQvEz4GOy4qZwcHvqjDi1g0=
-=Yla3
+iHUEARYKAB0WIQQxYVG5ovH4dh290mEsBFhECLWI5AUCZ9N3xQAKCRAsBFhECLWI
+5BaCAP42Fm4H4sKANGZknGY/59uL5eyCBGdwKacpoFohrauGeAEA/sZZD1lX4wBD
+Q6PGeHOyNOIW3aSFnwtR45SzG9+mKwg=
+=jHc2
 -----END PGP SIGNATURE-----
