@@ -6,26 +6,26 @@ Label: kakwa
 Suite: trixie
 Codename: trixie
 Version: 3.1
-Date: Sat, 15 Mar 2025 13:03:40 UTC
+Date: Sat, 15 Mar 2025 15:04:09 UTC
 Architectures: riscv64
 Components: main
 Description: Repository containing misc packages
 MD5Sum:
- d7ea02bece7edde941b0f202bd424d2b 3631 main/binary-riscv64/Packages
- 2096fac15807da96710a64ef5dc2ad3e 1169 main/binary-riscv64/Packages.gz
+ b797b3fbc2a574b2cdd07b570311fcb4 3631 main/binary-riscv64/Packages
+ e62c9690bfe573f5d4dbed7502acbdf0 1170 main/binary-riscv64/Packages.gz
  ca73f2afe1694b9c8ffe5030036d5a7c 143 main/binary-riscv64/Release
 SHA1:
- 253ccf0eb0a7ce4517b176a0d47009ad3f215671 3631 main/binary-riscv64/Packages
- 2aa5fd019adb036cc075119212be05d613f7d860 1169 main/binary-riscv64/Packages.gz
+ 8c5256b7c10b9b7c9132280cb9a1fb95efebcaf6 3631 main/binary-riscv64/Packages
+ aec568f98c0e6b102abf05cdf226271f6848a277 1170 main/binary-riscv64/Packages.gz
  1eedd043bafedd4cc6c0e401ee852f5aae9f21ab 143 main/binary-riscv64/Release
 SHA256:
- 5d28040f5240443d3e0ca2a5e5a2403e13c1e1ae46d8a4457d4e576b7391ce24 3631 main/binary-riscv64/Packages
- 537ff57ed269d26a39942add4d583eaf231679c6bcdb86c81e947292352e83f9 1169 main/binary-riscv64/Packages.gz
+ ee081b4ba100092612f7d84090f1dbfd89081259104b26cfe3cfb81264f41102 3631 main/binary-riscv64/Packages
+ bb05daced9f708c4aa6256967b30aa8dad60ad0e49365f4738b54b4e62c644b8 1170 main/binary-riscv64/Packages.gz
  2c2ac64b7eb162f5900f309d5c0317e9109493f83d4cf981fd361bf0d9dd9909 143 main/binary-riscv64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQxYVG5ovH4dh290mEsBFhECLWI5AUCZ9V6rAAKCRAsBFhECLWI
-5KVjAP9BQ8uUl02pFtLG/iuDCTt+sbU3ygErDzpgPidELwWKzgD+KKswnBo/6E4/
-2Rdqk8dIw8ewhseATSJKw64CmYNTKgo=
-=orJD
+iHUEARYKAB0WIQQxYVG5ovH4dh290mEsBFhECLWI5AUCZ9WW6QAKCRAsBFhECLWI
+5Ff3AQCq8tarQHhJENcB7R2D0N0SEkvosKsOG0mnNS7Mu6cSJgEAxNXE3/v11+20
+6uDm5W3B3vfblUJf3/OeRFujUVxqoQs=
+=omOX
 -----END PGP SIGNATURE-----
