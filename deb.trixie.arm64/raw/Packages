@@ -4,10 +4,10 @@ Architecture: arm64
 Maintainer: kawkwa <carpentier.pf@gmail.com>
 Installed-Size: 49176
 Filename: ./flagd_0.11.4-1~fff+deb13_arm64.deb
-Size: 9937152
-MD5sum: 40e8afda2d3942583f8817eb4163a5df
-SHA1: 6b7789192931064a85904e391d3c7598d501e206
-SHA256: ee7b48f6beb6bb6036a81cc68407ca737abf6b61bb25a19df51a1e27bf8bd69c
+Size: 9936684
+MD5sum: 888d3a56f391d9d2ba6f0639267889d3
+SHA1: 680736d1a4915614a4cc0b7001e643c770e7279f
+SHA256: b9e4bfdae11d9de6cee11a698b02188fd6018921416844510a768ef727d86bf4
 Section: misc
 Priority: extra
 Homepage: https://github.com/open-feature/flagd
@@ -24,9 +24,9 @@ Installed-Size: 68391
 Depends: flagd (= 0.11.4-1~fff+deb13)
 Filename: ./flagd-dbgsym_0.11.4-1~fff+deb13_arm64.deb
 Size: 13887996
-MD5sum: 2d082e8e6a094f22f860affb38e45095
-SHA1: 5c1ce240810250d3cf312a8c81a7549c46a7f7e6
-SHA256: 1736ddc5bf2d3bd57b4ba929782a620e17122d63368657e6a32acc097c999c27
+MD5sum: 4916cee35ab97a95d5aa6ad89531d1c2
+SHA1: e276edb2675ed5e2e859868b2ce36d664069614b
+SHA256: e69447336443990b2a4abf581111ca0be4da39c637428a9f70053db39223ee85
 Section: debug
 Priority: optional
 Description: debug symbols for flagd
@@ -39,10 +39,10 @@ Maintainer: kawkwa <carpentier.pf@gmail.com>
 Installed-Size: 39
 Depends: python3
 Filename: ./python3-openfeature-hooks-opentelemetry_0.1.1-1~fff+deb13_all.deb
-Size: 7952
-MD5sum: 674a565597736272e6316c9d15b3a6bd
-SHA1: e6277554128c113c354491719ae465abdf0c4116
-SHA256: 053c99339d06666b5d89eab2b62694a70a55b68b514dba21c7e318183c138d43
+Size: 7948
+MD5sum: e92f44b2dc0e00d988c92f703c184292
+SHA1: c3403feed2dfa193131ffe3084799cfa678c084a
+SHA256: ba4cdf864091ac92c3a891db1f781663db9e21c8e97169413fb7e30fbadc98cd
 Section: misc
 Priority: extra
 Homepage: https://github.com/open-feature/python-sdk-contrib
@@ -56,10 +56,10 @@ Maintainer: kawkwa <carpentier.pf@gmail.com>
 Installed-Size: 143
 Depends: python3
 Filename: ./python3-openfeature-provider-flagd_0.1.5-1~fff+deb13_all.deb
-Size: 18636
-MD5sum: ab6573a46cb754786965bd004c335e69
-SHA1: 20503dec69256fa8fb85622943d7add76ff5cc29
-SHA256: 6db2154489e569ce4602ffb54dbaff51a7f1ea12d5d61d99dc492cd091aa92e2
+Size: 18644
+MD5sum: 9454bfabc23f3e53d37b7ba6ad00cf36
+SHA1: f7dd60cb2f0ffc165b3cfcbfc92eac13d03489c4
+SHA256: 314727ff56c4a3b572dc405834ef0d0f13e6ac121ce4a1a5cc4e99c94b8dcc75
 Section: misc
 Priority: extra
 Homepage: https://github.com/open-feature/python-sdk-contrib
@@ -73,10 +73,10 @@ Maintainer: kawkwa <carpentier.pf@gmail.com>
 Installed-Size: 42
 Depends: python3
 Filename: ./python3-openfeature-provider-ofrep_0.1.0-1~fff+deb13_all.deb
-Size: 8748
-MD5sum: da68597343259b3e221ea97bd8cd9423
-SHA1: 829ce06aac00d8a8dc7f94ed3f5e2846844f591b
-SHA256: 052887f5f60e364315c8bddc94bc7238c36e536596c3a8984495cbfe87309b48
+Size: 8752
+MD5sum: d348ad86ce917da9c4519be8ec78a40e
+SHA1: 95d57f543c62c91694c439f60ca20b93e716de70
+SHA256: 975c1a9972b1d83f00039f91d10be49d03914d91a32cc8fcfac177bd706b90f7
 Section: misc
 Priority: extra
 Homepage: https://github.com/open-feature/python-sdk-contrib
@@ -90,10 +90,10 @@ Maintainer: kawkwa <carpentier.pf@gmail.com>
 Installed-Size: 135
 Depends: python3
 Filename: ./python3-openfeature-sdk_0.7.4-1~fff+deb13_all.deb
-Size: 29172
-MD5sum: 9effef53b51ca96abf9c4800523bb373
-SHA1: 28b4174366ac1d4b1e8d317ed47ddd37467cd61d
-SHA256: 633502278ef4fccfb0ce352bf28f8e9b3ef5d22def50fe158800cfd3eef5d003
+Size: 29156
+MD5sum: 5e0a2c1751add579488edd86577f0263
+SHA1: 606db4de068207e369bcc788c0d5cdad25e9c752
+SHA256: 52ad2f7d278e083547819ff3b28cddd1ef1f2f143e77293bf03b0c489d397256
 Section: misc
 Priority: extra
 Homepage: https://github.com/open-feature/python-sdk
