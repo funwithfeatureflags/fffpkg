@@ -1,64 +1,67 @@
 %define pkgname @NAME@
 
+%global debug_package %{nil}
+
 Name: %{pkgname}
 Version: @VERSION@
 Release: @RELEASE@%{?dist}
+
 Source: %{pkgname}-%{version}.tar.gz
+Source1: flagd.service
+Source2: flags.json
 
-# Example of declaration of additional sources like .service file
-# just put this files in the rpm/ directory
-#Source1: @NAME@
-#Source2: @NAME@.conf
-#Source3: @NAME@.service
-
-URL: @URL@ 
-Vendor: @MAINTAINER@
-License: @LICENSE@
+URL: https://github.com/open-feature/flagd
+Vendor: The Open Feature Authors
+License: Apache License 2.0
 Group: System/Servers
-Summary: @SUMMARY@ 
-BuildRoot: %{_tmppath}/%{pkgname}-%{zone}-%{version}-%{release}-build
-BuildArch: noarch
-#BuildRequires: sed
-#Requires: sed
-#Requires: python
+Summary: A feature flag daemon with a Unix philosophy
+BuildRoot: %{_tmppath}/%{pkgname}-%{version}-%{release}-build
+BuildRequires: golang >= 1.21
+BuildRequires: systemd-rpm-macros
+BuildRequires: make
+Requires: systemd
 
 %description
-@DESCRIPTION@
+A feature flag daemon with a Unix philosophy
 
 %prep
-
 %setup -q -n %{pkgname}-%{version}
 
+%build
+export GOPROXY=proxy.golang.org
+export GOSUMDB=sum.golang.org
+export GO111MODULE=on
+make workspace-init
+go build -ldflags "-X main.version=%{version} -X main.commit=%{version} -X main.date=1970-01-00T00:01:00Z" -o ./bin/flagd ./flagd
+
 %install
-
 rm -rf $RPM_BUILD_ROOT
-#make install \
-#    DESTDIR=$RPM_BUILD_ROOT \
-#    PREFIX=%{_prefix}
+mkdir -p %{buildroot}%{_bindir}
+mkdir -p %{buildroot}%{_sysconfdir}/flagd/
+mkdir -p %{buildroot}%{_unitdir}/
 
-
-# example of installation of additional sources, here .service and associated files.
-#mkdir -p %{buildroot}%{_unitdir} 
-#mkdir -p %{buildroot}/usr/lib/tmpfiles.d/ 
-#mkdir -p %{buildroot}/etc/sysconfig/ 
-#install -pm644 %{SOURCE3} %{buildroot}%{_unitdir} 
-#install -pm644 %{SOURCE1} %{buildroot}/etc/sysconfig/ 
-#install -pm644 %{SOURCE2} %{buildroot}/usr/lib/tmpfiles.d/
-
+install -m 755 bin/flagd %{buildroot}%{_bindir}/
+install -m 644 %{SOURCE1} %{buildroot}%{_unitdir}/
+install -m 644 %{SOURCE2} %{buildroot}%{_sysconfdir}/flagd/
 
 %post
-true
-
+%systemd_post flagd.service
 
 %preun
-true
+%systemd_preun flagd.service
+
+%postun
+%systemd_postun_with_restart flagd.service
 
 %clean
-rm -rf \$RPM_BUILD_ROOT
+rm -rf $RPM_BUILD_ROOT
 
 %files
-%defattr(644, root, root, 755)
+%defattr(-, root, root, -)
+%{_bindir}/flagd
+%{_unitdir}/flagd.service
+%config(noreplace) %{_sysconfdir}/flagd/flags.json
 
 %changelog
-* Wed Feb 01 2013 @MAINTAINER@ <@MAINTAINER_EMAIL@> 0.0.1-1
+* Sat Mar 15 2025 @MAINTAINER@ <@MAINTAINER_EMAIL@> 0.0.1-1
 - initial Version initiale
