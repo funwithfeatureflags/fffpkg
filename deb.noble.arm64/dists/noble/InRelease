@@ -6,26 +6,26 @@ Label: kakwa
 Suite: noble
 Codename: noble
 Version: 3.1
-Date: Sat, 15 Mar 2025 14:43:57 UTC
+Date: Sat, 15 Mar 2025 15:26:08 UTC
 Architectures: arm64
 Components: main
 Description: Repository containing misc packages
 MD5Sum:
- a3a3369d10e5f46fe1cfd6cec4fa0864 3060 main/binary-arm64/Packages
- 3b731efc587b09d9b1cc14a5a3bd393a 969 main/binary-arm64/Packages.gz
+ 7b4a48f9200e5e56a25cece00491f72c 3060 main/binary-arm64/Packages
+ 8ca6038723b0470d2855bca472a216f8 968 main/binary-arm64/Packages.gz
  5641968e0786501f1e0a2dfe3e553595 140 main/binary-arm64/Release
 SHA1:
- 402107cd50203eb9d74881eaebe1d1b0ee40c437 3060 main/binary-arm64/Packages
- 999f1fa32db45037fe8145aefef0ab96668f54b3 969 main/binary-arm64/Packages.gz
+ 32210be6ba1a62941b36d8072ac03cf94aa9a360 3060 main/binary-arm64/Packages
+ 95089f893a2920bc51d86ed99464cfc9ac2dee45 968 main/binary-arm64/Packages.gz
  74a5fed323c91d4a3c31009d3f5e7c38ea90c12d 140 main/binary-arm64/Release
 SHA256:
- 16106c7507b6f7a52ae8ca5b2000bd8f70b7b74350fa8a51ff6d8c63c8bf6be4 3060 main/binary-arm64/Packages
- f3065a736d6111ca2319064ca707afcaec7703245892e70dfeb60825a3bbf68c 969 main/binary-arm64/Packages.gz
+ 9805e3c598ab37c5bb74fbffeaeca4ffe07b22715a7bf5283a0590c8f4fb23b4 3060 main/binary-arm64/Packages
+ e752e3c2c37143758dbc4fd12549a2c6b1d250fc629d6044698af21fab4809c3 968 main/binary-arm64/Packages.gz
  f63bcc8d080aa07304b7942cac60041778432672659ae6bb2b0ff968d1edd2f6 140 main/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQxYVG5ovH4dh290mEsBFhECLWI5AUCZ9WSLQAKCRAsBFhECLWI
-5MFVAP9PNf3qXO9W+i+nmAFDWCM9m4mbmz1fsAYFEg5mb2KpvwD+MVGhh0Lfh731
-KbMjSTuPu+5YjKm7HHs1YG5hImKvEgo=
-=/aob
+iHUEARYKAB0WIQQxYVG5ovH4dh290mEsBFhECLWI5AUCZ9WcEAAKCRAsBFhECLWI
+5BGRAP4zyhNwP2Ra5H4Vmz8dsH6/mRiC3CGbufwfi2luzGENzgEA8OcDrAFvrYmK
+/ocvnyQyRNohtmBFy81oxENuFzu0Jwg=
+=4HG8
 -----END PGP SIGNATURE-----
