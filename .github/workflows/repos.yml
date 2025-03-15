@@ -69,7 +69,7 @@ jobs:
           sudo mount -t tmpfs -o size=16G tmpfs /var/cache/pbuilder/
 
       - name: Build Repositories
-        run: make ${{ matrix.target }}_repo ARCH=${{ matrix.arch }} DIST=${{ matrix.dist }} -j8
+        run: make ${{ matrix.target }}_repo ARCH=${{ matrix.arch }} DIST=${{ matrix.dist }} -j${{ matrix.jobs }}
 
       - name: Random delay to mitigate for publication collision
         run: sleep $(( $RANDOM % 120 ))
