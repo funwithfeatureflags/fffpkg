@@ -18,47 +18,40 @@ Group: System/Servers
 Summary: @SUMMARY@ 
 BuildRoot: %{_tmppath}/%{pkgname}-%{zone}-%{version}-%{release}-build
 BuildArch: noarch
-#BuildRequires: sed
-#Requires: sed
-#Requires: python
+BuildRequires: python3-devel
+BuildRequires: python3-setuptools
+BuildRequires: python3-pip
+BuildRequires: python3-hatchling
+BuildRequires: python3-pytest
+Requires: python3
 
 %description
 @DESCRIPTION@
 
 %prep
-
 %setup -q -n %{pkgname}-%{version}
 
-%install
+#%generate_buildrequires
+#%pyproject_buildrequires
 
+%build
 rm -rf $RPM_BUILD_ROOT
-#make install \
-#    DESTDIR=$RPM_BUILD_ROOT \
-#    PREFIX=%{_prefix}
+%pyproject_wheel
 
+%install
+%pyproject_install
 
-# example of installation of additional sources, here .service and associated files.
-#mkdir -p %{buildroot}%{_unitdir} 
-#mkdir -p %{buildroot}/usr/lib/tmpfiles.d/ 
-#mkdir -p %{buildroot}/etc/sysconfig/ 
-#install -pm644 %{SOURCE3} %{buildroot}%{_unitdir} 
-#install -pm644 %{SOURCE1} %{buildroot}/etc/sysconfig/ 
-#install -pm644 %{SOURCE2} %{buildroot}/usr/lib/tmpfiles.d/
-
-
-%post
-true
-
-
-%preun
-true
+%check
+# Skip tests for now
+# %{__python3} -m pytest
 
 %clean
-rm -rf \$RPM_BUILD_ROOT
+rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644, root, root, 755)
+%{python3_sitelib}/*
 
 %changelog
-* Wed Feb 01 2013 @MAINTAINER@ <@MAINTAINER_EMAIL@> 0.0.1-1
-- initial Version initiale
+* Wed Feb 01 2023 @MAINTAINER@ <@MAINTAINER_EMAIL@> @VERSION@-@RELEASE@
+- Package for @NAME@ version @VERSION@
