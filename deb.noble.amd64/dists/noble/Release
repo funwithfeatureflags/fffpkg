@@ -3,19 +3,19 @@ Label: kakwa
 Suite: noble
 Codename: noble
 Version: 3.1
-Date: Sat, 15 Mar 2025 15:14:14 UTC
+Date: Sat, 15 Mar 2025 15:21:36 UTC
 Architectures: amd64
 Components: main
 Description: Repository containing misc packages
 MD5Sum:
- 7d603f258b01dd64560ac3fcbf94c487 3060 main/binary-amd64/Packages
- 716779d1f4df3dc7f7b1d14678084de4 968 main/binary-amd64/Packages.gz
+ 6824a3d1aa41f06b3e9601b63da94034 3060 main/binary-amd64/Packages
+ 15c22a9e03be7dddfc0908b02023b1b1 969 main/binary-amd64/Packages.gz
  a5d63693f4076c33ebec6ce107f85fca 140 main/binary-amd64/Release
 SHA1:
- 783abdc7d2a15eb0758b832bec8e7154efa13d8a 3060 main/binary-amd64/Packages
- eb0c9977059d1ed66f46f5cd8baa1abd23009b38 968 main/binary-amd64/Packages.gz
+ ae80af0f3b16c78e790f4111cc9f1a66fce83559 3060 main/binary-amd64/Packages
+ b8bbdb599294c5cdb0f2c27e961adb614c669dbf 969 main/binary-amd64/Packages.gz
  a4047b1a55da48903693fd5a05426765a034d59e 140 main/binary-amd64/Release
 SHA256:
- 0d42ce65248783c7e90b704fe1f6a29e54970b3d54e468680d2d60b911eea3ad 3060 main/binary-amd64/Packages
- 756ae32399fccc269b25917ed7105c2978fd69a6416fb57fab5305a6941258af 968 main/binary-amd64/Packages.gz
+ 99c08558d261a7803f8355285c60f28ad880ef0657af1d641b8729dbd7672a83 3060 main/binary-amd64/Packages
+ 1d12462678df755f5ec4fed2acaea5c8512b7bd10af99b802891e7180a00d1fe 969 main/binary-amd64/Packages.gz
  c2ba4e997f2b61c47c9c0a4d6766d427baff1c460e5cc7d86a6e37ff1d94a73f 140 main/binary-amd64/Release
