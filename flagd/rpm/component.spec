@@ -10,9 +10,9 @@ Source: %{pkgname}-%{version}.tar.gz
 Source1: flagd.service
 Source2: flags.json
 
-URL: https://github.com/open-feature/flagd
-Vendor: The Open Feature Authors
-License: Apache License 2.0
+URL: @URL@
+Vendor: @MAINTAINER@
+License: @LICENSE@
 Group: System/Servers
 Summary: A feature flag daemon with a Unix philosophy
 BuildRoot: %{_tmppath}/%{pkgname}-%{version}-%{release}-build
