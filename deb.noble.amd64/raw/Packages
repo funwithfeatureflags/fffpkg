@@ -1,3 +1,19 @@
+Package: flagd
+Version: 0.11.4-1~fff+ubu24.04
+Architecture: amd64
+Maintainer: kawkwa <carpentier.pf@gmail.com>
+Installed-Size: 50475
+Filename: ./flagd_0.11.4-1~fff+ubu24.04_amd64.deb
+Size: 12576970
+MD5sum: d56a22862dee8cc0c51b3d440265679d
+SHA1: 64c8b92349a82fbb019d43d2e90a0da6bdcdba0e
+SHA256: 767987dcc96889d458fb6926f5157d47b4e0a21235d39b7ec2c0784a56464c61
+Section: misc
+Priority: extra
+Homepage: https://github.com/open-feature/flagd
+Description: A feature flag daemon with a Unix philosophy
+ A feature flag daemon with a Unix philosophy
+
 Package: python3-openfeature-hooks-opentelemetry
 Version: 0.1.1-1~fff+ubu24.04
 Architecture: all
@@ -5,10 +21,10 @@ Maintainer: kawkwa <carpentier.pf@gmail.com>
 Installed-Size: 38
 Depends: python3
 Filename: ./python3-openfeature-hooks-opentelemetry_0.1.1-1~fff+ubu24.04_all.deb
-Size: 7548
-MD5sum: b2b02d8a9f098a5336cbef6aba51a4d6
-SHA1: 57457ef43e40f241737b87ead0941fbe7ff3aacc
-SHA256: a589b44ecf078e6e8e9ede75b754d04fcbe1920862af87497c04ec65a4a92af6
+Size: 7554
+MD5sum: 95a853db145542a4d00cbabcb10bfb5a
+SHA1: fdfb6f9b45a9939f2b8dfd54d6dc8c3c7bf557f4
+SHA256: eb18c31c37396dfac47b25e185532a9178652b1b3156a3a5e2c95879814f258c
 Section: misc
 Priority: extra
 Homepage: https://github.com/open-feature/python-sdk-contrib
@@ -22,10 +38,10 @@ Maintainer: kawkwa <carpentier.pf@gmail.com>
 Installed-Size: 141
 Depends: python3
 Filename: ./python3-openfeature-provider-flagd_0.1.5-1~fff+ubu24.04_all.deb
-Size: 17748
-MD5sum: 70b1b994f02bdf54537d92290edcbd0c
-SHA1: 30f144250d247a2d8d5236e725d672613a78c4ff
-SHA256: 26bf9e1eee8c17b1288fd051e5c79a0ad5bb5b784b14af691d0c959371679027
+Size: 17746
+MD5sum: 2da0cc76e9fea917e1e62fff4dee609f
+SHA1: fe1f03cb34866282831ed156ef29eb52c9de51a5
+SHA256: 73389e2c0d3a5bd837fde3b43a51a23714b64ceb9d5de4debf681d1b8ea2d2a6
 Section: misc
 Priority: extra
 Homepage: https://github.com/open-feature/python-sdk-contrib
@@ -39,10 +55,10 @@ Maintainer: kawkwa <carpentier.pf@gmail.com>
 Installed-Size: 41
 Depends: python3
 Filename: ./python3-openfeature-provider-ofrep_0.1.0-1~fff+ubu24.04_all.deb
-Size: 8426
-MD5sum: 2624910905a17b46e98120f2acc6bba1
-SHA1: bf5e0c969ccc35ded208beb75ff5859782554aa3
-SHA256: f9adf7171d771747ba444ac6d4b0d9cd631d90d304b9de21929eee2abcf84211
+Size: 8418
+MD5sum: 25ae6dc13dd795b4160449ff2c601beb
+SHA1: cf71f3a3b841bf6b9a0ebc96104f8ed52a7d9cb9
+SHA256: c3583d2681bb450994adc20b0ac2275a4e7ae8781780335ed2622139c41af822
 Section: misc
 Priority: extra
 Homepage: https://github.com/open-feature/python-sdk-contrib
@@ -57,9 +73,9 @@ Installed-Size: 127
 Depends: python3
 Filename: ./python3-openfeature-sdk_0.7.4-1~fff+ubu24.04_all.deb
 Size: 21458
-MD5sum: cda78c216ffca81072042e34a26a537c
-SHA1: c13a3dd8befcf8797a59747a39f0f52c870fce8d
-SHA256: 9771d82a86b796a291608dac85bc98b7de935e998bed322c2794683408e1dcfb
+MD5sum: 003aeda51b5e5fa8d818542ee278815f
+SHA1: c59743a50138c417773f4166f9b4d97e9399ecc8
+SHA256: 8d4216da256e04792fd0a596087a9195ae6db98dbf50b98b31281d78ff36b37a
 Section: misc
 Priority: extra
 Homepage: https://github.com/open-feature/python-sdk
