@@ -1,0 +1,16 @@
+2025-03-15 15:22:15,291 - Mock Version: 5.5
+2025-03-15 15:22:15,301 - Start: clean chroot
+2025-03-15 15:22:37,086 - Finish: clean chroot
+2025-03-15 15:22:37,095 - Start(bootstrap): chroot init
+2025-03-15 15:22:44,276 - Finish(bootstrap): chroot init
+2025-03-15 15:22:44,284 - Start: chroot init
+2025-03-15 15:22:44,698 - Start: installing minimal buildroot with dnf
+2025-03-15 15:23:25,192 - Finish: installing minimal buildroot with dnf
+2025-03-15 15:23:25,370 - Finish: chroot init
+2025-03-15 15:23:25,524 - Start: build phase for python3-openfeature-hooks-opentelemetry-0.1.1-1.fff+el9.src.rpm
+2025-03-15 15:23:25,534 - Start: build setup for python3-openfeature-hooks-opentelemetry-0.1.1-1.fff+el9.src.rpm
+2025-03-15 15:23:28,595 - Finish: build setup for python3-openfeature-hooks-opentelemetry-0.1.1-1.fff+el9.src.rpm
+2025-03-15 15:23:28,596 - Start: rpmbuild python3-openfeature-hooks-opentelemetry-0.1.1-1.fff+el9.src.rpm
+2025-03-15 15:23:30,224 - Finish: rpmbuild python3-openfeature-hooks-opentelemetry-0.1.1-1.fff+el9.src.rpm
+2025-03-15 15:23:30,226 - Finish: build phase for python3-openfeature-hooks-opentelemetry-0.1.1-1.fff+el9.src.rpm
+2025-03-15 15:23:30,279 - Finish: run

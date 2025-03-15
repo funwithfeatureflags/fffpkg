@@ -1,0 +1,16 @@
+2025-03-15 15:19:38,624 - Mock Version: 5.5
+2025-03-15 15:19:38,634 - Start: clean chroot
+2025-03-15 15:19:43,133 - Finish: clean chroot
+2025-03-15 15:19:43,142 - Start(bootstrap): chroot init
+2025-03-15 15:19:50,941 - Finish(bootstrap): chroot init
+2025-03-15 15:19:50,948 - Start: chroot init
+2025-03-15 15:19:51,363 - Start: installing minimal buildroot with dnf
+2025-03-15 15:20:13,527 - Finish: installing minimal buildroot with dnf
+2025-03-15 15:20:13,711 - Finish: chroot init
+2025-03-15 15:20:13,856 - Start: build phase for flagd-0.11.4-1.fff+el9.src.rpm
+2025-03-15 15:20:13,862 - Start: build setup for flagd-0.11.4-1.fff+el9.src.rpm
+2025-03-15 15:20:22,438 - Finish: build setup for flagd-0.11.4-1.fff+el9.src.rpm
+2025-03-15 15:20:22,439 - Start: rpmbuild flagd-0.11.4-1.fff+el9.src.rpm
+2025-03-15 15:22:06,087 - Finish: rpmbuild flagd-0.11.4-1.fff+el9.src.rpm
+2025-03-15 15:22:06,100 - Finish: build phase for flagd-0.11.4-1.fff+el9.src.rpm
+2025-03-15 15:22:06,165 - Finish: run

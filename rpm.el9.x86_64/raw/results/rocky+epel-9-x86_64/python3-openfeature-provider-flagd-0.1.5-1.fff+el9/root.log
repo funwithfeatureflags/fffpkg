@@ -1,0 +1,2050 @@
+INFO buildroot.py:603:  Mock Version: 5.5
+DEBUG file_util.py:18:  ensuring that dir exists: /home/runner/work/fffpkg/fffpkg/out/rpm.el9.x86_64/raw/results/rocky+epel-9-x86_64/python3-openfeature-provider-flagd-0.1.5-1.fff+el9
+DEBUG util.py:185:  kill orphans in chroot /var/lib/mock/rocky+epel-9-x86_64/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/rocky+epel-9-x86_64/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/rocky+epel-9-x86_64/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/rocky+epel-9-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/rocky+epel-9-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/rocky+epel-9-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/rocky+epel-9-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['btrfs', 'subv', 'list', '/var/lib/mock'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:461:  ERROR: not a btrfs filesystem: /var/lib/mock
+DEBUG util.py:461:  ERROR: can't access '/var/lib/mock'
+DEBUG util.py:610:  Child return code was: 1
+DEBUG util.py:928:  Please ignore the error above about btrfs.
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root
+DEBUG file_util.py:21:  created dir: /var/lib/mock/rocky+epel-9-x86_64/root
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64-bootstrap/results
+INFO buildroot.py:284:  calling preinit hooks
+DEBUG buildroot.py:659:  create skeleton dirs
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/var/lib/rpm
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/var/lib/yum
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/var/lib/dbus
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/var/log
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/var/cache/dnf
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/var/cache/yum
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/etc/rpm
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/tmp
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/tmp/ccache
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/var/tmp
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/etc/dnf
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/etc/dnf/vars
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/etc/yum.repos.d
+DEBUG file_util.py:21:  created dir: /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/etc/yum.repos.d
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/etc/yum
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/proc
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/sys
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/run/lock
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/dev/pts
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/dev/shm
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/dev/mapper
+DEBUG file_util.py:21:  created dir: /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/dev/mapper
+DEBUG buildroot.py:803:  kernel version == 6.8.0-1021-azure
+DEBUG file_util.py:30:  touching file: /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/etc/fstab
+DEBUG file_util.py:30:  touching file: /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/etc/yum/yum.conf
+DEBUG file_util.py:30:  touching file: /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/etc/dnf/dnf.conf
+DEBUG file_util.py:30:  touching file: /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/var/log/yum.log
+DEBUG buildroot.py:298:  rootdir = /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root
+DEBUG buildroot.py:299:  resultdir = /var/lib/mock/rocky+epel-9-x86_64-bootstrap/results
+DEBUG package_manager.py:56:  searching for 'dnf' package manager or alternatives
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/etc/pki/mock
+DEBUG file_util.py:158:  Updating files in /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/etc/pki/ca-trust with files from /etc/pki/ca-trust
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/etc/pki/ca-trust
+DEBUG file_util.py:158:  Updating files in /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/usr/share/pki/ca-trust-source with files from /usr/share/pki/ca-trust-source
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/usr/share/pki/ca-trust-source
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/usr/share
+DEBUG package_manager.py:382:  Copying /usr/share/distribution-gpg-keys to the bootstrap chroot
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['cp', '-a', '/usr/share/distribution-gpg-keys', '/var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/usr/share'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/etc/dnf
+DEBUG package_manager.py:683:  configure DNF vars
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/home/runner/work/fffpkg/fffpkg/out/rpm.el9.x86_64/raw/results/rocky+epel-9-x86_64
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'bind', '/home/runner/work/fffpkg/fffpkg/out/rpm.el9.x86_64/raw/results/rocky+epel-9-x86_64', '/var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/home/runner/work/fffpkg/fffpkg/out/rpm.el9.x86_64/raw/results/rocky+epel-9-x86_64'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/etc
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/etc
+DEBUG buildroot.py:38:  method _cleanup_homedir skipped in bootstrap
+DEBUG buildroot.py:38:  method _setup_build_dirs skipped in bootstrap
+DEBUG buildroot.py:38:  method _make_users skipped in bootstrap
+DEBUG file_util.py:30:  touching file: /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/.initialized
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root
+DEBUG file_util.py:18:  ensuring that dir exists: /home/runner/work/fffpkg/fffpkg/out/rpm.el9.x86_64/raw/results/rocky+epel-9-x86_64/python3-openfeature-provider-flagd-0.1.5-1.fff+el9
+INFO buildroot.py:284:  calling preinit hooks
+DEBUG buildroot.py:659:  create skeleton dirs
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root/var/lib/rpm
+DEBUG file_util.py:21:  created dir: /var/lib/mock/rocky+epel-9-x86_64/root/var/lib/rpm
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root/var/lib/yum
+DEBUG file_util.py:21:  created dir: /var/lib/mock/rocky+epel-9-x86_64/root/var/lib/yum
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root/var/lib/dbus
+DEBUG file_util.py:21:  created dir: /var/lib/mock/rocky+epel-9-x86_64/root/var/lib/dbus
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root/var/log
+DEBUG file_util.py:21:  created dir: /var/lib/mock/rocky+epel-9-x86_64/root/var/log
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root/var/cache/dnf
+DEBUG file_util.py:21:  created dir: /var/lib/mock/rocky+epel-9-x86_64/root/var/cache/dnf
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root/var/cache/yum
+DEBUG file_util.py:21:  created dir: /var/lib/mock/rocky+epel-9-x86_64/root/var/cache/yum
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root/etc/rpm
+DEBUG file_util.py:21:  created dir: /var/lib/mock/rocky+epel-9-x86_64/root/etc/rpm
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root/tmp
+DEBUG file_util.py:21:  created dir: /var/lib/mock/rocky+epel-9-x86_64/root/tmp
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root/tmp/ccache
+DEBUG file_util.py:21:  created dir: /var/lib/mock/rocky+epel-9-x86_64/root/tmp/ccache
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root/var/tmp
+DEBUG file_util.py:21:  created dir: /var/lib/mock/rocky+epel-9-x86_64/root/var/tmp
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root/etc/dnf
+DEBUG file_util.py:21:  created dir: /var/lib/mock/rocky+epel-9-x86_64/root/etc/dnf
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root/etc/dnf/vars
+DEBUG file_util.py:21:  created dir: /var/lib/mock/rocky+epel-9-x86_64/root/etc/dnf/vars
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root/etc/yum.repos.d
+DEBUG file_util.py:21:  created dir: /var/lib/mock/rocky+epel-9-x86_64/root/etc/yum.repos.d
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root/etc/yum
+DEBUG file_util.py:21:  created dir: /var/lib/mock/rocky+epel-9-x86_64/root/etc/yum
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root/proc
+DEBUG file_util.py:21:  created dir: /var/lib/mock/rocky+epel-9-x86_64/root/proc
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root/sys
+DEBUG file_util.py:21:  created dir: /var/lib/mock/rocky+epel-9-x86_64/root/sys
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root/run/lock
+DEBUG file_util.py:21:  created dir: /var/lib/mock/rocky+epel-9-x86_64/root/run/lock
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root/dev/pts
+DEBUG file_util.py:21:  created dir: /var/lib/mock/rocky+epel-9-x86_64/root/dev/pts
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root/dev/shm
+DEBUG file_util.py:21:  created dir: /var/lib/mock/rocky+epel-9-x86_64/root/dev/shm
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root/dev/mapper
+DEBUG file_util.py:21:  created dir: /var/lib/mock/rocky+epel-9-x86_64/root/dev/mapper
+DEBUG buildroot.py:803:  kernel version == 6.8.0-1021-azure
+DEBUG file_util.py:30:  touching file: /var/lib/mock/rocky+epel-9-x86_64/root/etc/fstab
+DEBUG file_util.py:30:  touching file: /var/lib/mock/rocky+epel-9-x86_64/root/etc/yum/yum.conf
+DEBUG file_util.py:30:  touching file: /var/lib/mock/rocky+epel-9-x86_64/root/etc/dnf/dnf.conf
+DEBUG file_util.py:30:  touching file: /var/lib/mock/rocky+epel-9-x86_64/root/var/log/yum.log
+DEBUG buildroot.py:298:  rootdir = /var/lib/mock/rocky+epel-9-x86_64/root
+DEBUG buildroot.py:299:  resultdir = /home/runner/work/fffpkg/fffpkg/out/rpm.el9.x86_64/raw/results/rocky+epel-9-x86_64/python3-openfeature-provider-flagd-0.1.5-1.fff+el9
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root/etc/pki/mock
+DEBUG file_util.py:21:  created dir: /var/lib/mock/rocky+epel-9-x86_64/root/etc/pki/mock
+DEBUG file_util.py:158:  Updating files in /var/lib/mock/rocky+epel-9-x86_64/root/etc/pki/ca-trust with files from /etc/pki/ca-trust
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root/etc/pki/ca-trust
+DEBUG file_util.py:21:  created dir: /var/lib/mock/rocky+epel-9-x86_64/root/etc/pki/ca-trust
+DEBUG file_util.py:158:  Updating files in /var/lib/mock/rocky+epel-9-x86_64/root/usr/share/pki/ca-trust-source with files from /usr/share/pki/ca-trust-source
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root/usr/share/pki/ca-trust-source
+DEBUG file_util.py:21:  created dir: /var/lib/mock/rocky+epel-9-x86_64/root/usr/share/pki/ca-trust-source
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root/etc/dnf
+DEBUG package_manager.py:683:  configure DNF vars
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root/proc
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'rprivate,mode=0755', 'tmpfs', '/var/lib/mock/rocky+epel-9-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root/proc
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/proc', '/var/lib/mock/rocky+epel-9-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'remount,nodev,noexec,nosuid,readonly,rprivate,rbind', '--target', '/var/lib/mock/rocky+epel-9-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root/sys
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'rprivate,mode=0755', 'tmpfs', '/var/lib/mock/rocky+epel-9-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root/sys
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/sys', '/var/lib/mock/rocky+epel-9-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'remount,nodev,noexec,nosuid,readonly,rprivate,rbind', '--target', '/var/lib/mock/rocky+epel-9-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root/dev/shm
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', 'tmpfs', '/var/lib/mock/rocky+epel-9-x86_64/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root/dev/pts
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-t', 'devpts', '-o', 'gid=5,mode=0620,ptmxmode=0666,newinstance', 'devpts', '/var/lib/mock/rocky+epel-9-x86_64/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['rpm', '-q', 'rpm', 'rpm-sequoia', 'python3-dnf', 'python3-dnf-plugins-core', 'yum', 'yum-utils', 'dnf5', 'dnf5-plugins'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:463:  rpm-4.16.1.3-34.el9.0.1.x86_64
+DEBUG util.py:463:  package rpm-sequoia is not installed
+DEBUG util.py:463:  python3-dnf-4.14.0-17.el9.noarch
+DEBUG util.py:463:  python3-dnf-plugins-core-4.3.0-16.el9.noarch
+DEBUG util.py:463:  yum-4.14.0-17.el9.noarch
+DEBUG util.py:463:  package yum-utils is not installed
+DEBUG util.py:463:  package dnf5 is not installed
+DEBUG util.py:463:  package dnf5-plugins is not installed
+DEBUG util.py:610:  Child return code was: 4
+INFO package_manager.py:195:  Buildroot is handled by package management downloaded with a bootstrap image:
+  rpm-4.16.1.3-34.el9.0.1.x86_64
+  python3-dnf-4.14.0-17.el9.noarch
+  python3-dnf-plugins-core-4.3.0-16.el9.noarch
+  yum-4.14.0-17.el9.noarch
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root/etc
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root/etc
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/var/lib/mock/rocky+epel-9-x86_64/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'private,mode=0755', 'tmpfs', '/var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/var/lib/mock/rocky+epel-9-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/var/lib/mock/rocky+epel-9-x86_64/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/var/lib/mock/rocky+epel-9-x86_64/root', '/var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/var/lib/mock/rocky+epel-9-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'remount,private,rbind', '--target', '/var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/var/lib/mock/rocky+epel-9-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root/installation-homedir
+DEBUG file_util.py:21:  created dir: /var/lib/mock/rocky+epel-9-x86_64/root/installation-homedir
+DEBUG package_manager.py:289:  ['/usr/bin/dnf-3', '--installroot', '/var/lib/mock/rocky+epel-9-x86_64/root/', '--releasever', '9', '--setopt=deltarpm=False', '--setopt=allow_vendor_change=yes', '--allowerasing', '--disableplugin=local', '--disableplugin=spacewalk', '--disableplugin=versionlock', 'install', 'bash', 'bzip2', 'coreutils', 'cpio', 'diffutils', 'redhat-release', 'findutils', 'gawk', 'glibc-minimal-langpack', 'grep', 'gzip', 'info', 'patch', 'redhat-rpm-config', 'rpm-build', 'sed', 'tar', 'unzip', 'util-linux', 'which', 'xz', 'epel-rpm-macros']
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/usr/bin/dnf-3', '--installroot', '/var/lib/mock/rocky+epel-9-x86_64/root/', '--releasever', '9', '--setopt=deltarpm=False', '--setopt=allow_vendor_change=yes', '--allowerasing', '--disableplugin=local', '--disableplugin=spacewalk', '--disableplugin=versionlock', 'install', 'bash', 'bzip2', 'coreutils', 'cpio', 'diffutils', 'redhat-release', 'findutils', 'gawk', 'glibc-minimal-langpack', 'grep', 'gzip', 'info', 'patch', 'redhat-rpm-config', 'rpm-build', 'sed', 'tar', 'unzip', 'util-linux', 'which', 'xz', 'epel-rpm-macros'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/var/lib/mock/rocky+epel-9-x86_64/root/installation-homedir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'LC_MESSAGES': 'C.UTF-8'} and shell False
+DEBUG util.py:461:  No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+DEBUG util.py:463:  file:///home/runner/work/fffpkg/fffpkg/out/rpm. 1.1 MB/s | 1.7 kB     00:00    
+DEBUG util.py:463:  Rocky Linux 9 - BaseOS                          5.4 MB/s | 2.3 MB     00:00    
+DEBUG util.py:463:  Rocky Linux 9 - AppStream                        23 MB/s | 8.6 MB     00:00    
+DEBUG util.py:463:  Rocky Linux 9 - CRB                             5.5 MB/s | 2.6 MB     00:00    
+DEBUG util.py:463:  Rocky Linux 9 - Extras                           26 kB/s |  16 kB     00:00    
+DEBUG util.py:463:  Extra Packages for Enterprise Linux 9 - x86_64  5.8 MB/s |  23 MB     00:03    
+DEBUG util.py:463:  Dependencies resolved.
+DEBUG util.py:463:  ================================================================================
+DEBUG util.py:463:   Package                     Arch   Version                     Repo       Size
+DEBUG util.py:463:  ================================================================================
+DEBUG util.py:463:  Installing:
+DEBUG util.py:463:   bash                        x86_64 5.1.8-9.el9                 baseos    1.7 M
+DEBUG util.py:463:   bzip2                       x86_64 1.0.8-10.el9_5              baseos     51 k
+DEBUG util.py:463:   coreutils                   x86_64 8.32-36.el9                 baseos    1.1 M
+DEBUG util.py:463:   cpio                        x86_64 2.13-16.el9                 baseos    270 k
+DEBUG util.py:463:   diffutils                   x86_64 3.7-12.el9                  baseos    388 k
+DEBUG util.py:463:   epel-rpm-macros             noarch 9-15.el9                    epel       15 k
+DEBUG util.py:463:   findutils                   x86_64 1:4.8.0-7.el9               baseos    536 k
+DEBUG util.py:463:   gawk                        x86_64 5.1.0-6.el9                 baseos    996 k
+DEBUG util.py:463:   glibc-minimal-langpack      x86_64 2.34-125.el9_5.3            baseos     16 k
+DEBUG util.py:463:   grep                        x86_64 3.6-5.el9                   baseos    257 k
+DEBUG util.py:463:   gzip                        x86_64 1.12-1.el9                  baseos    157 k
+DEBUG util.py:463:   info                        x86_64 6.7-15.el9                  baseos    224 k
+DEBUG util.py:463:   patch                       x86_64 2.7.6-16.el9                appstream 127 k
+DEBUG util.py:463:   redhat-rpm-config           noarch 208-1.el9                   appstream  66 k
+DEBUG util.py:463:   rocky-release               noarch 9.5-1.2.el9                 baseos     24 k
+DEBUG util.py:463:   rpm-build                   x86_64 4.16.1.3-34.el9.0.1         appstream  59 k
+DEBUG util.py:463:   sed                         x86_64 4.8-9.el9                   baseos    296 k
+DEBUG util.py:463:   tar                         x86_64 2:1.34-7.el9                baseos    875 k
+DEBUG util.py:463:   unzip                       x86_64 6.0-57.el9                  baseos    180 k
+DEBUG util.py:463:   util-linux                  x86_64 2.37.4-20.el9               baseos    2.2 M
+DEBUG util.py:463:   which                       x86_64 2.21-29.el9                 baseos     40 k
+DEBUG util.py:463:   xz                          x86_64 5.2.5-8.el9_0               baseos    214 k
+DEBUG util.py:463:  Installing dependencies:
+DEBUG util.py:463:   alternatives                x86_64 1.24-1.el9_5.1              baseos     38 k
+DEBUG util.py:463:   ansible-srpm-macros         noarch 1-16.el9                    epel       21 k
+DEBUG util.py:463:   audit-libs                  x86_64 3.1.5-1.el9                 baseos    120 k
+DEBUG util.py:463:   basesystem                  noarch 11-13.el9.0.1               baseos    6.4 k
+DEBUG util.py:463:   binutils                    x86_64 2.35.2-54.el9               baseos    4.5 M
+DEBUG util.py:463:   binutils-gold               x86_64 2.35.2-54.el9               baseos    734 k
+DEBUG util.py:463:   bzip2-libs                  x86_64 1.0.8-10.el9_5              baseos     39 k
+DEBUG util.py:463:   ca-certificates             noarch 2024.2.69_v8.0.303-91.4.el9_4
+DEBUG util.py:463:                                                                  baseos    911 k
+DEBUG util.py:463:   coreutils-common            x86_64 8.32-36.el9                 baseos    2.0 M
+DEBUG util.py:463:   cracklib                    x86_64 2.9.6-27.el9                baseos     81 k
+DEBUG util.py:463:   cracklib-dicts              x86_64 2.9.6-27.el9                baseos    3.6 M
+DEBUG util.py:463:   crypto-policies             noarch 20240828-2.git626aa59.el9_5 baseos     55 k
+DEBUG util.py:463:   curl                        x86_64 7.76.1-31.el9               baseos    293 k
+DEBUG util.py:463:   cyrus-sasl-lib              x86_64 2.1.27-21.el9               baseos    764 k
+DEBUG util.py:463:   debugedit                   x86_64 5.0-5.el9                   appstream  76 k
+DEBUG util.py:463:   dwz                         x86_64 0.14-3.el9                  appstream 127 k
+DEBUG util.py:463:   ed                          x86_64 1.14.2-12.el9               baseos     74 k
+DEBUG util.py:463:   efi-srpm-macros             noarch 6-2.el9_0                   appstream  22 k
+DEBUG util.py:463:   elfutils                    x86_64 0.191-4.el9                 baseos    550 k
+DEBUG util.py:463:   elfutils-debuginfod-client  x86_64 0.191-4.el9                 baseos     36 k
+DEBUG util.py:463:   elfutils-default-yama-scope noarch 0.191-4.el9                 baseos     11 k
+DEBUG util.py:463:   elfutils-libelf             x86_64 0.191-4.el9                 baseos    206 k
+DEBUG util.py:463:   elfutils-libs               x86_64 0.191-4.el9                 baseos    259 k
+DEBUG util.py:463:   file                        x86_64 5.39-16.el9                 baseos     48 k
+DEBUG util.py:463:   file-libs                   x86_64 5.39-16.el9                 baseos    588 k
+DEBUG util.py:463:   filesystem                  x86_64 3.16-5.el9                  baseos    1.1 M
+DEBUG util.py:463:   fonts-srpm-macros           noarch 1:2.0.5-7.el9.1             appstream  27 k
+DEBUG util.py:463:   forge-srpm-macros           noarch 0.4.0-1.el9                 epel       19 k
+DEBUG util.py:463:   fpc-srpm-macros             noarch 1.3-7.el9                   epel      7.5 k
+DEBUG util.py:463:   gdb-minimal                 x86_64 14.2-3.el9                  appstream 4.2 M
+DEBUG util.py:463:   gdbm-libs                   x86_64 1:1.23-1.el9                baseos     55 k
+DEBUG util.py:463:   ghc-srpm-macros             noarch 1.5.0-6.el9                 appstream 7.8 k
+DEBUG util.py:463:   ghc-srpm-macros-epel        noarch 1.9.1-1.el9                 epel      7.5 k
+DEBUG util.py:463:   glibc                       x86_64 2.34-125.el9_5.3            baseos    1.9 M
+DEBUG util.py:463:   glibc-common                x86_64 2.34-125.el9_5.3            baseos    290 k
+DEBUG util.py:463:   glibc-gconv-extra           x86_64 2.34-125.el9_5.3            baseos    1.6 M
+DEBUG util.py:463:   gmp                         x86_64 1:6.2.0-13.el9              baseos    314 k
+DEBUG util.py:463:   go-srpm-macros              noarch 3.6.0-3.el9                 appstream  26 k
+DEBUG util.py:463:   go-srpm-macros-epel         noarch 3.6.0.1-1.el9               epel       26 k
+DEBUG util.py:463:   groff-base                  x86_64 1.22.4-10.el9               baseos    1.0 M
+DEBUG util.py:463:   kernel-srpm-macros          noarch 1.0-13.el9                  appstream  15 k
+DEBUG util.py:463:   keyutils-libs               x86_64 1.6.3-1.el9                 baseos     31 k
+DEBUG util.py:463:   krb5-libs                   x86_64 1.21.1-4.el9_5              baseos    756 k
+DEBUG util.py:463:   libacl                      x86_64 2.3.1-4.el9                 baseos     22 k
+DEBUG util.py:463:   libarchive                  x86_64 3.5.3-4.el9.0.1             baseos    387 k
+DEBUG util.py:463:   libattr                     x86_64 2.5.1-3.el9                 baseos     18 k
+DEBUG util.py:463:   libblkid                    x86_64 2.37.4-20.el9               baseos    106 k
+DEBUG util.py:463:   libbrotli                   x86_64 1.0.9-7.el9_5               baseos    312 k
+DEBUG util.py:463:   libcap                      x86_64 2.48-9.el9_2                baseos     67 k
+DEBUG util.py:463:   libcap-ng                   x86_64 0.8.2-7.el9                 baseos     32 k
+DEBUG util.py:463:   libcom_err                  x86_64 1.46.5-5.el9                baseos     25 k
+DEBUG util.py:463:   libcurl                     x86_64 7.76.1-31.el9               baseos    283 k
+DEBUG util.py:463:   libdb                       x86_64 5.3.28-54.el9               baseos    736 k
+DEBUG util.py:463:   libeconf                    x86_64 0.4.1-4.el9                 baseos     26 k
+DEBUG util.py:463:   libevent                    x86_64 2.1.12-8.el9_4              baseos    262 k
+DEBUG util.py:463:   libfdisk                    x86_64 2.37.4-20.el9               baseos    153 k
+DEBUG util.py:463:   libffi                      x86_64 3.4.2-8.el9                 baseos     37 k
+DEBUG util.py:463:   libgcc                      x86_64 11.5.0-5.el9_5              baseos     84 k
+DEBUG util.py:463:   libgcrypt                   x86_64 1.10.0-11.el9               baseos    507 k
+DEBUG util.py:463:   libgomp                     x86_64 11.5.0-5.el9_5              baseos    260 k
+DEBUG util.py:463:   libgpg-error                x86_64 1.42-5.el9                  baseos    211 k
+DEBUG util.py:463:   libidn2                     x86_64 2.3.0-7.el9                 baseos     95 k
+DEBUG util.py:463:   libmount                    x86_64 2.37.4-20.el9               baseos    134 k
+DEBUG util.py:463:   libnghttp2                  x86_64 1.43.0-6.el9                baseos     72 k
+DEBUG util.py:463:   libpkgconf                  x86_64 1.7.3-10.el9                baseos     35 k
+DEBUG util.py:463:   libpsl                      x86_64 0.21.1-5.el9                baseos     63 k
+DEBUG util.py:463:   libpwquality                x86_64 1.4.4-8.el9                 baseos    105 k
+DEBUG util.py:463:   libselinux                  x86_64 3.6-1.el9                   baseos     85 k
+DEBUG util.py:463:   libsemanage                 x86_64 3.6-2.1.el9_5               baseos    116 k
+DEBUG util.py:463:   libsepol                    x86_64 3.6-1.el9                   baseos    329 k
+DEBUG util.py:463:   libsigsegv                  x86_64 2.13-4.el9                  baseos     26 k
+DEBUG util.py:463:   libsmartcols                x86_64 2.37.4-20.el9               baseos     62 k
+DEBUG util.py:463:   libssh                      x86_64 0.10.4-13.el9               baseos    215 k
+DEBUG util.py:463:   libssh-config               noarch 0.10.4-13.el9               baseos    9.5 k
+DEBUG util.py:463:   libstdc++                   x86_64 11.5.0-5.el9_5              baseos    731 k
+DEBUG util.py:463:   libtasn1                    x86_64 4.16.0-8.el9_1              baseos     73 k
+DEBUG util.py:463:   libunistring                x86_64 0.9.10-15.el9               baseos    495 k
+DEBUG util.py:463:   libutempter                 x86_64 1.2.1-6.el9                 baseos     26 k
+DEBUG util.py:463:   libuuid                     x86_64 2.37.4-20.el9               baseos     27 k
+DEBUG util.py:463:   libverto                    x86_64 0.3.2-3.el9                 baseos     21 k
+DEBUG util.py:463:   libxcrypt                   x86_64 4.4.18-3.el9                baseos    115 k
+DEBUG util.py:463:   libxml2                     x86_64 2.9.13-6.el9_5.2            baseos    746 k
+DEBUG util.py:463:   libzstd                     x86_64 1.5.1-2.el9                 baseos    330 k
+DEBUG util.py:463:   lua-libs                    x86_64 5.4.4-4.el9                 baseos    129 k
+DEBUG util.py:463:   lua-srpm-macros             noarch 1-6.el9                     appstream 8.5 k
+DEBUG util.py:463:   lz4-libs                    x86_64 1.9.3-5.el9                 baseos     67 k
+DEBUG util.py:463:   mpfr                        x86_64 4.1.0-7.el9                 baseos    326 k
+DEBUG util.py:463:   ncurses                     x86_64 6.2-10.20210508.el9         baseos    399 k
+DEBUG util.py:463:   ncurses-base                noarch 6.2-10.20210508.el9         baseos     60 k
+DEBUG util.py:463:   ncurses-libs                x86_64 6.2-10.20210508.el9         baseos    321 k
+DEBUG util.py:463:   ocaml-srpm-macros           noarch 6-6.el9                     appstream 7.8 k
+DEBUG util.py:463:   openblas-srpm-macros        noarch 2-11.el9                    appstream 7.3 k
+DEBUG util.py:463:   openldap                    x86_64 2.6.6-3.el9                 baseos    254 k
+DEBUG util.py:463:   openssl                     x86_64 1:3.2.2-6.el9_5.1           baseos    1.3 M
+DEBUG util.py:463:   openssl-libs                x86_64 1:3.2.2-6.el9_5.1           baseos    2.4 M
+DEBUG util.py:463:   p11-kit                     x86_64 0.25.3-3.el9_5              baseos    510 k
+DEBUG util.py:463:   p11-kit-trust               x86_64 0.25.3-3.el9_5              baseos    141 k
+DEBUG util.py:463:   pam                         x86_64 1.5.1-22.el9_5              baseos    548 k
+DEBUG util.py:463:   pcre                        x86_64 8.44-4.el9                  baseos    196 k
+DEBUG util.py:463:   pcre2                       x86_64 10.40-6.el9                 baseos    233 k
+DEBUG util.py:463:   pcre2-syntax                noarch 10.40-6.el9                 baseos    140 k
+DEBUG util.py:463:   perl-AutoLoader             noarch 5.74-481.el9                appstream  20 k
+DEBUG util.py:463:   perl-B                      x86_64 1.80-481.el9                appstream 178 k
+DEBUG util.py:463:   perl-Carp                   noarch 1.50-460.el9                appstream  29 k
+DEBUG util.py:463:   perl-Class-Struct           noarch 0.66-481.el9                appstream  21 k
+DEBUG util.py:463:   perl-Data-Dumper            x86_64 2.174-462.el9               appstream  55 k
+DEBUG util.py:463:   perl-Digest                 noarch 1.19-4.el9                  appstream  25 k
+DEBUG util.py:463:   perl-Digest-MD5             x86_64 2.58-4.el9                  appstream  36 k
+DEBUG util.py:463:   perl-Encode                 x86_64 4:3.08-462.el9              appstream 1.7 M
+DEBUG util.py:463:   perl-Errno                  x86_64 1.30-481.el9                appstream  13 k
+DEBUG util.py:463:   perl-Exporter               noarch 5.74-461.el9                appstream  31 k
+DEBUG util.py:463:   perl-Fcntl                  x86_64 1.13-481.el9                appstream  19 k
+DEBUG util.py:463:   perl-File-Basename          noarch 2.85-481.el9                appstream  16 k
+DEBUG util.py:463:   perl-File-Path              noarch 2.18-4.el9                  appstream  35 k
+DEBUG util.py:463:   perl-File-Temp              noarch 1:0.231.100-4.el9           appstream  59 k
+DEBUG util.py:463:   perl-File-stat              noarch 1.09-481.el9                appstream  16 k
+DEBUG util.py:463:   perl-FileHandle             noarch 2.03-481.el9                appstream  14 k
+DEBUG util.py:463:   perl-Getopt-Long            noarch 1:2.52-4.el9                appstream  60 k
+DEBUG util.py:463:   perl-Getopt-Std             noarch 1.12-481.el9                appstream  14 k
+DEBUG util.py:463:   perl-HTTP-Tiny              noarch 0.076-462.el9               appstream  53 k
+DEBUG util.py:463:   perl-IO                     x86_64 1.43-481.el9                appstream  85 k
+DEBUG util.py:463:   perl-IO-Socket-IP           noarch 0.41-5.el9                  appstream  42 k
+DEBUG util.py:463:   perl-IO-Socket-SSL          noarch 2.073-2.el9                 appstream 214 k
+DEBUG util.py:463:   perl-IPC-Open3              noarch 1.21-481.el9                appstream  21 k
+DEBUG util.py:463:   perl-MIME-Base64            x86_64 3.16-4.el9                  appstream  30 k
+DEBUG util.py:463:   perl-Mozilla-CA             noarch 20200520-6.el9              appstream  12 k
+DEBUG util.py:463:   perl-Net-SSLeay             x86_64 1.94-1.el9                  appstream 391 k
+DEBUG util.py:463:   perl-POSIX                  x86_64 1.94-481.el9                appstream  95 k
+DEBUG util.py:463:   perl-PathTools              x86_64 3.78-461.el9                appstream  85 k
+DEBUG util.py:463:   perl-Pod-Escapes            noarch 1:1.07-460.el9              appstream  20 k
+DEBUG util.py:463:   perl-Pod-Perldoc            noarch 3.28.01-461.el9             appstream  83 k
+DEBUG util.py:463:   perl-Pod-Simple             noarch 1:3.42-4.el9                appstream 215 k
+DEBUG util.py:463:   perl-Pod-Usage              noarch 4:2.01-4.el9                appstream  40 k
+DEBUG util.py:463:   perl-Scalar-List-Utils      x86_64 4:1.56-462.el9              appstream  70 k
+DEBUG util.py:463:   perl-SelectSaver            noarch 1.02-481.el9                appstream  10 k
+DEBUG util.py:463:   perl-Socket                 x86_64 4:2.031-4.el9               appstream  54 k
+DEBUG util.py:463:   perl-Storable               x86_64 1:3.21-460.el9              appstream  95 k
+DEBUG util.py:463:   perl-Symbol                 noarch 1.08-481.el9                appstream  13 k
+DEBUG util.py:463:   perl-Term-ANSIColor         noarch 5.01-461.el9                appstream  48 k
+DEBUG util.py:463:   perl-Term-Cap               noarch 1.17-460.el9                appstream  22 k
+DEBUG util.py:463:   perl-Text-ParseWords        noarch 3.30-460.el9                appstream  16 k
+DEBUG util.py:463:   perl-Text-Tabs+Wrap         noarch 2013.0523-460.el9           appstream  23 k
+DEBUG util.py:463:   perl-Time-Local             noarch 2:1.300-7.el9               appstream  33 k
+DEBUG util.py:463:   perl-URI                    noarch 5.09-3.el9                  appstream 108 k
+DEBUG util.py:463:   perl-base                   noarch 2.27-481.el9                appstream  15 k
+DEBUG util.py:463:   perl-constant               noarch 1.33-461.el9                appstream  23 k
+DEBUG util.py:463:   perl-if                     noarch 0.60.800-481.el9            appstream  13 k
+DEBUG util.py:463:   perl-interpreter            x86_64 4:5.32.1-481.el9            appstream  70 k
+DEBUG util.py:463:   perl-libnet                 noarch 3.13-4.el9                  appstream 125 k
+DEBUG util.py:463:   perl-libs                   x86_64 4:5.32.1-481.el9            appstream 2.0 M
+DEBUG util.py:463:   perl-mro                    x86_64 1.23-481.el9                appstream  27 k
+DEBUG util.py:463:   perl-overload               noarch 1.31-481.el9                appstream  44 k
+DEBUG util.py:463:   perl-overloading            noarch 0.02-481.el9                appstream  11 k
+DEBUG util.py:463:   perl-parent                 noarch 1:0.238-460.el9             appstream  14 k
+DEBUG util.py:463:   perl-podlators              noarch 1:4.14-460.el9              appstream 112 k
+DEBUG util.py:463:   perl-srpm-macros            noarch 1-41.el9                    appstream 8.2 k
+DEBUG util.py:463:   perl-subs                   noarch 1.03-481.el9                appstream  10 k
+DEBUG util.py:463:   perl-vars                   noarch 1.05-481.el9                appstream  12 k
+DEBUG util.py:463:   pkgconf                     x86_64 1.7.3-10.el9                baseos     40 k
+DEBUG util.py:463:   pkgconf-m4                  noarch 1.7.3-10.el9                baseos     14 k
+DEBUG util.py:463:   pkgconf-pkg-config          x86_64 1.7.3-10.el9                baseos     10 k
+DEBUG util.py:463:   popt                        x86_64 1.18-8.el9                  baseos     59 k
+DEBUG util.py:463:   publicsuffix-list-dafsa     noarch 20210518-3.el9              baseos     58 k
+DEBUG util.py:463:   pyproject-srpm-macros       noarch 1.12.0-1.el9                appstream  13 k
+DEBUG util.py:463:   python-srpm-macros          noarch 3.9-54.el9                  appstream  17 k
+DEBUG util.py:463:   qt5-srpm-macros             noarch 5.15.9-1.el9                appstream 7.9 k
+DEBUG util.py:463:   qt6-srpm-macros             noarch 6.6.2-1.el9                 epel      8.7 k
+DEBUG util.py:463:   readline                    x86_64 8.1-4.el9                   baseos    210 k
+DEBUG util.py:463:   rocky-gpg-keys              noarch 9.5-1.2.el9                 baseos     13 k
+DEBUG util.py:463:   rocky-repos                 noarch 9.5-1.2.el9                 baseos     13 k
+DEBUG util.py:463:   rpm                         x86_64 4.16.1.3-34.el9.0.1         baseos    485 k
+DEBUG util.py:463:   rpm-build-libs              x86_64 4.16.1.3-34.el9.0.1         baseos     88 k
+DEBUG util.py:463:   rpm-libs                    x86_64 4.16.1.3-34.el9.0.1         baseos    307 k
+DEBUG util.py:463:   rpmautospec-rpm-macros      noarch 0.7.3-1.el9                 epel       10 k
+DEBUG util.py:463:   rust-srpm-macros            noarch 17-4.el9                    appstream 9.3 k
+DEBUG util.py:463:   rust-srpm-macros-epel       noarch 26.3-1.el9                  epel       10 k
+DEBUG util.py:463:   setup                       noarch 2.13.7-10.el9               baseos    140 k
+DEBUG util.py:463:   shadow-utils                x86_64 2:4.9-10.el9_5              baseos    1.1 M
+DEBUG util.py:463:   sqlite-libs                 x86_64 3.34.1-7.el9_3              baseos    618 k
+DEBUG util.py:463:   systemd-libs                x86_64 252-46.el9_5.2.0.1          baseos    678 k
+DEBUG util.py:463:   tzdata                      noarch 2025a-1.el9                 baseos    429 k
+DEBUG util.py:463:   util-linux-core             x86_64 2.37.4-20.el9               baseos    437 k
+DEBUG util.py:463:   xz-libs                     x86_64 5.2.5-8.el9_0               baseos     92 k
+DEBUG util.py:463:   zip                         x86_64 3.0-35.el9                  baseos    263 k
+DEBUG util.py:463:   zlib                        x86_64 1.2.11-40.el9               baseos     90 k
+DEBUG util.py:463:   zstd                        x86_64 1.5.1-2.el9                 baseos    546 k
+DEBUG util.py:463:  Transaction Summary
+DEBUG util.py:463:  ================================================================================
+DEBUG util.py:463:  Install  208 Packages
+DEBUG util.py:463:  Total download size: 63 M
+DEBUG util.py:463:  Installed size: 220 M
+DEBUG util.py:463:  Downloading Packages:
+DEBUG util.py:463:  (1/208): basesystem-11-13.el9.0.1.noarch.rpm     45 kB/s | 6.4 kB     00:00    
+DEBUG util.py:463:  (2/208): crypto-policies-20240828-2.git626aa59. 1.8 MB/s |  55 kB     00:00    
+DEBUG util.py:463:  (3/208): setup-2.13.7-10.el9.noarch.rpm         804 kB/s | 140 kB     00:00    
+DEBUG util.py:463:  (4/208): libbrotli-1.0.9-7.el9_5.x86_64.rpm      12 MB/s | 312 kB     00:00    
+DEBUG util.py:463:  (5/208): zip-3.0-35.el9.x86_64.rpm              8.4 MB/s | 263 kB     00:00    
+DEBUG util.py:463:  (6/208): bzip2-libs-1.0.8-10.el9_5.x86_64.rpm   3.5 MB/s |  39 kB     00:00    
+DEBUG util.py:463:  (7/208): bzip2-1.0.8-10.el9_5.x86_64.rpm        4.7 MB/s |  51 kB     00:00    
+DEBUG util.py:463:  (8/208): file-5.39-16.el9.x86_64.rpm            4.4 MB/s |  48 kB     00:00    
+DEBUG util.py:463:  (9/208): file-libs-5.39-16.el9.x86_64.rpm        25 MB/s | 588 kB     00:00    
+DEBUG util.py:463:  (10/208): binutils-gold-2.35.2-54.el9.x86_64.rp  41 MB/s | 734 kB     00:00    
+DEBUG util.py:463:  (11/208): groff-base-1.22.4-10.el9.x86_64.rpm    32 MB/s | 1.0 MB     00:00    
+DEBUG util.py:463:  (12/208): audit-libs-3.1.5-1.el9.x86_64.rpm     9.8 MB/s | 120 kB     00:00    
+DEBUG util.py:463:  (13/208): alternatives-1.24-1.el9_5.1.x86_64.rp 3.3 MB/s |  38 kB     00:00    
+DEBUG util.py:463:  (14/208): binutils-2.35.2-54.el9.x86_64.rpm     102 MB/s | 4.5 MB     00:00    
+DEBUG util.py:463:  (15/208): lua-libs-5.4.4-4.el9.x86_64.rpm       7.4 MB/s | 129 kB     00:00    
+DEBUG util.py:463:  (16/208): lz4-libs-1.9.3-5.el9.x86_64.rpm       5.6 MB/s |  67 kB     00:00    
+DEBUG util.py:463:  (17/208): libidn2-2.3.0-7.el9.x86_64.rpm        8.0 MB/s |  95 kB     00:00    
+DEBUG util.py:463:  (18/208): libcap-ng-0.8.2-7.el9.x86_64.rpm      2.8 MB/s |  32 kB     00:00    
+DEBUG util.py:463:  (19/208): libarchive-3.5.3-4.el9.0.1.x86_64.rpm  29 MB/s | 387 kB     00:00    
+DEBUG util.py:463:  (20/208): libverto-0.3.2-3.el9.x86_64.rpm       1.9 MB/s |  21 kB     00:00    
+DEBUG util.py:463:  (21/208): libxml2-2.9.13-6.el9_5.2.x86_64.rpm    48 MB/s | 746 kB     00:00    
+DEBUG util.py:463:  (22/208): libdb-5.3.28-54.el9.x86_64.rpm         48 MB/s | 736 kB     00:00    
+DEBUG util.py:463:  (23/208): popt-1.18-8.el9.x86_64.rpm            5.4 MB/s |  59 kB     00:00    
+DEBUG util.py:463:  (24/208): rpm-libs-4.16.1.3-34.el9.0.1.x86_64.r  24 MB/s | 307 kB     00:00    
+DEBUG util.py:463:  (25/208): rpm-build-libs-4.16.1.3-34.el9.0.1.x8 7.9 MB/s |  88 kB     00:00    
+DEBUG util.py:463:  (26/208): publicsuffix-list-dafsa-20210518-3.el 5.0 MB/s |  58 kB     00:00    
+DEBUG util.py:463:  (27/208): rpm-4.16.1.3-34.el9.0.1.x86_64.rpm     33 MB/s | 485 kB     00:00    
+DEBUG util.py:463:  (28/208): openssl-3.2.2-6.el9_5.1.x86_64.rpm     67 MB/s | 1.3 MB     00:00    
+DEBUG util.py:463:  (29/208): openssl-libs-3.2.2-6.el9_5.1.x86_64.r  78 MB/s | 2.4 MB     00:00    
+DEBUG util.py:463:  (30/208): pcre2-syntax-10.40-6.el9.noarch.rpm    12 MB/s | 140 kB     00:00    
+DEBUG util.py:463:  (31/208): pcre2-10.40-6.el9.x86_64.rpm           19 MB/s | 233 kB     00:00    
+DEBUG util.py:463:  (32/208): bash-5.1.8-9.el9.x86_64.rpm            79 MB/s | 1.7 MB     00:00    
+DEBUG util.py:463:  (33/208): tzdata-2025a-1.el9.noarch.rpm          29 MB/s | 429 kB     00:00    
+DEBUG util.py:463:  (34/208): libutempter-1.2.1-6.el9.x86_64.rpm    2.3 MB/s |  26 kB     00:00    
+DEBUG util.py:463:  (35/208): grep-3.6-5.el9.x86_64.rpm              21 MB/s | 257 kB     00:00    
+DEBUG util.py:463:  (36/208): info-6.7-15.el9.x86_64.rpm             18 MB/s | 224 kB     00:00    
+DEBUG util.py:463:  (37/208): shadow-utils-4.9-10.el9_5.x86_64.rpm   64 MB/s | 1.1 MB     00:00    
+DEBUG util.py:463:  (38/208): cpio-2.13-16.el9.x86_64.rpm            22 MB/s | 270 kB     00:00    
+DEBUG util.py:463:  (39/208): sed-4.8-9.el9.x86_64.rpm               23 MB/s | 296 kB     00:00    
+DEBUG util.py:463:  (40/208): gzip-1.12-1.el9.x86_64.rpm             12 MB/s | 157 kB     00:00    
+DEBUG util.py:463:  (41/208): libnghttp2-1.43.0-6.el9.x86_64.rpm    6.4 MB/s |  72 kB     00:00    
+DEBUG util.py:463:  (42/208): sqlite-libs-3.34.1-7.el9_3.x86_64.rpm  42 MB/s | 618 kB     00:00    
+DEBUG util.py:463:  (43/208): pkgconf-pkg-config-1.7.3-10.el9.x86_6 984 kB/s |  10 kB     00:00    
+DEBUG util.py:463:  (44/208): pkgconf-m4-1.7.3-10.el9.noarch.rpm    1.3 MB/s |  14 kB     00:00    
+DEBUG util.py:463:  (45/208): pkgconf-1.7.3-10.el9.x86_64.rpm       3.7 MB/s |  40 kB     00:00    
+DEBUG util.py:463:  (46/208): libpkgconf-1.7.3-10.el9.x86_64.rpm    3.1 MB/s |  35 kB     00:00    
+DEBUG util.py:463:  (47/208): xz-libs-5.2.5-8.el9_0.x86_64.rpm      8.3 MB/s |  92 kB     00:00    
+DEBUG util.py:463:  (48/208): xz-5.2.5-8.el9_0.x86_64.rpm            17 MB/s | 214 kB     00:00    
+DEBUG util.py:463:  (49/208): libsigsegv-2.13-4.el9.x86_64.rpm      2.5 MB/s |  26 kB     00:00    
+DEBUG util.py:463:  (50/208): unzip-6.0-57.el9.x86_64.rpm            15 MB/s | 180 kB     00:00    
+DEBUG util.py:463:  (51/208): filesystem-3.16-5.el9.x86_64.rpm       62 MB/s | 1.1 MB     00:00    
+DEBUG util.py:463:  (52/208): gdbm-libs-1.23-1.el9.x86_64.rpm       4.9 MB/s |  55 kB     00:00    
+DEBUG util.py:463:  (53/208): findutils-4.8.0-7.el9.x86_64.rpm       39 MB/s | 536 kB     00:00    
+DEBUG util.py:463:  (54/208): ed-1.14.2-12.el9.x86_64.rpm           6.4 MB/s |  74 kB     00:00    
+DEBUG util.py:463:  (55/208): which-2.21-29.el9.x86_64.rpm          3.8 MB/s |  40 kB     00:00    
+DEBUG util.py:463:  (56/208): libunistring-0.9.10-15.el9.x86_64.rpm  35 MB/s | 495 kB     00:00    
+DEBUG util.py:463:  (57/208): coreutils-common-8.32-36.el9.x86_64.r  92 MB/s | 2.0 MB     00:00    
+DEBUG util.py:463:  (58/208): coreutils-8.32-36.el9.x86_64.rpm       51 MB/s | 1.1 MB     00:00    
+DEBUG util.py:463:  (59/208): diffutils-3.7-12.el9.x86_64.rpm        30 MB/s | 388 kB     00:00    
+DEBUG util.py:463:  (60/208): libpwquality-1.4.4-8.el9.x86_64.rpm   9.2 MB/s | 105 kB     00:00    
+DEBUG util.py:463:  (61/208): libattr-2.5.1-3.el9.x86_64.rpm        1.7 MB/s |  18 kB     00:00    
+DEBUG util.py:463:  (62/208): libffi-3.4.2-8.el9.x86_64.rpm         3.3 MB/s |  37 kB     00:00    
+DEBUG util.py:463:  (63/208): gmp-6.2.0-13.el9.x86_64.rpm            25 MB/s | 314 kB     00:00    
+DEBUG util.py:463:  (64/208): libgcrypt-1.10.0-11.el9.x86_64.rpm     37 MB/s | 507 kB     00:00    
+DEBUG util.py:463:  (65/208): libcap-2.48-9.el9_2.x86_64.rpm        6.0 MB/s |  67 kB     00:00    
+DEBUG util.py:463:  (66/208): libsepol-3.6-1.el9.x86_64.rpm          25 MB/s | 329 kB     00:00    
+DEBUG util.py:463:  (67/208): ca-certificates-2024.2.69_v8.0.303-91  55 MB/s | 911 kB     00:00    
+DEBUG util.py:463:  (68/208): libcom_err-1.46.5-5.el9.x86_64.rpm    2.3 MB/s |  25 kB     00:00    
+DEBUG util.py:463:  (69/208): libtasn1-4.16.0-8.el9_1.x86_64.rpm    6.6 MB/s |  73 kB     00:00    
+DEBUG util.py:463:  (70/208): mpfr-4.1.0-7.el9.x86_64.rpm            25 MB/s | 326 kB     00:00    
+DEBUG util.py:463:  (71/208): libsemanage-3.6-2.1.el9_5.x86_64.rpm  9.8 MB/s | 116 kB     00:00    
+DEBUG util.py:463:  (72/208): libselinux-3.6-1.el9.x86_64.rpm       6.9 MB/s |  85 kB     00:00    
+DEBUG util.py:463:  (73/208): libgpg-error-1.42-5.el9.x86_64.rpm     17 MB/s | 211 kB     00:00    
+DEBUG util.py:463:  (74/208): libpsl-0.21.1-5.el9.x86_64.rpm        5.5 MB/s |  63 kB     00:00    
+DEBUG util.py:463:  (75/208): libxcrypt-4.4.18-3.el9.x86_64.rpm      10 MB/s | 115 kB     00:00    
+DEBUG util.py:463:  (76/208): libevent-2.1.12-8.el9_4.x86_64.rpm     21 MB/s | 262 kB     00:00    
+DEBUG util.py:463:  (77/208): pcre-8.44-4.el9.x86_64.rpm             17 MB/s | 196 kB     00:00    
+DEBUG util.py:463:  (78/208): ncurses-base-6.2-10.20210508.el9.noar 5.3 MB/s |  60 kB     00:00    
+DEBUG util.py:463:  (79/208): p11-kit-trust-0.25.3-3.el9_5.x86_64.r  12 MB/s | 141 kB     00:00    
+DEBUG util.py:463:  (80/208): p11-kit-0.25.3-3.el9_5.x86_64.rpm      36 MB/s | 510 kB     00:00    
+DEBUG util.py:463:  (81/208): systemd-libs-252-46.el9_5.2.0.1.x86_6  47 MB/s | 678 kB     00:00    
+DEBUG util.py:463:  (82/208): elfutils-libs-0.191-4.el9.x86_64.rpm   20 MB/s | 259 kB     00:00    
+DEBUG util.py:463:  (83/208): elfutils-libelf-0.191-4.el9.x86_64.rp  17 MB/s | 206 kB     00:00    
+DEBUG util.py:463:  (84/208): elfutils-debuginfod-client-0.191-4.el 3.2 MB/s |  36 kB     00:00    
+DEBUG util.py:463:  (85/208): elfutils-0.191-4.el9.x86_64.rpm        39 MB/s | 550 kB     00:00    
+DEBUG util.py:463:  (86/208): elfutils-default-yama-scope-0.191-4.e 1.0 MB/s |  11 kB     00:00    
+DEBUG util.py:463:  (87/208): libcurl-7.76.1-31.el9.x86_64.rpm       23 MB/s | 283 kB     00:00    
+DEBUG util.py:463:  (88/208): curl-7.76.1-31.el9.x86_64.rpm          22 MB/s | 293 kB     00:00    
+DEBUG util.py:463:  (89/208): openldap-2.6.6-3.el9.x86_64.rpm        20 MB/s | 254 kB     00:00    
+DEBUG util.py:463:  (90/208): libssh-config-0.10.4-13.el9.noarch.rp 868 kB/s | 9.5 kB     00:00    
+DEBUG util.py:463:  (91/208): libssh-0.10.4-13.el9.x86_64.rpm        17 MB/s | 215 kB     00:00    
+DEBUG util.py:463:  (92/208): cracklib-2.9.6-27.el9.x86_64.rpm      6.5 MB/s |  81 kB     00:00    
+DEBUG util.py:463:  (93/208): cracklib-dicts-2.9.6-27.el9.x86_64.rp 119 MB/s | 3.6 MB     00:00    
+DEBUG util.py:463:  (94/208): ncurses-libs-6.2-10.20210508.el9.x86_  25 MB/s | 321 kB     00:00    
+DEBUG util.py:463:  (95/208): ncurses-6.2-10.20210508.el9.x86_64.rp  26 MB/s | 399 kB     00:00    
+DEBUG util.py:463:  (96/208): readline-8.1-4.el9.x86_64.rpm          17 MB/s | 210 kB     00:00    
+DEBUG util.py:463:  (97/208): krb5-libs-1.21.1-4.el9_5.x86_64.rpm    49 MB/s | 756 kB     00:00    
+DEBUG util.py:463:  (98/208): cyrus-sasl-lib-2.1.27-21.el9.x86_64.r  42 MB/s | 764 kB     00:00    
+DEBUG util.py:463:  (99/208): keyutils-libs-1.6.3-1.el9.x86_64.rpm  2.7 MB/s |  31 kB     00:00    
+DEBUG util.py:463:  (100/208): gawk-5.1.0-6.el9.x86_64.rpm           59 MB/s | 996 kB     00:00    
+DEBUG util.py:463:  (101/208): pam-1.5.1-22.el9_5.x86_64.rpm         38 MB/s | 548 kB     00:00    
+DEBUG util.py:463:  (102/208): tar-1.34-7.el9.x86_64.rpm             56 MB/s | 875 kB     00:00    
+DEBUG util.py:463:  (103/208): zstd-1.5.1-2.el9.x86_64.rpm           37 MB/s | 546 kB     00:00    
+DEBUG util.py:463:  (104/208): libzstd-1.5.1-2.el9.x86_64.rpm        26 MB/s | 330 kB     00:00    
+DEBUG util.py:463:  (105/208): zlib-1.2.11-40.el9.x86_64.rpm        8.0 MB/s |  90 kB     00:00    
+DEBUG util.py:463:  (106/208): libstdc++-11.5.0-5.el9_5.x86_64.rpm   48 MB/s | 731 kB     00:00    
+DEBUG util.py:463:  (107/208): libgomp-11.5.0-5.el9_5.x86_64.rpm     17 MB/s | 260 kB     00:00    
+DEBUG util.py:463:  (108/208): libgcc-11.5.0-5.el9_5.x86_64.rpm     7.5 MB/s |  84 kB     00:00    
+DEBUG util.py:463:  (109/208): glibc-minimal-langpack-2.34-125.el9_ 1.4 MB/s |  16 kB     00:00    
+DEBUG util.py:463:  (110/208): glibc-gconv-extra-2.34-125.el9_5.3.x  72 MB/s | 1.6 MB     00:00    
+DEBUG util.py:463:  (111/208): glibc-common-2.34-125.el9_5.3.x86_64  13 MB/s | 290 kB     00:00    
+DEBUG util.py:463:  (112/208): util-linux-core-2.37.4-20.el9.x86_64  27 MB/s | 437 kB     00:00    
+DEBUG util.py:463:  (113/208): glibc-2.34-125.el9_5.3.x86_64.rpm     82 MB/s | 1.9 MB     00:00    
+DEBUG util.py:463:  (114/208): libuuid-2.37.4-20.el9.x86_64.rpm     2.4 MB/s |  27 kB     00:00    
+DEBUG util.py:463:  (115/208): util-linux-2.37.4-20.el9.x86_64.rpm   93 MB/s | 2.2 MB     00:00    
+DEBUG util.py:463:  (116/208): libsmartcols-2.37.4-20.el9.x86_64.rp 5.7 MB/s |  62 kB     00:00    
+DEBUG util.py:463:  (117/208): libmount-2.37.4-20.el9.x86_64.rpm     11 MB/s | 134 kB     00:00    
+DEBUG util.py:463:  (118/208): libfdisk-2.37.4-20.el9.x86_64.rpm     13 MB/s | 153 kB     00:00    
+DEBUG util.py:463:  (119/208): libblkid-2.37.4-20.el9.x86_64.rpm    9.3 MB/s | 106 kB     00:00    
+DEBUG util.py:463:  (120/208): libeconf-0.4.1-4.el9.x86_64.rpm      2.5 MB/s |  26 kB     00:00    
+DEBUG util.py:463:  (121/208): rocky-repos-9.5-1.2.el9.noarch.rpm   1.2 MB/s |  13 kB     00:00    
+DEBUG util.py:463:  (122/208): rocky-release-9.5-1.2.el9.noarch.rpm 2.2 MB/s |  24 kB     00:00    
+DEBUG util.py:463:  (123/208): rocky-gpg-keys-9.5-1.2.el9.noarch.rp 1.2 MB/s |  13 kB     00:00    
+DEBUG util.py:463:  (124/208): perl-Text-ParseWords-3.30-460.el9.no  49 kB/s |  16 kB     00:00    
+DEBUG util.py:463:  (125/208): perl-Exporter-5.74-461.el9.noarch.rp  96 kB/s |  31 kB     00:00    
+DEBUG util.py:463:  (126/208): ghc-srpm-macros-1.5.0-6.el9.noarch.r  98 kB/s | 7.8 kB     00:00    
+DEBUG util.py:463:  (127/208): python-srpm-macros-3.9-54.el9.noarch 207 kB/s |  17 kB     00:00    
+DEBUG util.py:463:  (128/208): perl-Pod-Simple-3.42-4.el9.noarch.rp 914 kB/s | 215 kB     00:00    
+DEBUG util.py:463:  (129/208): rust-srpm-macros-17-4.el9.noarch.rpm 117 kB/s | 9.3 kB     00:00    
+DEBUG util.py:463:  (130/208): perl-File-Path-2.18-4.el9.noarch.rpm 440 kB/s |  35 kB     00:00    
+DEBUG util.py:463:  (131/208): perl-Pod-Perldoc-3.28.01-461.el9.noa 520 kB/s |  83 kB     00:00    
+DEBUG util.py:463:  (132/208): perl-Getopt-Long-2.52-4.el9.noarch.r 706 kB/s |  60 kB     00:00    
+DEBUG util.py:463:  (133/208): perl-Pod-Usage-2.01-4.el9.noarch.rpm 503 kB/s |  40 kB     00:00    
+DEBUG util.py:463:  (134/208): perl-IO-Socket-IP-0.41-5.el9.noarch. 527 kB/s |  42 kB     00:00    
+DEBUG util.py:463:  (135/208): perl-Time-Local-1.300-7.el9.noarch.r 417 kB/s |  33 kB     00:00    
+DEBUG util.py:463:  (136/208): perl-libnet-3.13-4.el9.noarch.rpm    1.5 MB/s | 125 kB     00:00    
+DEBUG util.py:463:  (137/208): efi-srpm-macros-6-2.el9_0.noarch.rpm 271 kB/s |  22 kB     00:00    
+DEBUG util.py:463:  (138/208): fonts-srpm-macros-2.0.5-7.el9.1.noar 341 kB/s |  27 kB     00:00    
+DEBUG util.py:463:  (139/208): go-srpm-macros-3.6.0-3.el9.noarch.rp 327 kB/s |  26 kB     00:00    
+DEBUG util.py:463:  (140/208): debugedit-5.0-5.el9.x86_64.rpm       954 kB/s |  76 kB     00:00    
+DEBUG util.py:463:  (141/208): libacl-2.3.1-4.el9.x86_64.rpm         10 kB/s |  22 kB     00:02    
+DEBUG util.py:463:  (142/208): kernel-srpm-macros-1.0-13.el9.noarch 192 kB/s |  15 kB     00:00    
+DEBUG util.py:463:  (143/208): lua-srpm-macros-1-6.el9.noarch.rpm   108 kB/s | 8.5 kB     00:00    
+DEBUG util.py:463:  (144/208): perl-Carp-1.50-460.el9.noarch.rpm    360 kB/s |  29 kB     00:00    
+DEBUG util.py:463:  (145/208): perl-podlators-4.14-460.el9.noarch.r 1.4 MB/s | 112 kB     00:00    
+DEBUG util.py:463:  (146/208): perl-Term-Cap-1.17-460.el9.noarch.rp 272 kB/s |  22 kB     00:00    
+DEBUG util.py:463:  (147/208): perl-Term-ANSIColor-5.01-461.el9.noa 602 kB/s |  48 kB     00:00    
+DEBUG util.py:463:  (148/208): openblas-srpm-macros-2-11.el9.noarch  30 kB/s | 7.3 kB     00:00    
+DEBUG util.py:463:  (149/208): perl-Digest-1.19-4.el9.noarch.rpm    321 kB/s |  25 kB     00:00    
+DEBUG util.py:463:  (150/208): perl-HTTP-Tiny-0.076-462.el9.noarch. 661 kB/s |  53 kB     00:00    
+DEBUG util.py:463:  (151/208): perl-constant-1.33-461.el9.noarch.rp 285 kB/s |  23 kB     00:00    
+DEBUG util.py:463:  (152/208): redhat-rpm-config-208-1.el9.noarch.r 816 kB/s |  66 kB     00:00    
+DEBUG util.py:463:  (153/208): perl-URI-5.09-3.el9.noarch.rpm       455 kB/s | 108 kB     00:00    
+DEBUG util.py:463:  (154/208): perl-Encode-3.08-462.el9.x86_64.rpm  6.9 MB/s | 1.7 MB     00:00    
+DEBUG util.py:463:  (155/208): perl-Data-Dumper-2.174-462.el9.x86_6 645 kB/s |  55 kB     00:00    
+DEBUG util.py:463:  (156/208): perl-srpm-macros-1-41.el9.noarch.rpm 103 kB/s | 8.2 kB     00:00    
+DEBUG util.py:463:  (157/208): perl-Scalar-List-Utils-1.56-462.el9. 878 kB/s |  70 kB     00:00    
+DEBUG util.py:463:  (158/208): rpm-build-4.16.1.3-34.el9.0.1.x86_64 735 kB/s |  59 kB     00:00    
+DEBUG util.py:463:  (159/208): perl-Storable-3.21-460.el9.x86_64.rp 1.2 MB/s |  95 kB     00:00    
+DEBUG util.py:463:  (160/208): perl-PathTools-3.78-461.el9.x86_64.r 1.0 MB/s |  85 kB     00:00    
+DEBUG util.py:463:  (161/208): perl-IO-Socket-SSL-2.073-2.el9.noarc 1.3 MB/s | 214 kB     00:00    
+DEBUG util.py:463:  (162/208): perl-Mozilla-CA-20200520-6.el9.noarc 153 kB/s |  12 kB     00:00    
+DEBUG util.py:463:  (163/208): perl-Text-Tabs+Wrap-2013.0523-460.el 286 kB/s |  23 kB     00:00    
+DEBUG util.py:463:  (164/208): perl-Digest-MD5-2.58-4.el9.x86_64.rp 449 kB/s |  36 kB     00:00    
+DEBUG util.py:463:  (165/208): patch-2.7.6-16.el9.x86_64.rpm        1.6 MB/s | 127 kB     00:00    
+DEBUG util.py:463:  (166/208): perl-Pod-Escapes-1.07-460.el9.noarch 248 kB/s |  20 kB     00:00    
+DEBUG util.py:463:  (167/208): perl-MIME-Base64-3.16-4.el9.x86_64.r 380 kB/s |  30 kB     00:00    
+DEBUG util.py:463:  (168/208): ocaml-srpm-macros-6-6.el9.noarch.rpm  99 kB/s | 7.8 kB     00:00    
+DEBUG util.py:463:  (169/208): perl-File-Temp-0.231.100-4.el9.noarc 743 kB/s |  59 kB     00:00    
+DEBUG util.py:463:  (170/208): dwz-0.14-3.el9.x86_64.rpm            1.5 MB/s | 127 kB     00:00    
+DEBUG util.py:463:  (171/208): perl-Socket-2.031-4.el9.x86_64.rpm   687 kB/s |  54 kB     00:00    
+DEBUG util.py:463:  (172/208): perl-mro-1.23-481.el9.x86_64.rpm     339 kB/s |  27 kB     00:00    
+DEBUG util.py:463:  (173/208): perl-interpreter-5.32.1-481.el9.x86_ 873 kB/s |  70 kB     00:00    
+DEBUG util.py:463:  (174/208): perl-POSIX-1.94-481.el9.x86_64.rpm   1.2 MB/s |  95 kB     00:00    
+DEBUG util.py:463:  (175/208): perl-IO-1.43-481.el9.x86_64.rpm      1.0 MB/s |  85 kB     00:00    
+DEBUG util.py:463:  (176/208): perl-Fcntl-1.13-481.el9.x86_64.rpm   240 kB/s |  19 kB     00:00    
+DEBUG util.py:463:  (177/208): perl-libs-5.32.1-481.el9.x86_64.rpm  8.3 MB/s | 2.0 MB     00:00    
+DEBUG util.py:463:  (178/208): perl-Errno-1.30-481.el9.x86_64.rpm   170 kB/s |  13 kB     00:00    
+DEBUG util.py:463:  (179/208): perl-B-1.80-481.el9.x86_64.rpm       2.1 MB/s | 178 kB     00:00    
+DEBUG util.py:463:  (180/208): perl-vars-1.05-481.el9.noarch.rpm    146 kB/s |  12 kB     00:00    
+DEBUG util.py:463:  (181/208): perl-subs-1.03-481.el9.noarch.rpm    130 kB/s |  10 kB     00:00    
+DEBUG util.py:463:  (182/208): perl-overloading-0.02-481.el9.noarch 144 kB/s |  11 kB     00:00    
+DEBUG util.py:463:  (183/208): perl-overload-1.31-481.el9.noarch.rp 554 kB/s |  44 kB     00:00    
+DEBUG util.py:463:  (184/208): perl-if-0.60.800-481.el9.noarch.rpm  160 kB/s |  13 kB     00:00    
+DEBUG util.py:463:  (185/208): perl-base-2.27-481.el9.noarch.rpm    187 kB/s |  15 kB     00:00    
+DEBUG util.py:463:  (186/208): perl-Symbol-1.08-481.el9.noarch.rpm  161 kB/s |  13 kB     00:00    
+DEBUG util.py:463:  (187/208): perl-SelectSaver-1.02-481.el9.noarch 130 kB/s |  10 kB     00:00    
+DEBUG util.py:463:  (188/208): perl-IPC-Open3-1.21-481.el9.noarch.r 271 kB/s |  21 kB     00:00    
+DEBUG util.py:463:  (189/208): perl-Getopt-Std-1.12-481.el9.noarch. 180 kB/s |  14 kB     00:00    
+DEBUG util.py:463:  (190/208): perl-FileHandle-2.03-481.el9.noarch. 179 kB/s |  14 kB     00:00    
+DEBUG util.py:463:  (191/208): perl-File-stat-1.09-481.el9.noarch.r 199 kB/s |  16 kB     00:00    
+DEBUG util.py:463:  (192/208): perl-File-Basename-2.85-481.el9.noar 200 kB/s |  16 kB     00:00    
+DEBUG util.py:463:  (193/208): perl-Class-Struct-0.66-481.el9.noarc 262 kB/s |  21 kB     00:00    
+DEBUG util.py:463:  (194/208): perl-AutoLoader-5.74-481.el9.noarch. 250 kB/s |  20 kB     00:00    
+DEBUG util.py:463:  (195/208): perl-Net-SSLeay-1.94-1.el9.x86_64.rp 4.5 MB/s | 391 kB     00:00    
+DEBUG util.py:463:  (196/208): perl-parent-0.238-460.el9.noarch.rpm 174 kB/s |  14 kB     00:00    
+DEBUG util.py:463:  (197/208): qt5-srpm-macros-5.15.9-1.el9.noarch. 100 kB/s | 7.9 kB     00:00    
+DEBUG util.py:463:  (198/208): pyproject-srpm-macros-1.12.0-1.el9.n 158 kB/s |  13 kB     00:00    
+DEBUG util.py:463:  (199/208): gdb-minimal-14.2-3.el9.x86_64.rpm     13 MB/s | 4.2 MB     00:00    
+DEBUG util.py:463:  (200/208): epel-rpm-macros-9-15.el9.noarch.rpm   72 kB/s |  15 kB     00:00    
+DEBUG util.py:463:  (201/208): ansible-srpm-macros-1-16.el9.noarch.  94 kB/s |  21 kB     00:00    
+DEBUG util.py:463:  (202/208): fpc-srpm-macros-1.3-7.el9.noarch.rpm  96 kB/s | 7.5 kB     00:00    
+DEBUG util.py:463:  (203/208): ghc-srpm-macros-epel-1.9.1-1.el9.noa  97 kB/s | 7.5 kB     00:00    
+DEBUG util.py:463:  (204/208): qt6-srpm-macros-6.6.2-1.el9.noarch.r 105 kB/s | 8.7 kB     00:00    
+DEBUG util.py:463:  (205/208): forge-srpm-macros-0.4.0-1.el9.noarch  90 kB/s |  19 kB     00:00    
+DEBUG util.py:463:  (206/208): go-srpm-macros-epel-3.6.0.1-1.el9.no 234 kB/s |  26 kB     00:00    
+DEBUG util.py:463:  (207/208): rpmautospec-rpm-macros-0.7.3-1.el9.n 123 kB/s |  10 kB     00:00    
+DEBUG util.py:463:  (208/208): rust-srpm-macros-epel-26.3-1.el9.noa 126 kB/s |  10 kB     00:00    
+DEBUG util.py:463:  --------------------------------------------------------------------------------
+DEBUG util.py:463:  Total                                            14 MB/s |  63 MB     00:04     
+DEBUG util.py:463:  Rocky Linux 9 - BaseOS                          1.7 MB/s | 1.7 kB     00:00    
+DEBUG util.py:461:  Importing GPG key 0x350D275D:
+DEBUG util.py:461:   Userid     : "Rocky Enterprise Software Foundation - Release key 2022 <releng@rockylinux.org>"
+DEBUG util.py:461:   Fingerprint: 21CB 256A E16F C54C 6E65 2949 702D 426D 350D 275D
+DEBUG util.py:461:   From       : /usr/share/distribution-gpg-keys/rocky/RPM-GPG-KEY-Rocky-9
+DEBUG util.py:463:  Key imported successfully
+DEBUG util.py:463:  Extra Packages for Enterprise Linux 9 - x86_64  1.6 MB/s | 1.6 kB     00:00    
+DEBUG util.py:461:  Importing GPG key 0x3228467C:
+DEBUG util.py:461:   Userid     : "Fedora (epel9) <epel@fedoraproject.org>"
+DEBUG util.py:461:   Fingerprint: FF8A D134 4597 106E CE81 3B91 8A38 72BF 3228 467C
+DEBUG util.py:461:   From       : /usr/share/distribution-gpg-keys/epel/RPM-GPG-KEY-EPEL-9
+DEBUG util.py:463:  Key imported successfully
+DEBUG util.py:463:  Running transaction check
+DEBUG util.py:463:  Transaction check succeeded.
+DEBUG util.py:463:  Running transaction test
+DEBUG util.py:463:  Transaction test succeeded.
+DEBUG util.py:463:  Running transaction
+DEBUG util.py:463:    Running scriptlet: filesystem-3.16-5.el9.x86_64                           1/1 
+DEBUG util.py:463:    Preparing        :                                                        1/1 
+DEBUG util.py:463:    Installing       : libgcc-11.5.0-5.el9_5.x86_64                         1/208 
+DEBUG util.py:463:    Running scriptlet: libgcc-11.5.0-5.el9_5.x86_64                         1/208 
+DEBUG util.py:463:    Installing       : rust-srpm-macros-17-4.el9.noarch                     2/208 
+DEBUG util.py:463:    Installing       : rust-srpm-macros-epel-26.3-1.el9.noarch              3/208 
+DEBUG util.py:463:    Installing       : qt6-srpm-macros-6.6.2-1.el9.noarch                   4/208 
+DEBUG util.py:463:    Installing       : ghc-srpm-macros-epel-1.9.1-1.el9.noarch              5/208 
+DEBUG util.py:463:    Installing       : fpc-srpm-macros-1.3-7.el9.noarch                     6/208 
+DEBUG util.py:463:    Installing       : ansible-srpm-macros-1-16.el9.noarch                  7/208 
+DEBUG util.py:463:    Installing       : qt5-srpm-macros-5.15.9-1.el9.noarch                  8/208 
+DEBUG util.py:463:    Installing       : ocaml-srpm-macros-6-6.el9.noarch                     9/208 
+DEBUG util.py:463:    Installing       : perl-srpm-macros-1-41.el9.noarch                    10/208 
+DEBUG util.py:463:    Installing       : openblas-srpm-macros-2-11.el9.noarch                11/208 
+DEBUG util.py:463:    Installing       : ghc-srpm-macros-1.5.0-6.el9.noarch                  12/208 
+DEBUG util.py:463:    Installing       : rocky-gpg-keys-9.5-1.2.el9.noarch                   13/208 
+DEBUG util.py:463:    Installing       : rocky-release-9.5-1.2.el9.noarch                    14/208 
+DEBUG util.py:463:    Installing       : rocky-repos-9.5-1.2.el9.noarch                      15/208 
+DEBUG util.py:463:    Installing       : setup-2.13.7-10.el9.noarch                          16/208 
+DEBUG util.py:463:  warning: /etc/hosts created as /etc/hosts.rpmnew
+DEBUG util.py:463:    Running scriptlet: setup-2.13.7-10.el9.noarch                          16/208 
+DEBUG util.py:463:    Installing       : filesystem-3.16-5.el9.x86_64                        17/208 
+DEBUG util.py:463:    Installing       : basesystem-11-13.el9.0.1.noarch                     18/208 
+DEBUG util.py:463:    Installing       : libssh-config-0.10.4-13.el9.noarch                  19/208 
+DEBUG util.py:463:    Installing       : ncurses-base-6.2-10.20210508.el9.noarch             20/208 
+DEBUG util.py:463:    Installing       : coreutils-common-8.32-36.el9.x86_64                 21/208 
+DEBUG util.py:463:    Installing       : pkgconf-m4-1.7.3-10.el9.noarch                      22/208 
+DEBUG util.py:463:    Installing       : tzdata-2025a-1.el9.noarch                           23/208 
+DEBUG util.py:463:    Installing       : bash-5.1.8-9.el9.x86_64                             24/208 
+DEBUG util.py:463:    Running scriptlet: bash-5.1.8-9.el9.x86_64                             24/208 
+DEBUG util.py:463:    Installing       : ncurses-libs-6.2-10.20210508.el9.x86_64             25/208 
+DEBUG util.py:463:    Installing       : glibc-minimal-langpack-2.34-125.el9_5.3.x86_64      26/208 
+DEBUG util.py:463:    Installing       : glibc-gconv-extra-2.34-125.el9_5.3.x86_64           27/208 
+DEBUG util.py:463:    Running scriptlet: glibc-gconv-extra-2.34-125.el9_5.3.x86_64           27/208 
+DEBUG util.py:463:    Installing       : glibc-common-2.34-125.el9_5.3.x86_64                28/208 
+DEBUG util.py:463:    Running scriptlet: glibc-2.34-125.el9_5.3.x86_64                       29/208 
+DEBUG util.py:463:    Installing       : glibc-2.34-125.el9_5.3.x86_64                       29/208 
+DEBUG util.py:463:    Running scriptlet: glibc-2.34-125.el9_5.3.x86_64                       29/208 
+DEBUG util.py:463:    Installing       : zlib-1.2.11-40.el9.x86_64                           30/208 
+DEBUG util.py:463:    Installing       : xz-libs-5.2.5-8.el9_0.x86_64                        31/208 
+DEBUG util.py:463:    Installing       : bzip2-libs-1.0.8-10.el9_5.x86_64                    32/208 
+DEBUG util.py:463:    Installing       : libzstd-1.5.1-2.el9.x86_64                          33/208 
+DEBUG util.py:463:    Installing       : elfutils-libelf-0.191-4.el9.x86_64                  34/208 
+DEBUG util.py:463:    Installing       : libxcrypt-4.4.18-3.el9.x86_64                       35/208 
+DEBUG util.py:463:    Installing       : libstdc++-11.5.0-5.el9_5.x86_64                     36/208 
+DEBUG util.py:463:    Installing       : libuuid-2.37.4-20.el9.x86_64                        37/208 
+DEBUG util.py:463:    Installing       : popt-1.18-8.el9.x86_64                              38/208 
+DEBUG util.py:463:    Installing       : libattr-2.5.1-3.el9.x86_64                          39/208 
+DEBUG util.py:463:    Installing       : libacl-2.3.1-4.el9.x86_64                           40/208 
+DEBUG util.py:463:    Installing       : gmp-1:6.2.0-13.el9.x86_64                           41/208 
+DEBUG util.py:463:    Installing       : libcap-2.48-9.el9_2.x86_64                          42/208 
+DEBUG util.py:463:    Installing       : lz4-libs-1.9.3-5.el9.x86_64                         43/208 
+DEBUG util.py:463:    Installing       : libcom_err-1.46.5-5.el9.x86_64                      44/208 
+DEBUG util.py:463:    Installing       : readline-8.1-4.el9.x86_64                           45/208 
+DEBUG util.py:463:    Installing       : crypto-policies-20240828-2.git626aa59.el9_5.noar    46/208 
+DEBUG util.py:463:    Running scriptlet: crypto-policies-20240828-2.git626aa59.el9_5.noar    46/208 
+DEBUG util.py:463:    Installing       : mpfr-4.1.0-7.el9.x86_64                             47/208 
+DEBUG util.py:463:    Installing       : dwz-0.14-3.el9.x86_64                               48/208 
+DEBUG util.py:463:    Installing       : unzip-6.0-57.el9.x86_64                             49/208 
+DEBUG util.py:463:    Installing       : file-libs-5.39-16.el9.x86_64                        50/208 
+DEBUG util.py:463:    Installing       : file-5.39-16.el9.x86_64                             51/208 
+DEBUG util.py:463:    Installing       : sqlite-libs-3.34.1-7.el9_3.x86_64                   52/208 
+DEBUG util.py:463:    Installing       : alternatives-1.24-1.el9_5.1.x86_64                  53/208 
+DEBUG util.py:463:    Installing       : lua-libs-5.4.4-4.el9.x86_64                         54/208 
+DEBUG util.py:463:    Installing       : libcap-ng-0.8.2-7.el9.x86_64                        55/208 
+DEBUG util.py:463:    Installing       : audit-libs-3.1.5-1.el9.x86_64                       56/208 
+DEBUG util.py:463:    Installing       : libsigsegv-2.13-4.el9.x86_64                        57/208 
+DEBUG util.py:463:    Installing       : gawk-5.1.0-6.el9.x86_64                             58/208 
+DEBUG util.py:463:    Installing       : libunistring-0.9.10-15.el9.x86_64                   59/208 
+DEBUG util.py:463:    Installing       : libidn2-2.3.0-7.el9.x86_64                          60/208 
+DEBUG util.py:463:    Installing       : libsepol-3.6-1.el9.x86_64                           61/208 
+DEBUG util.py:463:    Installing       : libtasn1-4.16.0-8.el9_1.x86_64                      62/208 
+DEBUG util.py:463:    Installing       : libsmartcols-2.37.4-20.el9.x86_64                   63/208 
+DEBUG util.py:463:    Installing       : zip-3.0-35.el9.x86_64                               64/208 
+DEBUG util.py:463:    Installing       : zstd-1.5.1-2.el9.x86_64                             65/208 
+DEBUG util.py:463:    Running scriptlet: groff-base-1.22.4-10.el9.x86_64                     66/208 
+DEBUG util.py:463:    Installing       : groff-base-1.22.4-10.el9.x86_64                     66/208 
+DEBUG util.py:463:    Running scriptlet: groff-base-1.22.4-10.el9.x86_64                     66/208 
+DEBUG util.py:463:    Installing       : bzip2-1.0.8-10.el9_5.x86_64                         67/208 
+DEBUG util.py:463:    Installing       : libxml2-2.9.13-6.el9_5.2.x86_64                     68/208 
+DEBUG util.py:463:    Installing       : info-6.7-15.el9.x86_64                              69/208 
+DEBUG util.py:463:    Installing       : ed-1.14.2-12.el9.x86_64                             70/208 
+DEBUG util.py:463:    Installing       : libbrotli-1.0.9-7.el9_5.x86_64                      71/208 
+DEBUG util.py:463:    Installing       : libverto-0.3.2-3.el9.x86_64                         72/208 
+DEBUG util.py:463:    Installing       : libdb-5.3.28-54.el9.x86_64                          73/208 
+DEBUG util.py:463:    Installing       : cpio-2.13-16.el9.x86_64                             74/208 
+DEBUG util.py:463:    Installing       : libnghttp2-1.43.0-6.el9.x86_64                      75/208 
+DEBUG util.py:463:    Installing       : libpkgconf-1.7.3-10.el9.x86_64                      76/208 
+DEBUG util.py:463:    Installing       : pkgconf-1.7.3-10.el9.x86_64                         77/208 
+DEBUG util.py:463:    Installing       : pkgconf-pkg-config-1.7.3-10.el9.x86_64              78/208 
+DEBUG util.py:463:    Installing       : gdbm-libs-1:1.23-1.el9.x86_64                       79/208 
+DEBUG util.py:463:    Installing       : diffutils-3.7-12.el9.x86_64                         80/208 
+DEBUG util.py:463:    Installing       : libffi-3.4.2-8.el9.x86_64                           81/208 
+DEBUG util.py:463:    Installing       : p11-kit-0.25.3-3.el9_5.x86_64                       82/208 
+DEBUG util.py:463:    Installing       : p11-kit-trust-0.25.3-3.el9_5.x86_64                 83/208 
+DEBUG util.py:463:    Running scriptlet: p11-kit-trust-0.25.3-3.el9_5.x86_64                 83/208 
+DEBUG util.py:463:    Installing       : libgpg-error-1.42-5.el9.x86_64                      84/208 
+DEBUG util.py:463:    Installing       : libgcrypt-1.10.0-11.el9.x86_64                      85/208 
+DEBUG util.py:463:    Installing       : pcre-8.44-4.el9.x86_64                              86/208 
+DEBUG util.py:463:    Installing       : grep-3.6-5.el9.x86_64                               87/208 
+DEBUG util.py:463:    Installing       : xz-5.2.5-8.el9_0.x86_64                             88/208 
+DEBUG util.py:463:    Installing       : ncurses-6.2-10.20210508.el9.x86_64                  89/208 
+DEBUG util.py:463:    Installing       : keyutils-libs-1.6.3-1.el9.x86_64                    90/208 
+DEBUG util.py:463:    Installing       : libgomp-11.5.0-5.el9_5.x86_64                       91/208 
+DEBUG util.py:463:    Installing       : libeconf-0.4.1-4.el9.x86_64                         92/208 
+DEBUG util.py:463:    Installing       : elfutils-default-yama-scope-0.191-4.el9.noarch      93/208 
+DEBUG util.py:463:    Running scriptlet: elfutils-default-yama-scope-0.191-4.el9.noarch      93/208 
+DEBUG util.py:463:    Installing       : elfutils-libs-0.191-4.el9.x86_64                    94/208 
+DEBUG util.py:463:    Installing       : pcre2-syntax-10.40-6.el9.noarch                     95/208 
+DEBUG util.py:463:    Installing       : pcre2-10.40-6.el9.x86_64                            96/208 
+DEBUG util.py:463:    Installing       : libselinux-3.6-1.el9.x86_64                         97/208 
+DEBUG util.py:463:    Installing       : sed-4.8-9.el9.x86_64                                98/208 
+DEBUG util.py:463:    Installing       : findutils-1:4.8.0-7.el9.x86_64                      99/208 
+DEBUG util.py:463:    Installing       : openssl-libs-1:3.2.2-6.el9_5.1.x86_64              100/208 
+DEBUG util.py:463:    Installing       : coreutils-8.32-36.el9.x86_64                       101/208 
+DEBUG util.py:463:    Running scriptlet: ca-certificates-2024.2.69_v8.0.303-91.4.el9_4.no   102/208 
+DEBUG util.py:463:    Installing       : ca-certificates-2024.2.69_v8.0.303-91.4.el9_4.no   102/208 
+DEBUG util.py:463:    Running scriptlet: ca-certificates-2024.2.69_v8.0.303-91.4.el9_4.no   102/208 
+DEBUG util.py:463:    Installing       : libblkid-2.37.4-20.el9.x86_64                      103/208 
+DEBUG util.py:463:    Running scriptlet: libblkid-2.37.4-20.el9.x86_64                      103/208 
+DEBUG util.py:463:    Installing       : krb5-libs-1.21.1-4.el9_5.x86_64                    104/208 
+DEBUG util.py:463:    Installing       : libmount-2.37.4-20.el9.x86_64                      105/208 
+DEBUG util.py:463:    Installing       : gzip-1.12-1.el9.x86_64                             106/208 
+DEBUG util.py:463:    Installing       : cracklib-2.9.6-27.el9.x86_64                       107/208 
+DEBUG util.py:463:    Installing       : systemd-libs-252-46.el9_5.2.0.1.x86_64             108/208 
+DEBUG util.py:463:    Running scriptlet: systemd-libs-252-46.el9_5.2.0.1.x86_64             108/208 
+DEBUG util.py:463:    Installing       : libarchive-3.5.3-4.el9.0.1.x86_64                  109/208 
+DEBUG util.py:463:    Installing       : util-linux-core-2.37.4-20.el9.x86_64               110/208 
+DEBUG util.py:463:    Running scriptlet: util-linux-core-2.37.4-20.el9.x86_64               110/208 
+DEBUG util.py:463:    Installing       : cracklib-dicts-2.9.6-27.el9.x86_64                 111/208 
+DEBUG util.py:463:    Installing       : libssh-0.10.4-13.el9.x86_64                        112/208 
+DEBUG util.py:463:    Installing       : cyrus-sasl-lib-2.1.27-21.el9.x86_64                113/208 
+DEBUG util.py:463:    Installing       : libfdisk-2.37.4-20.el9.x86_64                      114/208 
+DEBUG util.py:463:    Installing       : perl-Digest-1.19-4.el9.noarch                      115/208 
+DEBUG util.py:463:    Installing       : perl-Digest-MD5-2.58-4.el9.x86_64                  116/208 
+DEBUG util.py:463:    Installing       : perl-B-1.80-481.el9.x86_64                         117/208 
+DEBUG util.py:463:    Installing       : perl-FileHandle-2.03-481.el9.noarch                118/208 
+DEBUG util.py:463:    Installing       : perl-Data-Dumper-2.174-462.el9.x86_64              119/208 
+DEBUG util.py:463:    Installing       : perl-libnet-3.13-4.el9.noarch                      120/208 
+DEBUG util.py:463:    Installing       : perl-base-2.27-481.el9.noarch                      121/208 
+DEBUG util.py:463:    Installing       : perl-AutoLoader-5.74-481.el9.noarch                122/208 
+DEBUG util.py:463:    Installing       : perl-URI-5.09-3.el9.noarch                         123/208 
+DEBUG util.py:463:    Installing       : perl-Mozilla-CA-20200520-6.el9.noarch              124/208 
+DEBUG util.py:463:    Installing       : perl-Text-Tabs+Wrap-2013.0523-460.el9.noarch       125/208 
+DEBUG util.py:463:    Installing       : perl-Pod-Escapes-1:1.07-460.el9.noarch             126/208 
+DEBUG util.py:463:    Installing       : perl-if-0.60.800-481.el9.noarch                    127/208 
+DEBUG util.py:463:    Installing       : perl-File-Path-2.18-4.el9.noarch                   128/208 
+DEBUG util.py:463:    Installing       : perl-IO-Socket-IP-0.41-5.el9.noarch                129/208 
+DEBUG util.py:463:    Installing       : perl-Time-Local-2:1.300-7.el9.noarch               130/208 
+DEBUG util.py:463:    Installing       : perl-IO-Socket-SSL-2.073-2.el9.noarch              131/208 
+DEBUG util.py:463:    Installing       : perl-Net-SSLeay-1.94-1.el9.x86_64                  132/208 
+DEBUG util.py:463:    Installing       : perl-Term-ANSIColor-5.01-461.el9.noarch            133/208 
+DEBUG util.py:463:    Installing       : perl-POSIX-1.94-481.el9.x86_64                     134/208 
+DEBUG util.py:463:    Installing       : perl-Term-Cap-1.17-460.el9.noarch                  135/208 
+DEBUG util.py:463:    Installing       : perl-subs-1.03-481.el9.noarch                      136/208 
+DEBUG util.py:463:    Installing       : perl-Pod-Simple-1:3.42-4.el9.noarch                137/208 
+DEBUG util.py:463:    Installing       : perl-IPC-Open3-1.21-481.el9.noarch                 138/208 
+DEBUG util.py:463:    Installing       : perl-Class-Struct-0.66-481.el9.noarch              139/208 
+DEBUG util.py:463:    Installing       : perl-File-Temp-1:0.231.100-4.el9.noarch            140/208 
+DEBUG util.py:463:    Installing       : perl-HTTP-Tiny-0.076-462.el9.noarch                141/208 
+DEBUG util.py:463:    Installing       : perl-Socket-4:2.031-4.el9.x86_64                   142/208 
+DEBUG util.py:463:    Installing       : perl-Symbol-1.08-481.el9.noarch                    143/208 
+DEBUG util.py:463:    Installing       : perl-SelectSaver-1.02-481.el9.noarch               144/208 
+DEBUG util.py:463:    Installing       : perl-File-stat-1.09-481.el9.noarch                 145/208 
+DEBUG util.py:463:    Installing       : perl-podlators-1:4.14-460.el9.noarch               146/208 
+DEBUG util.py:463:    Installing       : perl-Pod-Perldoc-3.28.01-461.el9.noarch            147/208 
+DEBUG util.py:463:    Installing       : perl-Text-ParseWords-3.30-460.el9.noarch           148/208 
+DEBUG util.py:463:    Installing       : perl-mro-1.23-481.el9.x86_64                       149/208 
+DEBUG util.py:463:    Installing       : perl-Fcntl-1.13-481.el9.x86_64                     150/208 
+DEBUG util.py:463:    Installing       : perl-overloading-0.02-481.el9.noarch               151/208 
+DEBUG util.py:463:    Installing       : perl-IO-1.43-481.el9.x86_64                        152/208 
+DEBUG util.py:463:    Installing       : perl-Pod-Usage-4:2.01-4.el9.noarch                 153/208 
+DEBUG util.py:463:    Installing       : perl-constant-1.33-461.el9.noarch                  154/208 
+DEBUG util.py:463:    Installing       : perl-Scalar-List-Utils-4:1.56-462.el9.x86_64       155/208 
+DEBUG util.py:463:    Installing       : perl-MIME-Base64-3.16-4.el9.x86_64                 156/208 
+DEBUG util.py:463:    Installing       : perl-Errno-1.30-481.el9.x86_64                     157/208 
+DEBUG util.py:463:    Installing       : perl-vars-1.05-481.el9.noarch                      158/208 
+DEBUG util.py:463:    Installing       : perl-overload-1.31-481.el9.noarch                  159/208 
+DEBUG util.py:463:    Installing       : perl-Getopt-Std-1.12-481.el9.noarch                160/208 
+DEBUG util.py:463:    Installing       : perl-File-Basename-2.85-481.el9.noarch             161/208 
+DEBUG util.py:463:    Installing       : perl-Storable-1:3.21-460.el9.x86_64                162/208 
+DEBUG util.py:463:    Installing       : perl-parent-1:0.238-460.el9.noarch                 163/208 
+DEBUG util.py:463:    Installing       : perl-Getopt-Long-1:2.52-4.el9.noarch               164/208 
+DEBUG util.py:463:    Installing       : perl-Exporter-5.74-461.el9.noarch                  165/208 
+DEBUG util.py:463:    Installing       : perl-Carp-1.50-460.el9.noarch                      166/208 
+DEBUG util.py:463:    Installing       : perl-PathTools-3.78-461.el9.x86_64                 167/208 
+DEBUG util.py:463:    Installing       : perl-Encode-4:3.08-462.el9.x86_64                  168/208 
+DEBUG util.py:463:    Installing       : perl-libs-4:5.32.1-481.el9.x86_64                  169/208 
+DEBUG util.py:463:    Installing       : perl-interpreter-4:5.32.1-481.el9.x86_64           170/208 
+DEBUG util.py:463:    Installing       : kernel-srpm-macros-1.0-13.el9.noarch               171/208 
+DEBUG util.py:463:    Installing       : openssl-1:3.2.2-6.el9_5.1.x86_64                   172/208 
+DEBUG util.py:463:    Installing       : libpwquality-1.4.4-8.el9.x86_64                    173/208 
+DEBUG util.py:463:    Installing       : pam-1.5.1-22.el9_5.x86_64                          174/208 
+DEBUG util.py:463:    Installing       : libevent-2.1.12-8.el9_4.x86_64                     175/208 
+DEBUG util.py:463:    Installing       : libsemanage-3.6-2.1.el9_5.x86_64                   176/208 
+DEBUG util.py:463:    Installing       : shadow-utils-2:4.9-10.el9_5.x86_64                 177/208 
+DEBUG util.py:463:    Running scriptlet: libutempter-1.2.1-6.el9.x86_64                     178/208 
+DEBUG util.py:463:    Installing       : libutempter-1.2.1-6.el9.x86_64                     178/208 
+DEBUG util.py:463:    Installing       : openldap-2.6.6-3.el9.x86_64                        179/208 
+DEBUG util.py:463:    Installing       : tar-2:1.34-7.el9.x86_64                            180/208 
+DEBUG util.py:463:    Installing       : patch-2.7.6-16.el9.x86_64                          181/208 
+DEBUG util.py:463:    Installing       : publicsuffix-list-dafsa-20210518-3.el9.noarch      182/208 
+DEBUG util.py:463:    Installing       : libpsl-0.21.1-5.el9.x86_64                         183/208 
+DEBUG util.py:463:    Installing       : libcurl-7.76.1-31.el9.x86_64                       184/208 
+DEBUG util.py:463:    Installing       : elfutils-debuginfod-client-0.191-4.el9.x86_64      185/208 
+DEBUG util.py:463:    Installing       : binutils-gold-2.35.2-54.el9.x86_64                 186/208 
+DEBUG util.py:463:    Installing       : binutils-2.35.2-54.el9.x86_64                      187/208 
+DEBUG util.py:463:    Running scriptlet: binutils-2.35.2-54.el9.x86_64                      187/208 
+DEBUG util.py:463:    Installing       : elfutils-0.191-4.el9.x86_64                        188/208 
+DEBUG util.py:463:    Installing       : gdb-minimal-14.2-3.el9.x86_64                      189/208 
+DEBUG util.py:463:    Installing       : debugedit-5.0-5.el9.x86_64                         190/208 
+DEBUG util.py:463:    Installing       : curl-7.76.1-31.el9.x86_64                          191/208 
+DEBUG util.py:463:    Installing       : rpm-libs-4.16.1.3-34.el9.0.1.x86_64                192/208 
+DEBUG util.py:463:    Installing       : rpm-4.16.1.3-34.el9.0.1.x86_64                     193/208 
+DEBUG util.py:463:    Installing       : efi-srpm-macros-6-2.el9_0.noarch                   194/208 
+DEBUG util.py:463:    Installing       : lua-srpm-macros-1-6.el9.noarch                     195/208 
+DEBUG util.py:463:    Installing       : rpmautospec-rpm-macros-0.7.3-1.el9.noarch          196/208 
+DEBUG util.py:463:    Installing       : rpm-build-libs-4.16.1.3-34.el9.0.1.x86_64          197/208 
+DEBUG util.py:463:    Installing       : python-srpm-macros-3.9-54.el9.noarch               198/208 
+DEBUG util.py:463:    Installing       : fonts-srpm-macros-1:2.0.5-7.el9.1.noarch           199/208 
+DEBUG util.py:463:    Installing       : go-srpm-macros-3.6.0-3.el9.noarch                  200/208 
+DEBUG util.py:463:    Installing       : redhat-rpm-config-208-1.el9.noarch                 201/208 
+DEBUG util.py:463:    Installing       : rpm-build-4.16.1.3-34.el9.0.1.x86_64               202/208 
+DEBUG util.py:463:    Installing       : pyproject-srpm-macros-1.12.0-1.el9.noarch          203/208 
+DEBUG util.py:463:    Installing       : forge-srpm-macros-0.4.0-1.el9.noarch               204/208 
+DEBUG util.py:463:    Installing       : go-srpm-macros-epel-3.6.0.1-1.el9.noarch           205/208 
+DEBUG util.py:463:    Installing       : epel-rpm-macros-9-15.el9.noarch                    206/208 
+DEBUG util.py:463:    Installing       : util-linux-2.37.4-20.el9.x86_64                    207/208 
+DEBUG util.py:463:    Installing       : which-2.21-29.el9.x86_64                           208/208 
+DEBUG util.py:463:    Running scriptlet: filesystem-3.16-5.el9.x86_64                       208/208 
+DEBUG util.py:463:    Running scriptlet: ca-certificates-2024.2.69_v8.0.303-91.4.el9_4.no   208/208 
+DEBUG util.py:463:    Running scriptlet: rpm-4.16.1.3-34.el9.0.1.x86_64                     208/208 
+DEBUG util.py:463:    Running scriptlet: which-2.21-29.el9.x86_64                           208/208 
+DEBUG util.py:463:    Verifying        : basesystem-11-13.el9.0.1.noarch                      1/208 
+DEBUG util.py:463:    Verifying        : setup-2.13.7-10.el9.noarch                           2/208 
+DEBUG util.py:463:    Verifying        : libacl-2.3.1-4.el9.x86_64                            3/208 
+DEBUG util.py:463:    Verifying        : crypto-policies-20240828-2.git626aa59.el9_5.noar     4/208 
+DEBUG util.py:463:    Verifying        : zip-3.0-35.el9.x86_64                                5/208 
+DEBUG util.py:463:    Verifying        : libbrotli-1.0.9-7.el9_5.x86_64                       6/208 
+DEBUG util.py:463:    Verifying        : bzip2-libs-1.0.8-10.el9_5.x86_64                     7/208 
+DEBUG util.py:463:    Verifying        : bzip2-1.0.8-10.el9_5.x86_64                          8/208 
+DEBUG util.py:463:    Verifying        : file-libs-5.39-16.el9.x86_64                         9/208 
+DEBUG util.py:463:    Verifying        : file-5.39-16.el9.x86_64                             10/208 
+DEBUG util.py:463:    Verifying        : groff-base-1.22.4-10.el9.x86_64                     11/208 
+DEBUG util.py:463:    Verifying        : binutils-gold-2.35.2-54.el9.x86_64                  12/208 
+DEBUG util.py:463:    Verifying        : binutils-2.35.2-54.el9.x86_64                       13/208 
+DEBUG util.py:463:    Verifying        : audit-libs-3.1.5-1.el9.x86_64                       14/208 
+DEBUG util.py:463:    Verifying        : alternatives-1.24-1.el9_5.1.x86_64                  15/208 
+DEBUG util.py:463:    Verifying        : lua-libs-5.4.4-4.el9.x86_64                         16/208 
+DEBUG util.py:463:    Verifying        : lz4-libs-1.9.3-5.el9.x86_64                         17/208 
+DEBUG util.py:463:    Verifying        : libidn2-2.3.0-7.el9.x86_64                          18/208 
+DEBUG util.py:463:    Verifying        : libcap-ng-0.8.2-7.el9.x86_64                        19/208 
+DEBUG util.py:463:    Verifying        : libarchive-3.5.3-4.el9.0.1.x86_64                   20/208 
+DEBUG util.py:463:    Verifying        : libverto-0.3.2-3.el9.x86_64                         21/208 
+DEBUG util.py:463:    Verifying        : libxml2-2.9.13-6.el9_5.2.x86_64                     22/208 
+DEBUG util.py:463:    Verifying        : libdb-5.3.28-54.el9.x86_64                          23/208 
+DEBUG util.py:463:    Verifying        : popt-1.18-8.el9.x86_64                              24/208 
+DEBUG util.py:463:    Verifying        : rpm-libs-4.16.1.3-34.el9.0.1.x86_64                 25/208 
+DEBUG util.py:463:    Verifying        : rpm-build-libs-4.16.1.3-34.el9.0.1.x86_64           26/208 
+DEBUG util.py:463:    Verifying        : rpm-4.16.1.3-34.el9.0.1.x86_64                      27/208 
+DEBUG util.py:463:    Verifying        : publicsuffix-list-dafsa-20210518-3.el9.noarch       28/208 
+DEBUG util.py:463:    Verifying        : openssl-libs-1:3.2.2-6.el9_5.1.x86_64               29/208 
+DEBUG util.py:463:    Verifying        : openssl-1:3.2.2-6.el9_5.1.x86_64                    30/208 
+DEBUG util.py:463:    Verifying        : pcre2-syntax-10.40-6.el9.noarch                     31/208 
+DEBUG util.py:463:    Verifying        : pcre2-10.40-6.el9.x86_64                            32/208 
+DEBUG util.py:463:    Verifying        : bash-5.1.8-9.el9.x86_64                             33/208 
+DEBUG util.py:463:    Verifying        : tzdata-2025a-1.el9.noarch                           34/208 
+DEBUG util.py:463:    Verifying        : libutempter-1.2.1-6.el9.x86_64                      35/208 
+DEBUG util.py:463:    Verifying        : grep-3.6-5.el9.x86_64                               36/208 
+DEBUG util.py:463:    Verifying        : info-6.7-15.el9.x86_64                              37/208 
+DEBUG util.py:463:    Verifying        : shadow-utils-2:4.9-10.el9_5.x86_64                  38/208 
+DEBUG util.py:463:    Verifying        : cpio-2.13-16.el9.x86_64                             39/208 
+DEBUG util.py:463:    Verifying        : sed-4.8-9.el9.x86_64                                40/208 
+DEBUG util.py:463:    Verifying        : gzip-1.12-1.el9.x86_64                              41/208 
+DEBUG util.py:463:    Verifying        : libnghttp2-1.43.0-6.el9.x86_64                      42/208 
+DEBUG util.py:463:    Verifying        : sqlite-libs-3.34.1-7.el9_3.x86_64                   43/208 
+DEBUG util.py:463:    Verifying        : pkgconf-pkg-config-1.7.3-10.el9.x86_64              44/208 
+DEBUG util.py:463:    Verifying        : pkgconf-m4-1.7.3-10.el9.noarch                      45/208 
+DEBUG util.py:463:    Verifying        : pkgconf-1.7.3-10.el9.x86_64                         46/208 
+DEBUG util.py:463:    Verifying        : libpkgconf-1.7.3-10.el9.x86_64                      47/208 
+DEBUG util.py:463:    Verifying        : xz-libs-5.2.5-8.el9_0.x86_64                        48/208 
+DEBUG util.py:463:    Verifying        : xz-5.2.5-8.el9_0.x86_64                             49/208 
+DEBUG util.py:463:    Verifying        : libsigsegv-2.13-4.el9.x86_64                        50/208 
+DEBUG util.py:463:    Verifying        : unzip-6.0-57.el9.x86_64                             51/208 
+DEBUG util.py:463:    Verifying        : filesystem-3.16-5.el9.x86_64                        52/208 
+DEBUG util.py:463:    Verifying        : gdbm-libs-1:1.23-1.el9.x86_64                       53/208 
+DEBUG util.py:463:    Verifying        : findutils-1:4.8.0-7.el9.x86_64                      54/208 
+DEBUG util.py:463:    Verifying        : ed-1.14.2-12.el9.x86_64                             55/208 
+DEBUG util.py:463:    Verifying        : which-2.21-29.el9.x86_64                            56/208 
+DEBUG util.py:463:    Verifying        : libunistring-0.9.10-15.el9.x86_64                   57/208 
+DEBUG util.py:463:    Verifying        : coreutils-common-8.32-36.el9.x86_64                 58/208 
+DEBUG util.py:463:    Verifying        : coreutils-8.32-36.el9.x86_64                        59/208 
+DEBUG util.py:463:    Verifying        : diffutils-3.7-12.el9.x86_64                         60/208 
+DEBUG util.py:463:    Verifying        : libpwquality-1.4.4-8.el9.x86_64                     61/208 
+DEBUG util.py:463:    Verifying        : libattr-2.5.1-3.el9.x86_64                          62/208 
+DEBUG util.py:463:    Verifying        : libffi-3.4.2-8.el9.x86_64                           63/208 
+DEBUG util.py:463:    Verifying        : gmp-1:6.2.0-13.el9.x86_64                           64/208 
+DEBUG util.py:463:    Verifying        : libgcrypt-1.10.0-11.el9.x86_64                      65/208 
+DEBUG util.py:463:    Verifying        : libcap-2.48-9.el9_2.x86_64                          66/208 
+DEBUG util.py:463:    Verifying        : libsepol-3.6-1.el9.x86_64                           67/208 
+DEBUG util.py:463:    Verifying        : ca-certificates-2024.2.69_v8.0.303-91.4.el9_4.no    68/208 
+DEBUG util.py:463:    Verifying        : libcom_err-1.46.5-5.el9.x86_64                      69/208 
+DEBUG util.py:463:    Verifying        : libtasn1-4.16.0-8.el9_1.x86_64                      70/208 
+DEBUG util.py:463:    Verifying        : mpfr-4.1.0-7.el9.x86_64                             71/208 
+DEBUG util.py:463:    Verifying        : libsemanage-3.6-2.1.el9_5.x86_64                    72/208 
+DEBUG util.py:463:    Verifying        : libselinux-3.6-1.el9.x86_64                         73/208 
+DEBUG util.py:463:    Verifying        : libgpg-error-1.42-5.el9.x86_64                      74/208 
+DEBUG util.py:463:    Verifying        : libpsl-0.21.1-5.el9.x86_64                          75/208 
+DEBUG util.py:463:    Verifying        : libxcrypt-4.4.18-3.el9.x86_64                       76/208 
+DEBUG util.py:463:    Verifying        : libevent-2.1.12-8.el9_4.x86_64                      77/208 
+DEBUG util.py:463:    Verifying        : pcre-8.44-4.el9.x86_64                              78/208 
+DEBUG util.py:463:    Verifying        : ncurses-base-6.2-10.20210508.el9.noarch             79/208 
+DEBUG util.py:463:    Verifying        : p11-kit-trust-0.25.3-3.el9_5.x86_64                 80/208 
+DEBUG util.py:463:    Verifying        : p11-kit-0.25.3-3.el9_5.x86_64                       81/208 
+DEBUG util.py:463:    Verifying        : systemd-libs-252-46.el9_5.2.0.1.x86_64              82/208 
+DEBUG util.py:463:    Verifying        : elfutils-libs-0.191-4.el9.x86_64                    83/208 
+DEBUG util.py:463:    Verifying        : elfutils-libelf-0.191-4.el9.x86_64                  84/208 
+DEBUG util.py:463:    Verifying        : elfutils-debuginfod-client-0.191-4.el9.x86_64       85/208 
+DEBUG util.py:463:    Verifying        : elfutils-0.191-4.el9.x86_64                         86/208 
+DEBUG util.py:463:    Verifying        : elfutils-default-yama-scope-0.191-4.el9.noarch      87/208 
+DEBUG util.py:463:    Verifying        : libcurl-7.76.1-31.el9.x86_64                        88/208 
+DEBUG util.py:463:    Verifying        : curl-7.76.1-31.el9.x86_64                           89/208 
+DEBUG util.py:463:    Verifying        : openldap-2.6.6-3.el9.x86_64                         90/208 
+DEBUG util.py:463:    Verifying        : libssh-config-0.10.4-13.el9.noarch                  91/208 
+DEBUG util.py:463:    Verifying        : libssh-0.10.4-13.el9.x86_64                         92/208 
+DEBUG util.py:463:    Verifying        : cracklib-dicts-2.9.6-27.el9.x86_64                  93/208 
+DEBUG util.py:463:    Verifying        : cracklib-2.9.6-27.el9.x86_64                        94/208 
+DEBUG util.py:463:    Verifying        : ncurses-libs-6.2-10.20210508.el9.x86_64             95/208 
+DEBUG util.py:463:    Verifying        : ncurses-6.2-10.20210508.el9.x86_64                  96/208 
+DEBUG util.py:463:    Verifying        : readline-8.1-4.el9.x86_64                           97/208 
+DEBUG util.py:463:    Verifying        : krb5-libs-1.21.1-4.el9_5.x86_64                     98/208 
+DEBUG util.py:463:    Verifying        : cyrus-sasl-lib-2.1.27-21.el9.x86_64                 99/208 
+DEBUG util.py:463:    Verifying        : keyutils-libs-1.6.3-1.el9.x86_64                   100/208 
+DEBUG util.py:463:    Verifying        : gawk-5.1.0-6.el9.x86_64                            101/208 
+DEBUG util.py:463:    Verifying        : pam-1.5.1-22.el9_5.x86_64                          102/208 
+DEBUG util.py:463:    Verifying        : tar-2:1.34-7.el9.x86_64                            103/208 
+DEBUG util.py:463:    Verifying        : zstd-1.5.1-2.el9.x86_64                            104/208 
+DEBUG util.py:463:    Verifying        : libzstd-1.5.1-2.el9.x86_64                         105/208 
+DEBUG util.py:463:    Verifying        : zlib-1.2.11-40.el9.x86_64                          106/208 
+DEBUG util.py:463:    Verifying        : libstdc++-11.5.0-5.el9_5.x86_64                    107/208 
+DEBUG util.py:463:    Verifying        : libgomp-11.5.0-5.el9_5.x86_64                      108/208 
+DEBUG util.py:463:    Verifying        : libgcc-11.5.0-5.el9_5.x86_64                       109/208 
+DEBUG util.py:463:    Verifying        : glibc-minimal-langpack-2.34-125.el9_5.3.x86_64     110/208 
+DEBUG util.py:463:    Verifying        : glibc-gconv-extra-2.34-125.el9_5.3.x86_64          111/208 
+DEBUG util.py:463:    Verifying        : glibc-common-2.34-125.el9_5.3.x86_64               112/208 
+DEBUG util.py:463:    Verifying        : glibc-2.34-125.el9_5.3.x86_64                      113/208 
+DEBUG util.py:463:    Verifying        : util-linux-core-2.37.4-20.el9.x86_64               114/208 
+DEBUG util.py:463:    Verifying        : util-linux-2.37.4-20.el9.x86_64                    115/208 
+DEBUG util.py:463:    Verifying        : libuuid-2.37.4-20.el9.x86_64                       116/208 
+DEBUG util.py:463:    Verifying        : libsmartcols-2.37.4-20.el9.x86_64                  117/208 
+DEBUG util.py:463:    Verifying        : libmount-2.37.4-20.el9.x86_64                      118/208 
+DEBUG util.py:463:    Verifying        : libfdisk-2.37.4-20.el9.x86_64                      119/208 
+DEBUG util.py:463:    Verifying        : libblkid-2.37.4-20.el9.x86_64                      120/208 
+DEBUG util.py:463:    Verifying        : libeconf-0.4.1-4.el9.x86_64                        121/208 
+DEBUG util.py:463:    Verifying        : rocky-repos-9.5-1.2.el9.noarch                     122/208 
+DEBUG util.py:463:    Verifying        : rocky-release-9.5-1.2.el9.noarch                   123/208 
+DEBUG util.py:463:    Verifying        : rocky-gpg-keys-9.5-1.2.el9.noarch                  124/208 
+DEBUG util.py:463:    Verifying        : perl-Text-ParseWords-3.30-460.el9.noarch           125/208 
+DEBUG util.py:463:    Verifying        : perl-Exporter-5.74-461.el9.noarch                  126/208 
+DEBUG util.py:463:    Verifying        : ghc-srpm-macros-1.5.0-6.el9.noarch                 127/208 
+DEBUG util.py:463:    Verifying        : perl-Pod-Simple-1:3.42-4.el9.noarch                128/208 
+DEBUG util.py:463:    Verifying        : python-srpm-macros-3.9-54.el9.noarch               129/208 
+DEBUG util.py:463:    Verifying        : rust-srpm-macros-17-4.el9.noarch                   130/208 
+DEBUG util.py:463:    Verifying        : perl-File-Path-2.18-4.el9.noarch                   131/208 
+DEBUG util.py:463:    Verifying        : perl-Pod-Perldoc-3.28.01-461.el9.noarch            132/208 
+DEBUG util.py:463:    Verifying        : perl-Getopt-Long-1:2.52-4.el9.noarch               133/208 
+DEBUG util.py:463:    Verifying        : perl-Pod-Usage-4:2.01-4.el9.noarch                 134/208 
+DEBUG util.py:463:    Verifying        : perl-IO-Socket-IP-0.41-5.el9.noarch                135/208 
+DEBUG util.py:463:    Verifying        : perl-Time-Local-2:1.300-7.el9.noarch               136/208 
+DEBUG util.py:463:    Verifying        : perl-libnet-3.13-4.el9.noarch                      137/208 
+DEBUG util.py:463:    Verifying        : efi-srpm-macros-6-2.el9_0.noarch                   138/208 
+DEBUG util.py:463:    Verifying        : fonts-srpm-macros-1:2.0.5-7.el9.1.noarch           139/208 
+DEBUG util.py:463:    Verifying        : go-srpm-macros-3.6.0-3.el9.noarch                  140/208 
+DEBUG util.py:463:    Verifying        : debugedit-5.0-5.el9.x86_64                         141/208 
+DEBUG util.py:463:    Verifying        : kernel-srpm-macros-1.0-13.el9.noarch               142/208 
+DEBUG util.py:463:    Verifying        : lua-srpm-macros-1-6.el9.noarch                     143/208 
+DEBUG util.py:463:    Verifying        : openblas-srpm-macros-2-11.el9.noarch               144/208 
+DEBUG util.py:463:    Verifying        : perl-Carp-1.50-460.el9.noarch                      145/208 
+DEBUG util.py:463:    Verifying        : perl-podlators-1:4.14-460.el9.noarch               146/208 
+DEBUG util.py:463:    Verifying        : perl-Term-Cap-1.17-460.el9.noarch                  147/208 
+DEBUG util.py:463:    Verifying        : perl-Term-ANSIColor-5.01-461.el9.noarch            148/208 
+DEBUG util.py:463:    Verifying        : perl-HTTP-Tiny-0.076-462.el9.noarch                149/208 
+DEBUG util.py:463:    Verifying        : perl-Digest-1.19-4.el9.noarch                      150/208 
+DEBUG util.py:463:    Verifying        : perl-URI-5.09-3.el9.noarch                         151/208 
+DEBUG util.py:463:    Verifying        : perl-constant-1.33-461.el9.noarch                  152/208 
+DEBUG util.py:463:    Verifying        : perl-Encode-4:3.08-462.el9.x86_64                  153/208 
+DEBUG util.py:463:    Verifying        : redhat-rpm-config-208-1.el9.noarch                 154/208 
+DEBUG util.py:463:    Verifying        : perl-Data-Dumper-2.174-462.el9.x86_64              155/208 
+DEBUG util.py:463:    Verifying        : perl-srpm-macros-1-41.el9.noarch                   156/208 
+DEBUG util.py:463:    Verifying        : perl-Scalar-List-Utils-4:1.56-462.el9.x86_64       157/208 
+DEBUG util.py:463:    Verifying        : rpm-build-4.16.1.3-34.el9.0.1.x86_64               158/208 
+DEBUG util.py:463:    Verifying        : perl-IO-Socket-SSL-2.073-2.el9.noarch              159/208 
+DEBUG util.py:463:    Verifying        : perl-Storable-1:3.21-460.el9.x86_64                160/208 
+DEBUG util.py:463:    Verifying        : perl-PathTools-3.78-461.el9.x86_64                 161/208 
+DEBUG util.py:463:    Verifying        : perl-Mozilla-CA-20200520-6.el9.noarch              162/208 
+DEBUG util.py:463:    Verifying        : perl-Text-Tabs+Wrap-2013.0523-460.el9.noarch       163/208 
+DEBUG util.py:463:    Verifying        : perl-Digest-MD5-2.58-4.el9.x86_64                  164/208 
+DEBUG util.py:463:    Verifying        : patch-2.7.6-16.el9.x86_64                          165/208 
+DEBUG util.py:463:    Verifying        : perl-Pod-Escapes-1:1.07-460.el9.noarch             166/208 
+DEBUG util.py:463:    Verifying        : perl-MIME-Base64-3.16-4.el9.x86_64                 167/208 
+DEBUG util.py:463:    Verifying        : ocaml-srpm-macros-6-6.el9.noarch                   168/208 
+DEBUG util.py:463:    Verifying        : perl-File-Temp-1:0.231.100-4.el9.noarch            169/208 
+DEBUG util.py:463:    Verifying        : dwz-0.14-3.el9.x86_64                              170/208 
+DEBUG util.py:463:    Verifying        : perl-Socket-4:2.031-4.el9.x86_64                   171/208 
+DEBUG util.py:463:    Verifying        : perl-mro-1.23-481.el9.x86_64                       172/208 
+DEBUG util.py:463:    Verifying        : perl-libs-4:5.32.1-481.el9.x86_64                  173/208 
+DEBUG util.py:463:    Verifying        : perl-interpreter-4:5.32.1-481.el9.x86_64           174/208 
+DEBUG util.py:463:    Verifying        : perl-POSIX-1.94-481.el9.x86_64                     175/208 
+DEBUG util.py:463:    Verifying        : perl-IO-1.43-481.el9.x86_64                        176/208 
+DEBUG util.py:463:    Verifying        : perl-Fcntl-1.13-481.el9.x86_64                     177/208 
+DEBUG util.py:463:    Verifying        : perl-Errno-1.30-481.el9.x86_64                     178/208 
+DEBUG util.py:463:    Verifying        : perl-B-1.80-481.el9.x86_64                         179/208 
+DEBUG util.py:463:    Verifying        : perl-vars-1.05-481.el9.noarch                      180/208 
+DEBUG util.py:463:    Verifying        : perl-subs-1.03-481.el9.noarch                      181/208 
+DEBUG util.py:463:    Verifying        : perl-overloading-0.02-481.el9.noarch               182/208 
+DEBUG util.py:463:    Verifying        : perl-overload-1.31-481.el9.noarch                  183/208 
+DEBUG util.py:463:    Verifying        : perl-if-0.60.800-481.el9.noarch                    184/208 
+DEBUG util.py:463:    Verifying        : perl-base-2.27-481.el9.noarch                      185/208 
+DEBUG util.py:463:    Verifying        : perl-Symbol-1.08-481.el9.noarch                    186/208 
+DEBUG util.py:463:    Verifying        : perl-SelectSaver-1.02-481.el9.noarch               187/208 
+DEBUG util.py:463:    Verifying        : perl-IPC-Open3-1.21-481.el9.noarch                 188/208 
+DEBUG util.py:463:    Verifying        : perl-Getopt-Std-1.12-481.el9.noarch                189/208 
+DEBUG util.py:463:    Verifying        : perl-FileHandle-2.03-481.el9.noarch                190/208 
+DEBUG util.py:463:    Verifying        : perl-File-stat-1.09-481.el9.noarch                 191/208 
+DEBUG util.py:463:    Verifying        : perl-File-Basename-2.85-481.el9.noarch             192/208 
+DEBUG util.py:463:    Verifying        : perl-Class-Struct-0.66-481.el9.noarch              193/208 
+DEBUG util.py:463:    Verifying        : perl-AutoLoader-5.74-481.el9.noarch                194/208 
+DEBUG util.py:463:    Verifying        : perl-Net-SSLeay-1.94-1.el9.x86_64                  195/208 
+DEBUG util.py:463:    Verifying        : perl-parent-1:0.238-460.el9.noarch                 196/208 
+DEBUG util.py:463:    Verifying        : gdb-minimal-14.2-3.el9.x86_64                      197/208 
+DEBUG util.py:463:    Verifying        : qt5-srpm-macros-5.15.9-1.el9.noarch                198/208 
+DEBUG util.py:463:    Verifying        : pyproject-srpm-macros-1.12.0-1.el9.noarch          199/208 
+DEBUG util.py:463:    Verifying        : ansible-srpm-macros-1-16.el9.noarch                200/208 
+DEBUG util.py:463:    Verifying        : epel-rpm-macros-9-15.el9.noarch                    201/208 
+DEBUG util.py:463:    Verifying        : forge-srpm-macros-0.4.0-1.el9.noarch               202/208 
+DEBUG util.py:463:    Verifying        : fpc-srpm-macros-1.3-7.el9.noarch                   203/208 
+DEBUG util.py:463:    Verifying        : ghc-srpm-macros-epel-1.9.1-1.el9.noarch            204/208 
+DEBUG util.py:463:    Verifying        : go-srpm-macros-epel-3.6.0.1-1.el9.noarch           205/208 
+DEBUG util.py:463:    Verifying        : qt6-srpm-macros-6.6.2-1.el9.noarch                 206/208 
+DEBUG util.py:463:    Verifying        : rpmautospec-rpm-macros-0.7.3-1.el9.noarch          207/208 
+DEBUG util.py:463:    Verifying        : rust-srpm-macros-epel-26.3-1.el9.noarch            208/208 
+DEBUG util.py:463:  Installed:
+DEBUG util.py:463:    alternatives-1.24-1.el9_5.1.x86_64                                            
+DEBUG util.py:463:    ansible-srpm-macros-1-16.el9.noarch                                           
+DEBUG util.py:463:    audit-libs-3.1.5-1.el9.x86_64                                                 
+DEBUG util.py:463:    basesystem-11-13.el9.0.1.noarch                                               
+DEBUG util.py:463:    bash-5.1.8-9.el9.x86_64                                                       
+DEBUG util.py:463:    binutils-2.35.2-54.el9.x86_64                                                 
+DEBUG util.py:463:    binutils-gold-2.35.2-54.el9.x86_64                                            
+DEBUG util.py:463:    bzip2-1.0.8-10.el9_5.x86_64                                                   
+DEBUG util.py:463:    bzip2-libs-1.0.8-10.el9_5.x86_64                                              
+DEBUG util.py:463:    ca-certificates-2024.2.69_v8.0.303-91.4.el9_4.noarch                          
+DEBUG util.py:463:    coreutils-8.32-36.el9.x86_64                                                  
+DEBUG util.py:463:    coreutils-common-8.32-36.el9.x86_64                                           
+DEBUG util.py:463:    cpio-2.13-16.el9.x86_64                                                       
+DEBUG util.py:463:    cracklib-2.9.6-27.el9.x86_64                                                  
+DEBUG util.py:463:    cracklib-dicts-2.9.6-27.el9.x86_64                                            
+DEBUG util.py:463:    crypto-policies-20240828-2.git626aa59.el9_5.noarch                            
+DEBUG util.py:463:    curl-7.76.1-31.el9.x86_64                                                     
+DEBUG util.py:463:    cyrus-sasl-lib-2.1.27-21.el9.x86_64                                           
+DEBUG util.py:463:    debugedit-5.0-5.el9.x86_64                                                    
+DEBUG util.py:463:    diffutils-3.7-12.el9.x86_64                                                   
+DEBUG util.py:463:    dwz-0.14-3.el9.x86_64                                                         
+DEBUG util.py:463:    ed-1.14.2-12.el9.x86_64                                                       
+DEBUG util.py:463:    efi-srpm-macros-6-2.el9_0.noarch                                              
+DEBUG util.py:463:    elfutils-0.191-4.el9.x86_64                                                   
+DEBUG util.py:463:    elfutils-debuginfod-client-0.191-4.el9.x86_64                                 
+DEBUG util.py:463:    elfutils-default-yama-scope-0.191-4.el9.noarch                                
+DEBUG util.py:463:    elfutils-libelf-0.191-4.el9.x86_64                                            
+DEBUG util.py:463:    elfutils-libs-0.191-4.el9.x86_64                                              
+DEBUG util.py:463:    epel-rpm-macros-9-15.el9.noarch                                               
+DEBUG util.py:463:    file-5.39-16.el9.x86_64                                                       
+DEBUG util.py:463:    file-libs-5.39-16.el9.x86_64                                                  
+DEBUG util.py:463:    filesystem-3.16-5.el9.x86_64                                                  
+DEBUG util.py:463:    findutils-1:4.8.0-7.el9.x86_64                                                
+DEBUG util.py:463:    fonts-srpm-macros-1:2.0.5-7.el9.1.noarch                                      
+DEBUG util.py:463:    forge-srpm-macros-0.4.0-1.el9.noarch                                          
+DEBUG util.py:463:    fpc-srpm-macros-1.3-7.el9.noarch                                              
+DEBUG util.py:463:    gawk-5.1.0-6.el9.x86_64                                                       
+DEBUG util.py:463:    gdb-minimal-14.2-3.el9.x86_64                                                 
+DEBUG util.py:463:    gdbm-libs-1:1.23-1.el9.x86_64                                                 
+DEBUG util.py:463:    ghc-srpm-macros-1.5.0-6.el9.noarch                                            
+DEBUG util.py:463:    ghc-srpm-macros-epel-1.9.1-1.el9.noarch                                       
+DEBUG util.py:463:    glibc-2.34-125.el9_5.3.x86_64                                                 
+DEBUG util.py:463:    glibc-common-2.34-125.el9_5.3.x86_64                                          
+DEBUG util.py:463:    glibc-gconv-extra-2.34-125.el9_5.3.x86_64                                     
+DEBUG util.py:463:    glibc-minimal-langpack-2.34-125.el9_5.3.x86_64                                
+DEBUG util.py:463:    gmp-1:6.2.0-13.el9.x86_64                                                     
+DEBUG util.py:463:    go-srpm-macros-3.6.0-3.el9.noarch                                             
+DEBUG util.py:463:    go-srpm-macros-epel-3.6.0.1-1.el9.noarch                                      
+DEBUG util.py:463:    grep-3.6-5.el9.x86_64                                                         
+DEBUG util.py:463:    groff-base-1.22.4-10.el9.x86_64                                               
+DEBUG util.py:463:    gzip-1.12-1.el9.x86_64                                                        
+DEBUG util.py:463:    info-6.7-15.el9.x86_64                                                        
+DEBUG util.py:463:    kernel-srpm-macros-1.0-13.el9.noarch                                          
+DEBUG util.py:463:    keyutils-libs-1.6.3-1.el9.x86_64                                              
+DEBUG util.py:463:    krb5-libs-1.21.1-4.el9_5.x86_64                                               
+DEBUG util.py:463:    libacl-2.3.1-4.el9.x86_64                                                     
+DEBUG util.py:463:    libarchive-3.5.3-4.el9.0.1.x86_64                                             
+DEBUG util.py:463:    libattr-2.5.1-3.el9.x86_64                                                    
+DEBUG util.py:463:    libblkid-2.37.4-20.el9.x86_64                                                 
+DEBUG util.py:463:    libbrotli-1.0.9-7.el9_5.x86_64                                                
+DEBUG util.py:463:    libcap-2.48-9.el9_2.x86_64                                                    
+DEBUG util.py:463:    libcap-ng-0.8.2-7.el9.x86_64                                                  
+DEBUG util.py:463:    libcom_err-1.46.5-5.el9.x86_64                                                
+DEBUG util.py:463:    libcurl-7.76.1-31.el9.x86_64                                                  
+DEBUG util.py:463:    libdb-5.3.28-54.el9.x86_64                                                    
+DEBUG util.py:463:    libeconf-0.4.1-4.el9.x86_64                                                   
+DEBUG util.py:463:    libevent-2.1.12-8.el9_4.x86_64                                                
+DEBUG util.py:463:    libfdisk-2.37.4-20.el9.x86_64                                                 
+DEBUG util.py:463:    libffi-3.4.2-8.el9.x86_64                                                     
+DEBUG util.py:463:    libgcc-11.5.0-5.el9_5.x86_64                                                  
+DEBUG util.py:463:    libgcrypt-1.10.0-11.el9.x86_64                                                
+DEBUG util.py:463:    libgomp-11.5.0-5.el9_5.x86_64                                                 
+DEBUG util.py:463:    libgpg-error-1.42-5.el9.x86_64                                                
+DEBUG util.py:463:    libidn2-2.3.0-7.el9.x86_64                                                    
+DEBUG util.py:463:    libmount-2.37.4-20.el9.x86_64                                                 
+DEBUG util.py:463:    libnghttp2-1.43.0-6.el9.x86_64                                                
+DEBUG util.py:463:    libpkgconf-1.7.3-10.el9.x86_64                                                
+DEBUG util.py:463:    libpsl-0.21.1-5.el9.x86_64                                                    
+DEBUG util.py:463:    libpwquality-1.4.4-8.el9.x86_64                                               
+DEBUG util.py:463:    libselinux-3.6-1.el9.x86_64                                                   
+DEBUG util.py:463:    libsemanage-3.6-2.1.el9_5.x86_64                                              
+DEBUG util.py:463:    libsepol-3.6-1.el9.x86_64                                                     
+DEBUG util.py:463:    libsigsegv-2.13-4.el9.x86_64                                                  
+DEBUG util.py:463:    libsmartcols-2.37.4-20.el9.x86_64                                             
+DEBUG util.py:463:    libssh-0.10.4-13.el9.x86_64                                                   
+DEBUG util.py:463:    libssh-config-0.10.4-13.el9.noarch                                            
+DEBUG util.py:463:    libstdc++-11.5.0-5.el9_5.x86_64                                               
+DEBUG util.py:463:    libtasn1-4.16.0-8.el9_1.x86_64                                                
+DEBUG util.py:463:    libunistring-0.9.10-15.el9.x86_64                                             
+DEBUG util.py:463:    libutempter-1.2.1-6.el9.x86_64                                                
+DEBUG util.py:463:    libuuid-2.37.4-20.el9.x86_64                                                  
+DEBUG util.py:463:    libverto-0.3.2-3.el9.x86_64                                                   
+DEBUG util.py:463:    libxcrypt-4.4.18-3.el9.x86_64                                                 
+DEBUG util.py:463:    libxml2-2.9.13-6.el9_5.2.x86_64                                               
+DEBUG util.py:463:    libzstd-1.5.1-2.el9.x86_64                                                    
+DEBUG util.py:463:    lua-libs-5.4.4-4.el9.x86_64                                                   
+DEBUG util.py:463:    lua-srpm-macros-1-6.el9.noarch                                                
+DEBUG util.py:463:    lz4-libs-1.9.3-5.el9.x86_64                                                   
+DEBUG util.py:463:    mpfr-4.1.0-7.el9.x86_64                                                       
+DEBUG util.py:463:    ncurses-6.2-10.20210508.el9.x86_64                                            
+DEBUG util.py:463:    ncurses-base-6.2-10.20210508.el9.noarch                                       
+DEBUG util.py:463:    ncurses-libs-6.2-10.20210508.el9.x86_64                                       
+DEBUG util.py:463:    ocaml-srpm-macros-6-6.el9.noarch                                              
+DEBUG util.py:463:    openblas-srpm-macros-2-11.el9.noarch                                          
+DEBUG util.py:463:    openldap-2.6.6-3.el9.x86_64                                                   
+DEBUG util.py:463:    openssl-1:3.2.2-6.el9_5.1.x86_64                                              
+DEBUG util.py:463:    openssl-libs-1:3.2.2-6.el9_5.1.x86_64                                         
+DEBUG util.py:463:    p11-kit-0.25.3-3.el9_5.x86_64                                                 
+DEBUG util.py:463:    p11-kit-trust-0.25.3-3.el9_5.x86_64                                           
+DEBUG util.py:463:    pam-1.5.1-22.el9_5.x86_64                                                     
+DEBUG util.py:463:    patch-2.7.6-16.el9.x86_64                                                     
+DEBUG util.py:463:    pcre-8.44-4.el9.x86_64                                                        
+DEBUG util.py:463:    pcre2-10.40-6.el9.x86_64                                                      
+DEBUG util.py:463:    pcre2-syntax-10.40-6.el9.noarch                                               
+DEBUG util.py:463:    perl-AutoLoader-5.74-481.el9.noarch                                           
+DEBUG util.py:463:    perl-B-1.80-481.el9.x86_64                                                    
+DEBUG util.py:463:    perl-Carp-1.50-460.el9.noarch                                                 
+DEBUG util.py:463:    perl-Class-Struct-0.66-481.el9.noarch                                         
+DEBUG util.py:463:    perl-Data-Dumper-2.174-462.el9.x86_64                                         
+DEBUG util.py:463:    perl-Digest-1.19-4.el9.noarch                                                 
+DEBUG util.py:463:    perl-Digest-MD5-2.58-4.el9.x86_64                                             
+DEBUG util.py:463:    perl-Encode-4:3.08-462.el9.x86_64                                             
+DEBUG util.py:463:    perl-Errno-1.30-481.el9.x86_64                                                
+DEBUG util.py:463:    perl-Exporter-5.74-461.el9.noarch                                             
+DEBUG util.py:463:    perl-Fcntl-1.13-481.el9.x86_64                                                
+DEBUG util.py:463:    perl-File-Basename-2.85-481.el9.noarch                                        
+DEBUG util.py:463:    perl-File-Path-2.18-4.el9.noarch                                              
+DEBUG util.py:463:    perl-File-Temp-1:0.231.100-4.el9.noarch                                       
+DEBUG util.py:463:    perl-File-stat-1.09-481.el9.noarch                                            
+DEBUG util.py:463:    perl-FileHandle-2.03-481.el9.noarch                                           
+DEBUG util.py:463:    perl-Getopt-Long-1:2.52-4.el9.noarch                                          
+DEBUG util.py:463:    perl-Getopt-Std-1.12-481.el9.noarch                                           
+DEBUG util.py:463:    perl-HTTP-Tiny-0.076-462.el9.noarch                                           
+DEBUG util.py:463:    perl-IO-1.43-481.el9.x86_64                                                   
+DEBUG util.py:463:    perl-IO-Socket-IP-0.41-5.el9.noarch                                           
+DEBUG util.py:463:    perl-IO-Socket-SSL-2.073-2.el9.noarch                                         
+DEBUG util.py:463:    perl-IPC-Open3-1.21-481.el9.noarch                                            
+DEBUG util.py:463:    perl-MIME-Base64-3.16-4.el9.x86_64                                            
+DEBUG util.py:463:    perl-Mozilla-CA-20200520-6.el9.noarch                                         
+DEBUG util.py:463:    perl-Net-SSLeay-1.94-1.el9.x86_64                                             
+DEBUG util.py:463:    perl-POSIX-1.94-481.el9.x86_64                                                
+DEBUG util.py:463:    perl-PathTools-3.78-461.el9.x86_64                                            
+DEBUG util.py:463:    perl-Pod-Escapes-1:1.07-460.el9.noarch                                        
+DEBUG util.py:463:    perl-Pod-Perldoc-3.28.01-461.el9.noarch                                       
+DEBUG util.py:463:    perl-Pod-Simple-1:3.42-4.el9.noarch                                           
+DEBUG util.py:463:    perl-Pod-Usage-4:2.01-4.el9.noarch                                            
+DEBUG util.py:463:    perl-Scalar-List-Utils-4:1.56-462.el9.x86_64                                  
+DEBUG util.py:463:    perl-SelectSaver-1.02-481.el9.noarch                                          
+DEBUG util.py:463:    perl-Socket-4:2.031-4.el9.x86_64                                              
+DEBUG util.py:463:    perl-Storable-1:3.21-460.el9.x86_64                                           
+DEBUG util.py:463:    perl-Symbol-1.08-481.el9.noarch                                               
+DEBUG util.py:463:    perl-Term-ANSIColor-5.01-461.el9.noarch                                       
+DEBUG util.py:463:    perl-Term-Cap-1.17-460.el9.noarch                                             
+DEBUG util.py:463:    perl-Text-ParseWords-3.30-460.el9.noarch                                      
+DEBUG util.py:463:    perl-Text-Tabs+Wrap-2013.0523-460.el9.noarch                                  
+DEBUG util.py:463:    perl-Time-Local-2:1.300-7.el9.noarch                                          
+DEBUG util.py:463:    perl-URI-5.09-3.el9.noarch                                                    
+DEBUG util.py:463:    perl-base-2.27-481.el9.noarch                                                 
+DEBUG util.py:463:    perl-constant-1.33-461.el9.noarch                                             
+DEBUG util.py:463:    perl-if-0.60.800-481.el9.noarch                                               
+DEBUG util.py:463:    perl-interpreter-4:5.32.1-481.el9.x86_64                                      
+DEBUG util.py:463:    perl-libnet-3.13-4.el9.noarch                                                 
+DEBUG util.py:463:    perl-libs-4:5.32.1-481.el9.x86_64                                             
+DEBUG util.py:463:    perl-mro-1.23-481.el9.x86_64                                                  
+DEBUG util.py:463:    perl-overload-1.31-481.el9.noarch                                             
+DEBUG util.py:463:    perl-overloading-0.02-481.el9.noarch                                          
+DEBUG util.py:463:    perl-parent-1:0.238-460.el9.noarch                                            
+DEBUG util.py:463:    perl-podlators-1:4.14-460.el9.noarch                                          
+DEBUG util.py:463:    perl-srpm-macros-1-41.el9.noarch                                              
+DEBUG util.py:463:    perl-subs-1.03-481.el9.noarch                                                 
+DEBUG util.py:463:    perl-vars-1.05-481.el9.noarch                                                 
+DEBUG util.py:463:    pkgconf-1.7.3-10.el9.x86_64                                                   
+DEBUG util.py:463:    pkgconf-m4-1.7.3-10.el9.noarch                                                
+DEBUG util.py:463:    pkgconf-pkg-config-1.7.3-10.el9.x86_64                                        
+DEBUG util.py:463:    popt-1.18-8.el9.x86_64                                                        
+DEBUG util.py:463:    publicsuffix-list-dafsa-20210518-3.el9.noarch                                 
+DEBUG util.py:463:    pyproject-srpm-macros-1.12.0-1.el9.noarch                                     
+DEBUG util.py:463:    python-srpm-macros-3.9-54.el9.noarch                                          
+DEBUG util.py:463:    qt5-srpm-macros-5.15.9-1.el9.noarch                                           
+DEBUG util.py:463:    qt6-srpm-macros-6.6.2-1.el9.noarch                                            
+DEBUG util.py:463:    readline-8.1-4.el9.x86_64                                                     
+DEBUG util.py:463:    redhat-rpm-config-208-1.el9.noarch                                            
+DEBUG util.py:463:    rocky-gpg-keys-9.5-1.2.el9.noarch                                             
+DEBUG util.py:463:    rocky-release-9.5-1.2.el9.noarch                                              
+DEBUG util.py:463:    rocky-repos-9.5-1.2.el9.noarch                                                
+DEBUG util.py:463:    rpm-4.16.1.3-34.el9.0.1.x86_64                                                
+DEBUG util.py:463:    rpm-build-4.16.1.3-34.el9.0.1.x86_64                                          
+DEBUG util.py:463:    rpm-build-libs-4.16.1.3-34.el9.0.1.x86_64                                     
+DEBUG util.py:463:    rpm-libs-4.16.1.3-34.el9.0.1.x86_64                                           
+DEBUG util.py:463:    rpmautospec-rpm-macros-0.7.3-1.el9.noarch                                     
+DEBUG util.py:463:    rust-srpm-macros-17-4.el9.noarch                                              
+DEBUG util.py:463:    rust-srpm-macros-epel-26.3-1.el9.noarch                                       
+DEBUG util.py:463:    sed-4.8-9.el9.x86_64                                                          
+DEBUG util.py:463:    setup-2.13.7-10.el9.noarch                                                    
+DEBUG util.py:463:    shadow-utils-2:4.9-10.el9_5.x86_64                                            
+DEBUG util.py:463:    sqlite-libs-3.34.1-7.el9_3.x86_64                                             
+DEBUG util.py:463:    systemd-libs-252-46.el9_5.2.0.1.x86_64                                        
+DEBUG util.py:463:    tar-2:1.34-7.el9.x86_64                                                       
+DEBUG util.py:463:    tzdata-2025a-1.el9.noarch                                                     
+DEBUG util.py:463:    unzip-6.0-57.el9.x86_64                                                       
+DEBUG util.py:463:    util-linux-2.37.4-20.el9.x86_64                                               
+DEBUG util.py:463:    util-linux-core-2.37.4-20.el9.x86_64                                          
+DEBUG util.py:463:    which-2.21-29.el9.x86_64                                                      
+DEBUG util.py:463:    xz-5.2.5-8.el9_0.x86_64                                                       
+DEBUG util.py:463:    xz-libs-5.2.5-8.el9_0.x86_64                                                  
+DEBUG util.py:463:    zip-3.0-35.el9.x86_64                                                         
+DEBUG util.py:463:    zlib-1.2.11-40.el9.x86_64                                                     
+DEBUG util.py:463:    zstd-1.5.1-2.el9.x86_64                                                       
+DEBUG util.py:463:  Complete!
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:185:  kill orphans in chroot /var/lib/mock/rocky+epel-9-x86_64/root
+DEBUG util.py:185:  kill orphans in chroot /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/var/lib/mock/rocky+epel-9-x86_64/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/var/lib/mock/rocky+epel-9-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/var/lib/mock/rocky+epel-9-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:30:  touching file: /var/lib/mock/rocky+epel-9-x86_64/root/etc/os-release
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root/builddir/build
+DEBUG file_util.py:21:  created dir: /var/lib/mock/rocky+epel-9-x86_64/root/builddir/build
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root/builddir/build/RPMS
+DEBUG file_util.py:21:  created dir: /var/lib/mock/rocky+epel-9-x86_64/root/builddir/build/RPMS
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root/builddir/build/SPECS
+DEBUG file_util.py:21:  created dir: /var/lib/mock/rocky+epel-9-x86_64/root/builddir/build/SPECS
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root/builddir/build/SRPMS
+DEBUG file_util.py:21:  created dir: /var/lib/mock/rocky+epel-9-x86_64/root/builddir/build/SRPMS
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root/builddir/build/SOURCES
+DEBUG file_util.py:21:  created dir: /var/lib/mock/rocky+epel-9-x86_64/root/builddir/build/SOURCES
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root/builddir/build/BUILD
+DEBUG file_util.py:21:  created dir: /var/lib/mock/rocky+epel-9-x86_64/root/builddir/build/BUILD
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root/builddir/build/BUILDROOT
+DEBUG file_util.py:21:  created dir: /var/lib/mock/rocky+epel-9-x86_64/root/builddir/build/BUILDROOT
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root/builddir/build/originals
+DEBUG file_util.py:21:  created dir: /var/lib/mock/rocky+epel-9-x86_64/root/builddir/build/originals
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root/builddir
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['userdel', '-f', 'mockbuild', '--prefix', '/var/lib/mock/rocky+epel-9-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:461:  userdel: user 'mockbuild' does not exist
+DEBUG util.py:610:  Child return code was: 6
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['groupdel', 'mock', '--prefix', '/var/lib/mock/rocky+epel-9-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:461:  groupdel: group 'mock' does not exist
+DEBUG util.py:610:  Child return code was: 6
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['groupadd', 'mock', '-g', '987', '--prefix', '/var/lib/mock/rocky+epel-9-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['useradd', 'mockbuild', '-o', '-u', '1001', '-g', '987', '-N', '-d', '/builddir', '--prefix', '/var/lib/mock/rocky+epel-9-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:461:  useradd: warning: the home directory /builddir already exists.
+DEBUG util.py:461:  useradd: Not copying any file from skel directory into it.
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:30:  touching file: /var/lib/mock/rocky+epel-9-x86_64/root/.initialized
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/var/lib/mock/rocky+epel-9-x86_64/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'private,mode=0755', 'tmpfs', '/var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/var/lib/mock/rocky+epel-9-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/var/lib/mock/rocky+epel-9-x86_64/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/var/lib/mock/rocky+epel-9-x86_64/root', '/var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/var/lib/mock/rocky+epel-9-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'remount,private,rbind', '--target', '/var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/var/lib/mock/rocky+epel-9-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/rpm', '-qa', '--root', '/var/lib/mock/rocky+epel-9-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:463:  gpg-pubkey-350d275d-6279464b
+DEBUG util.py:463:  gpg-pubkey-3228467c-613798eb
+DEBUG util.py:463:  libgcc-11.5.0-5.el9_5.x86_64
+DEBUG util.py:463:  rust-srpm-macros-17-4.el9.noarch
+DEBUG util.py:463:  rust-srpm-macros-epel-26.3-1.el9.noarch
+DEBUG util.py:463:  qt6-srpm-macros-6.6.2-1.el9.noarch
+DEBUG util.py:463:  ghc-srpm-macros-epel-1.9.1-1.el9.noarch
+DEBUG util.py:463:  fpc-srpm-macros-1.3-7.el9.noarch
+DEBUG util.py:463:  ansible-srpm-macros-1-16.el9.noarch
+DEBUG util.py:463:  qt5-srpm-macros-5.15.9-1.el9.noarch
+DEBUG util.py:463:  ocaml-srpm-macros-6-6.el9.noarch
+DEBUG util.py:463:  perl-srpm-macros-1-41.el9.noarch
+DEBUG util.py:463:  openblas-srpm-macros-2-11.el9.noarch
+DEBUG util.py:463:  ghc-srpm-macros-1.5.0-6.el9.noarch
+DEBUG util.py:463:  rocky-gpg-keys-9.5-1.2.el9.noarch
+DEBUG util.py:463:  rocky-release-9.5-1.2.el9.noarch
+DEBUG util.py:463:  rocky-repos-9.5-1.2.el9.noarch
+DEBUG util.py:463:  setup-2.13.7-10.el9.noarch
+DEBUG util.py:463:  filesystem-3.16-5.el9.x86_64
+DEBUG util.py:463:  basesystem-11-13.el9.0.1.noarch
+DEBUG util.py:463:  libssh-config-0.10.4-13.el9.noarch
+DEBUG util.py:463:  ncurses-base-6.2-10.20210508.el9.noarch
+DEBUG util.py:463:  coreutils-common-8.32-36.el9.x86_64
+DEBUG util.py:463:  pkgconf-m4-1.7.3-10.el9.noarch
+DEBUG util.py:463:  tzdata-2025a-1.el9.noarch
+DEBUG util.py:463:  bash-5.1.8-9.el9.x86_64
+DEBUG util.py:463:  ncurses-libs-6.2-10.20210508.el9.x86_64
+DEBUG util.py:463:  glibc-minimal-langpack-2.34-125.el9_5.3.x86_64
+DEBUG util.py:463:  glibc-gconv-extra-2.34-125.el9_5.3.x86_64
+DEBUG util.py:463:  glibc-common-2.34-125.el9_5.3.x86_64
+DEBUG util.py:463:  glibc-2.34-125.el9_5.3.x86_64
+DEBUG util.py:463:  zlib-1.2.11-40.el9.x86_64
+DEBUG util.py:463:  xz-libs-5.2.5-8.el9_0.x86_64
+DEBUG util.py:463:  bzip2-libs-1.0.8-10.el9_5.x86_64
+DEBUG util.py:463:  libzstd-1.5.1-2.el9.x86_64
+DEBUG util.py:463:  elfutils-libelf-0.191-4.el9.x86_64
+DEBUG util.py:463:  libxcrypt-4.4.18-3.el9.x86_64
+DEBUG util.py:463:  libstdc++-11.5.0-5.el9_5.x86_64
+DEBUG util.py:463:  libuuid-2.37.4-20.el9.x86_64
+DEBUG util.py:463:  popt-1.18-8.el9.x86_64
+DEBUG util.py:463:  libattr-2.5.1-3.el9.x86_64
+DEBUG util.py:463:  libacl-2.3.1-4.el9.x86_64
+DEBUG util.py:463:  gmp-6.2.0-13.el9.x86_64
+DEBUG util.py:463:  libcap-2.48-9.el9_2.x86_64
+DEBUG util.py:463:  lz4-libs-1.9.3-5.el9.x86_64
+DEBUG util.py:463:  libcom_err-1.46.5-5.el9.x86_64
+DEBUG util.py:463:  readline-8.1-4.el9.x86_64
+DEBUG util.py:463:  crypto-policies-20240828-2.git626aa59.el9_5.noarch
+DEBUG util.py:463:  mpfr-4.1.0-7.el9.x86_64
+DEBUG util.py:463:  dwz-0.14-3.el9.x86_64
+DEBUG util.py:463:  unzip-6.0-57.el9.x86_64
+DEBUG util.py:463:  file-libs-5.39-16.el9.x86_64
+DEBUG util.py:463:  file-5.39-16.el9.x86_64
+DEBUG util.py:463:  sqlite-libs-3.34.1-7.el9_3.x86_64
+DEBUG util.py:463:  alternatives-1.24-1.el9_5.1.x86_64
+DEBUG util.py:463:  lua-libs-5.4.4-4.el9.x86_64
+DEBUG util.py:463:  libcap-ng-0.8.2-7.el9.x86_64
+DEBUG util.py:463:  audit-libs-3.1.5-1.el9.x86_64
+DEBUG util.py:463:  libsigsegv-2.13-4.el9.x86_64
+DEBUG util.py:463:  gawk-5.1.0-6.el9.x86_64
+DEBUG util.py:463:  libunistring-0.9.10-15.el9.x86_64
+DEBUG util.py:463:  libidn2-2.3.0-7.el9.x86_64
+DEBUG util.py:463:  libsepol-3.6-1.el9.x86_64
+DEBUG util.py:463:  libtasn1-4.16.0-8.el9_1.x86_64
+DEBUG util.py:463:  libsmartcols-2.37.4-20.el9.x86_64
+DEBUG util.py:463:  zip-3.0-35.el9.x86_64
+DEBUG util.py:463:  zstd-1.5.1-2.el9.x86_64
+DEBUG util.py:463:  groff-base-1.22.4-10.el9.x86_64
+DEBUG util.py:463:  bzip2-1.0.8-10.el9_5.x86_64
+DEBUG util.py:463:  libxml2-2.9.13-6.el9_5.2.x86_64
+DEBUG util.py:463:  info-6.7-15.el9.x86_64
+DEBUG util.py:463:  ed-1.14.2-12.el9.x86_64
+DEBUG util.py:463:  libbrotli-1.0.9-7.el9_5.x86_64
+DEBUG util.py:463:  libverto-0.3.2-3.el9.x86_64
+DEBUG util.py:463:  libdb-5.3.28-54.el9.x86_64
+DEBUG util.py:463:  cpio-2.13-16.el9.x86_64
+DEBUG util.py:463:  libnghttp2-1.43.0-6.el9.x86_64
+DEBUG util.py:463:  libpkgconf-1.7.3-10.el9.x86_64
+DEBUG util.py:463:  pkgconf-1.7.3-10.el9.x86_64
+DEBUG util.py:463:  pkgconf-pkg-config-1.7.3-10.el9.x86_64
+DEBUG util.py:463:  gdbm-libs-1.23-1.el9.x86_64
+DEBUG util.py:463:  diffutils-3.7-12.el9.x86_64
+DEBUG util.py:463:  libffi-3.4.2-8.el9.x86_64
+DEBUG util.py:463:  p11-kit-0.25.3-3.el9_5.x86_64
+DEBUG util.py:463:  p11-kit-trust-0.25.3-3.el9_5.x86_64
+DEBUG util.py:463:  libgpg-error-1.42-5.el9.x86_64
+DEBUG util.py:463:  libgcrypt-1.10.0-11.el9.x86_64
+DEBUG util.py:463:  pcre-8.44-4.el9.x86_64
+DEBUG util.py:463:  grep-3.6-5.el9.x86_64
+DEBUG util.py:463:  xz-5.2.5-8.el9_0.x86_64
+DEBUG util.py:463:  ncurses-6.2-10.20210508.el9.x86_64
+DEBUG util.py:463:  keyutils-libs-1.6.3-1.el9.x86_64
+DEBUG util.py:463:  libgomp-11.5.0-5.el9_5.x86_64
+DEBUG util.py:463:  libeconf-0.4.1-4.el9.x86_64
+DEBUG util.py:463:  elfutils-default-yama-scope-0.191-4.el9.noarch
+DEBUG util.py:463:  elfutils-libs-0.191-4.el9.x86_64
+DEBUG util.py:463:  pcre2-syntax-10.40-6.el9.noarch
+DEBUG util.py:463:  pcre2-10.40-6.el9.x86_64
+DEBUG util.py:463:  libselinux-3.6-1.el9.x86_64
+DEBUG util.py:463:  sed-4.8-9.el9.x86_64
+DEBUG util.py:463:  findutils-4.8.0-7.el9.x86_64
+DEBUG util.py:463:  openssl-libs-3.2.2-6.el9_5.1.x86_64
+DEBUG util.py:463:  coreutils-8.32-36.el9.x86_64
+DEBUG util.py:463:  ca-certificates-2024.2.69_v8.0.303-91.4.el9_4.noarch
+DEBUG util.py:463:  libblkid-2.37.4-20.el9.x86_64
+DEBUG util.py:463:  krb5-libs-1.21.1-4.el9_5.x86_64
+DEBUG util.py:463:  libmount-2.37.4-20.el9.x86_64
+DEBUG util.py:463:  gzip-1.12-1.el9.x86_64
+DEBUG util.py:463:  cracklib-2.9.6-27.el9.x86_64
+DEBUG util.py:463:  systemd-libs-252-46.el9_5.2.0.1.x86_64
+DEBUG util.py:463:  libarchive-3.5.3-4.el9.0.1.x86_64
+DEBUG util.py:463:  util-linux-core-2.37.4-20.el9.x86_64
+DEBUG util.py:463:  cracklib-dicts-2.9.6-27.el9.x86_64
+DEBUG util.py:463:  libssh-0.10.4-13.el9.x86_64
+DEBUG util.py:463:  cyrus-sasl-lib-2.1.27-21.el9.x86_64
+DEBUG util.py:463:  libfdisk-2.37.4-20.el9.x86_64
+DEBUG util.py:463:  perl-Digest-1.19-4.el9.noarch
+DEBUG util.py:463:  perl-Digest-MD5-2.58-4.el9.x86_64
+DEBUG util.py:463:  perl-B-1.80-481.el9.x86_64
+DEBUG util.py:463:  perl-FileHandle-2.03-481.el9.noarch
+DEBUG util.py:463:  perl-Data-Dumper-2.174-462.el9.x86_64
+DEBUG util.py:463:  perl-libnet-3.13-4.el9.noarch
+DEBUG util.py:463:  perl-base-2.27-481.el9.noarch
+DEBUG util.py:463:  perl-AutoLoader-5.74-481.el9.noarch
+DEBUG util.py:463:  perl-URI-5.09-3.el9.noarch
+DEBUG util.py:463:  perl-Mozilla-CA-20200520-6.el9.noarch
+DEBUG util.py:463:  perl-Text-Tabs+Wrap-2013.0523-460.el9.noarch
+DEBUG util.py:463:  perl-Pod-Escapes-1.07-460.el9.noarch
+DEBUG util.py:463:  perl-if-0.60.800-481.el9.noarch
+DEBUG util.py:463:  perl-File-Path-2.18-4.el9.noarch
+DEBUG util.py:463:  perl-IO-Socket-IP-0.41-5.el9.noarch
+DEBUG util.py:463:  perl-Time-Local-1.300-7.el9.noarch
+DEBUG util.py:463:  perl-IO-Socket-SSL-2.073-2.el9.noarch
+DEBUG util.py:463:  perl-Net-SSLeay-1.94-1.el9.x86_64
+DEBUG util.py:463:  perl-Term-ANSIColor-5.01-461.el9.noarch
+DEBUG util.py:463:  perl-POSIX-1.94-481.el9.x86_64
+DEBUG util.py:463:  perl-Term-Cap-1.17-460.el9.noarch
+DEBUG util.py:463:  perl-subs-1.03-481.el9.noarch
+DEBUG util.py:463:  perl-Pod-Simple-3.42-4.el9.noarch
+DEBUG util.py:463:  perl-IPC-Open3-1.21-481.el9.noarch
+DEBUG util.py:463:  perl-Class-Struct-0.66-481.el9.noarch
+DEBUG util.py:463:  perl-File-Temp-0.231.100-4.el9.noarch
+DEBUG util.py:463:  perl-HTTP-Tiny-0.076-462.el9.noarch
+DEBUG util.py:463:  perl-Socket-2.031-4.el9.x86_64
+DEBUG util.py:463:  perl-Symbol-1.08-481.el9.noarch
+DEBUG util.py:463:  perl-SelectSaver-1.02-481.el9.noarch
+DEBUG util.py:463:  perl-File-stat-1.09-481.el9.noarch
+DEBUG util.py:463:  perl-podlators-4.14-460.el9.noarch
+DEBUG util.py:463:  perl-Pod-Perldoc-3.28.01-461.el9.noarch
+DEBUG util.py:463:  perl-Text-ParseWords-3.30-460.el9.noarch
+DEBUG util.py:463:  perl-mro-1.23-481.el9.x86_64
+DEBUG util.py:463:  perl-Fcntl-1.13-481.el9.x86_64
+DEBUG util.py:463:  perl-overloading-0.02-481.el9.noarch
+DEBUG util.py:463:  perl-IO-1.43-481.el9.x86_64
+DEBUG util.py:463:  perl-Pod-Usage-2.01-4.el9.noarch
+DEBUG util.py:463:  perl-constant-1.33-461.el9.noarch
+DEBUG util.py:463:  perl-Scalar-List-Utils-1.56-462.el9.x86_64
+DEBUG util.py:463:  perl-MIME-Base64-3.16-4.el9.x86_64
+DEBUG util.py:463:  perl-Errno-1.30-481.el9.x86_64
+DEBUG util.py:463:  perl-vars-1.05-481.el9.noarch
+DEBUG util.py:463:  perl-overload-1.31-481.el9.noarch
+DEBUG util.py:463:  perl-Getopt-Std-1.12-481.el9.noarch
+DEBUG util.py:463:  perl-File-Basename-2.85-481.el9.noarch
+DEBUG util.py:463:  perl-Storable-3.21-460.el9.x86_64
+DEBUG util.py:463:  perl-parent-0.238-460.el9.noarch
+DEBUG util.py:463:  perl-Getopt-Long-2.52-4.el9.noarch
+DEBUG util.py:463:  perl-Exporter-5.74-461.el9.noarch
+DEBUG util.py:463:  perl-Carp-1.50-460.el9.noarch
+DEBUG util.py:463:  perl-PathTools-3.78-461.el9.x86_64
+DEBUG util.py:463:  perl-Encode-3.08-462.el9.x86_64
+DEBUG util.py:463:  perl-libs-5.32.1-481.el9.x86_64
+DEBUG util.py:463:  perl-interpreter-5.32.1-481.el9.x86_64
+DEBUG util.py:463:  kernel-srpm-macros-1.0-13.el9.noarch
+DEBUG util.py:463:  openssl-3.2.2-6.el9_5.1.x86_64
+DEBUG util.py:463:  libpwquality-1.4.4-8.el9.x86_64
+DEBUG util.py:463:  pam-1.5.1-22.el9_5.x86_64
+DEBUG util.py:463:  libevent-2.1.12-8.el9_4.x86_64
+DEBUG util.py:463:  libsemanage-3.6-2.1.el9_5.x86_64
+DEBUG util.py:463:  shadow-utils-4.9-10.el9_5.x86_64
+DEBUG util.py:463:  libutempter-1.2.1-6.el9.x86_64
+DEBUG util.py:463:  openldap-2.6.6-3.el9.x86_64
+DEBUG util.py:463:  tar-1.34-7.el9.x86_64
+DEBUG util.py:463:  patch-2.7.6-16.el9.x86_64
+DEBUG util.py:463:  publicsuffix-list-dafsa-20210518-3.el9.noarch
+DEBUG util.py:463:  libpsl-0.21.1-5.el9.x86_64
+DEBUG util.py:463:  libcurl-7.76.1-31.el9.x86_64
+DEBUG util.py:463:  elfutils-debuginfod-client-0.191-4.el9.x86_64
+DEBUG util.py:463:  binutils-gold-2.35.2-54.el9.x86_64
+DEBUG util.py:463:  binutils-2.35.2-54.el9.x86_64
+DEBUG util.py:463:  elfutils-0.191-4.el9.x86_64
+DEBUG util.py:463:  gdb-minimal-14.2-3.el9.x86_64
+DEBUG util.py:463:  debugedit-5.0-5.el9.x86_64
+DEBUG util.py:463:  curl-7.76.1-31.el9.x86_64
+DEBUG util.py:463:  rpm-libs-4.16.1.3-34.el9.0.1.x86_64
+DEBUG util.py:463:  rpm-4.16.1.3-34.el9.0.1.x86_64
+DEBUG util.py:463:  efi-srpm-macros-6-2.el9_0.noarch
+DEBUG util.py:463:  lua-srpm-macros-1-6.el9.noarch
+DEBUG util.py:463:  rpmautospec-rpm-macros-0.7.3-1.el9.noarch
+DEBUG util.py:463:  rpm-build-libs-4.16.1.3-34.el9.0.1.x86_64
+DEBUG util.py:463:  python-srpm-macros-3.9-54.el9.noarch
+DEBUG util.py:463:  fonts-srpm-macros-2.0.5-7.el9.1.noarch
+DEBUG util.py:463:  go-srpm-macros-3.6.0-3.el9.noarch
+DEBUG util.py:463:  redhat-rpm-config-208-1.el9.noarch
+DEBUG util.py:463:  rpm-build-4.16.1.3-34.el9.0.1.x86_64
+DEBUG util.py:463:  pyproject-srpm-macros-1.12.0-1.el9.noarch
+DEBUG util.py:463:  forge-srpm-macros-0.4.0-1.el9.noarch
+DEBUG util.py:463:  go-srpm-macros-epel-3.6.0.1-1.el9.noarch
+DEBUG util.py:463:  epel-rpm-macros-9-15.el9.noarch
+DEBUG util.py:463:  util-linux-2.37.4-20.el9.x86_64
+DEBUG util.py:463:  which-2.21-29.el9.x86_64
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:185:  kill orphans in chroot /var/lib/mock/rocky+epel-9-x86_64/root
+DEBUG util.py:185:  kill orphans in chroot /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/var/lib/mock/rocky+epel-9-x86_64/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/var/lib/mock/rocky+epel-9-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/var/lib/mock/rocky+epel-9-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+INFO backend.py:234:  Installed packages:
+INFO backend.py:235:  alternatives-1.24-1.el9_5.1.x86_64
+ansible-srpm-macros-1-16.el9.noarch
+audit-libs-3.1.5-1.el9.x86_64
+basesystem-11-13.el9.0.1.noarch
+bash-5.1.8-9.el9.x86_64
+binutils-2.35.2-54.el9.x86_64
+binutils-gold-2.35.2-54.el9.x86_64
+bzip2-1.0.8-10.el9_5.x86_64
+bzip2-libs-1.0.8-10.el9_5.x86_64
+ca-certificates-2024.2.69_v8.0.303-91.4.el9_4.noarch
+coreutils-8.32-36.el9.x86_64
+coreutils-common-8.32-36.el9.x86_64
+cpio-2.13-16.el9.x86_64
+cracklib-2.9.6-27.el9.x86_64
+cracklib-dicts-2.9.6-27.el9.x86_64
+crypto-policies-20240828-2.git626aa59.el9_5.noarch
+curl-7.76.1-31.el9.x86_64
+cyrus-sasl-lib-2.1.27-21.el9.x86_64
+debugedit-5.0-5.el9.x86_64
+diffutils-3.7-12.el9.x86_64
+dwz-0.14-3.el9.x86_64
+ed-1.14.2-12.el9.x86_64
+efi-srpm-macros-6-2.el9_0.noarch
+elfutils-0.191-4.el9.x86_64
+elfutils-debuginfod-client-0.191-4.el9.x86_64
+elfutils-default-yama-scope-0.191-4.el9.noarch
+elfutils-libelf-0.191-4.el9.x86_64
+elfutils-libs-0.191-4.el9.x86_64
+epel-rpm-macros-9-15.el9.noarch
+file-5.39-16.el9.x86_64
+file-libs-5.39-16.el9.x86_64
+filesystem-3.16-5.el9.x86_64
+findutils-4.8.0-7.el9.x86_64
+fonts-srpm-macros-2.0.5-7.el9.1.noarch
+forge-srpm-macros-0.4.0-1.el9.noarch
+fpc-srpm-macros-1.3-7.el9.noarch
+gawk-5.1.0-6.el9.x86_64
+gdb-minimal-14.2-3.el9.x86_64
+gdbm-libs-1.23-1.el9.x86_64
+ghc-srpm-macros-1.5.0-6.el9.noarch
+ghc-srpm-macros-epel-1.9.1-1.el9.noarch
+glibc-2.34-125.el9_5.3.x86_64
+glibc-common-2.34-125.el9_5.3.x86_64
+glibc-gconv-extra-2.34-125.el9_5.3.x86_64
+glibc-minimal-langpack-2.34-125.el9_5.3.x86_64
+gmp-6.2.0-13.el9.x86_64
+go-srpm-macros-3.6.0-3.el9.noarch
+go-srpm-macros-epel-3.6.0.1-1.el9.noarch
+gpg-pubkey-3228467c-613798eb
+gpg-pubkey-350d275d-6279464b
+grep-3.6-5.el9.x86_64
+groff-base-1.22.4-10.el9.x86_64
+gzip-1.12-1.el9.x86_64
+info-6.7-15.el9.x86_64
+kernel-srpm-macros-1.0-13.el9.noarch
+keyutils-libs-1.6.3-1.el9.x86_64
+krb5-libs-1.21.1-4.el9_5.x86_64
+libacl-2.3.1-4.el9.x86_64
+libarchive-3.5.3-4.el9.0.1.x86_64
+libattr-2.5.1-3.el9.x86_64
+libblkid-2.37.4-20.el9.x86_64
+libbrotli-1.0.9-7.el9_5.x86_64
+libcap-2.48-9.el9_2.x86_64
+libcap-ng-0.8.2-7.el9.x86_64
+libcom_err-1.46.5-5.el9.x86_64
+libcurl-7.76.1-31.el9.x86_64
+libdb-5.3.28-54.el9.x86_64
+libeconf-0.4.1-4.el9.x86_64
+libevent-2.1.12-8.el9_4.x86_64
+libfdisk-2.37.4-20.el9.x86_64
+libffi-3.4.2-8.el9.x86_64
+libgcc-11.5.0-5.el9_5.x86_64
+libgcrypt-1.10.0-11.el9.x86_64
+libgomp-11.5.0-5.el9_5.x86_64
+libgpg-error-1.42-5.el9.x86_64
+libidn2-2.3.0-7.el9.x86_64
+libmount-2.37.4-20.el9.x86_64
+libnghttp2-1.43.0-6.el9.x86_64
+libpkgconf-1.7.3-10.el9.x86_64
+libpsl-0.21.1-5.el9.x86_64
+libpwquality-1.4.4-8.el9.x86_64
+libselinux-3.6-1.el9.x86_64
+libsemanage-3.6-2.1.el9_5.x86_64
+libsepol-3.6-1.el9.x86_64
+libsigsegv-2.13-4.el9.x86_64
+libsmartcols-2.37.4-20.el9.x86_64
+libssh-0.10.4-13.el9.x86_64
+libssh-config-0.10.4-13.el9.noarch
+libstdc++-11.5.0-5.el9_5.x86_64
+libtasn1-4.16.0-8.el9_1.x86_64
+libunistring-0.9.10-15.el9.x86_64
+libutempter-1.2.1-6.el9.x86_64
+libuuid-2.37.4-20.el9.x86_64
+libverto-0.3.2-3.el9.x86_64
+libxcrypt-4.4.18-3.el9.x86_64
+libxml2-2.9.13-6.el9_5.2.x86_64
+libzstd-1.5.1-2.el9.x86_64
+lua-libs-5.4.4-4.el9.x86_64
+lua-srpm-macros-1-6.el9.noarch
+lz4-libs-1.9.3-5.el9.x86_64
+mpfr-4.1.0-7.el9.x86_64
+ncurses-6.2-10.20210508.el9.x86_64
+ncurses-base-6.2-10.20210508.el9.noarch
+ncurses-libs-6.2-10.20210508.el9.x86_64
+ocaml-srpm-macros-6-6.el9.noarch
+openblas-srpm-macros-2-11.el9.noarch
+openldap-2.6.6-3.el9.x86_64
+openssl-3.2.2-6.el9_5.1.x86_64
+openssl-libs-3.2.2-6.el9_5.1.x86_64
+p11-kit-0.25.3-3.el9_5.x86_64
+p11-kit-trust-0.25.3-3.el9_5.x86_64
+pam-1.5.1-22.el9_5.x86_64
+patch-2.7.6-16.el9.x86_64
+pcre-8.44-4.el9.x86_64
+pcre2-10.40-6.el9.x86_64
+pcre2-syntax-10.40-6.el9.noarch
+perl-AutoLoader-5.74-481.el9.noarch
+perl-B-1.80-481.el9.x86_64
+perl-Carp-1.50-460.el9.noarch
+perl-Class-Struct-0.66-481.el9.noarch
+perl-Data-Dumper-2.174-462.el9.x86_64
+perl-Digest-1.19-4.el9.noarch
+perl-Digest-MD5-2.58-4.el9.x86_64
+perl-Encode-3.08-462.el9.x86_64
+perl-Errno-1.30-481.el9.x86_64
+perl-Exporter-5.74-461.el9.noarch
+perl-Fcntl-1.13-481.el9.x86_64
+perl-File-Basename-2.85-481.el9.noarch
+perl-File-Path-2.18-4.el9.noarch
+perl-File-Temp-0.231.100-4.el9.noarch
+perl-File-stat-1.09-481.el9.noarch
+perl-FileHandle-2.03-481.el9.noarch
+perl-Getopt-Long-2.52-4.el9.noarch
+perl-Getopt-Std-1.12-481.el9.noarch
+perl-HTTP-Tiny-0.076-462.el9.noarch
+perl-IO-1.43-481.el9.x86_64
+perl-IO-Socket-IP-0.41-5.el9.noarch
+perl-IO-Socket-SSL-2.073-2.el9.noarch
+perl-IPC-Open3-1.21-481.el9.noarch
+perl-MIME-Base64-3.16-4.el9.x86_64
+perl-Mozilla-CA-20200520-6.el9.noarch
+perl-Net-SSLeay-1.94-1.el9.x86_64
+perl-POSIX-1.94-481.el9.x86_64
+perl-PathTools-3.78-461.el9.x86_64
+perl-Pod-Escapes-1.07-460.el9.noarch
+perl-Pod-Perldoc-3.28.01-461.el9.noarch
+perl-Pod-Simple-3.42-4.el9.noarch
+perl-Pod-Usage-2.01-4.el9.noarch
+perl-Scalar-List-Utils-1.56-462.el9.x86_64
+perl-SelectSaver-1.02-481.el9.noarch
+perl-Socket-2.031-4.el9.x86_64
+perl-Storable-3.21-460.el9.x86_64
+perl-Symbol-1.08-481.el9.noarch
+perl-Term-ANSIColor-5.01-461.el9.noarch
+perl-Term-Cap-1.17-460.el9.noarch
+perl-Text-ParseWords-3.30-460.el9.noarch
+perl-Text-Tabs+Wrap-2013.0523-460.el9.noarch
+perl-Time-Local-1.300-7.el9.noarch
+perl-URI-5.09-3.el9.noarch
+perl-base-2.27-481.el9.noarch
+perl-constant-1.33-461.el9.noarch
+perl-if-0.60.800-481.el9.noarch
+perl-interpreter-5.32.1-481.el9.x86_64
+perl-libnet-3.13-4.el9.noarch
+perl-libs-5.32.1-481.el9.x86_64
+perl-mro-1.23-481.el9.x86_64
+perl-overload-1.31-481.el9.noarch
+perl-overloading-0.02-481.el9.noarch
+perl-parent-0.238-460.el9.noarch
+perl-podlators-4.14-460.el9.noarch
+perl-srpm-macros-1-41.el9.noarch
+perl-subs-1.03-481.el9.noarch
+perl-vars-1.05-481.el9.noarch
+pkgconf-1.7.3-10.el9.x86_64
+pkgconf-m4-1.7.3-10.el9.noarch
+pkgconf-pkg-config-1.7.3-10.el9.x86_64
+popt-1.18-8.el9.x86_64
+publicsuffix-list-dafsa-20210518-3.el9.noarch
+pyproject-srpm-macros-1.12.0-1.el9.noarch
+python-srpm-macros-3.9-54.el9.noarch
+qt5-srpm-macros-5.15.9-1.el9.noarch
+qt6-srpm-macros-6.6.2-1.el9.noarch
+readline-8.1-4.el9.x86_64
+redhat-rpm-config-208-1.el9.noarch
+rocky-gpg-keys-9.5-1.2.el9.noarch
+rocky-release-9.5-1.2.el9.noarch
+rocky-repos-9.5-1.2.el9.noarch
+rpm-4.16.1.3-34.el9.0.1.x86_64
+rpm-build-4.16.1.3-34.el9.0.1.x86_64
+rpm-build-libs-4.16.1.3-34.el9.0.1.x86_64
+rpm-libs-4.16.1.3-34.el9.0.1.x86_64
+rpmautospec-rpm-macros-0.7.3-1.el9.noarch
+rust-srpm-macros-17-4.el9.noarch
+rust-srpm-macros-epel-26.3-1.el9.noarch
+sed-4.8-9.el9.x86_64
+setup-2.13.7-10.el9.noarch
+shadow-utils-4.9-10.el9_5.x86_64
+sqlite-libs-3.34.1-7.el9_3.x86_64
+systemd-libs-252-46.el9_5.2.0.1.x86_64
+tar-1.34-7.el9.x86_64
+tzdata-2025a-1.el9.noarch
+unzip-6.0-57.el9.x86_64
+util-linux-2.37.4-20.el9.x86_64
+util-linux-core-2.37.4-20.el9.x86_64
+which-2.21-29.el9.x86_64
+xz-5.2.5-8.el9_0.x86_64
+xz-libs-5.2.5-8.el9_0.x86_64
+zip-3.0-35.el9.x86_64
+zlib-1.2.11-40.el9.x86_64
+zstd-1.5.1-2.el9.x86_64
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/rpm', '-Uvh', '--nodeps', '/builddir/build/originals/python3-openfeature-provider-flagd-0.1.5-1.fff+el9.src.rpm'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:463:  Updating / installing...
+DEBUG util.py:461:  python3-openfeature-provider-flagd-0.1warning: user runner does not exist - using root
+DEBUG util.py:461:  warning: group docker does not exist - using root
+DEBUG util.py:461:  warning: user runner does not exist - using root
+DEBUG util.py:461:  warning: group docker does not exist - using root
+DEBUG util.py:463:  ########################################
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/rpm', '-qpl', '/builddir/build/originals/python3-openfeature-provider-flagd-0.1.5-1.fff+el9.src.rpm'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:463:  python3-openfeature-provider-flagd-0.1.5.tar.gz
+DEBUG util.py:463:  python3-openfeature-provider-flagd.spec
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: case $(rpmbuild --help) in *--noclean*) exit 0; esac; exit 1 with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8'} and shell True
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/var/lib/mock/rocky+epel-9-x86_64/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'private,mode=0755', 'tmpfs', '/var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/var/lib/mock/rocky+epel-9-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/var/lib/mock/rocky+epel-9-x86_64/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/var/lib/mock/rocky+epel-9-x86_64/root', '/var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/var/lib/mock/rocky+epel-9-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'remount,private,rbind', '--target', '/var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/var/lib/mock/rocky+epel-9-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:18:  ensuring that dir exists: /var/lib/mock/rocky+epel-9-x86_64/root/installation-homedir
+DEBUG package_manager.py:289:  ['/usr/bin/dnf-3', 'builddep', '--installroot', '/var/lib/mock/rocky+epel-9-x86_64/root/', '--releasever', '9', '--setopt=deltarpm=False', '--setopt=allow_vendor_change=yes', '--allowerasing', '--disableplugin=local', '--disableplugin=spacewalk', '--disableplugin=versionlock', '/var/lib/mock/rocky+epel-9-x86_64/root//builddir/build/SRPMS/python3-openfeature-provider-flagd-0.1.5-1.el9.src.rpm']
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/usr/bin/dnf-3', 'builddep', '--installroot', '/var/lib/mock/rocky+epel-9-x86_64/root/', '--releasever', '9', '--setopt=deltarpm=False', '--setopt=allow_vendor_change=yes', '--allowerasing', '--disableplugin=local', '--disableplugin=spacewalk', '--disableplugin=versionlock', '/var/lib/mock/rocky+epel-9-x86_64/root//builddir/build/SRPMS/python3-openfeature-provider-flagd-0.1.5-1.el9.src.rpm'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/var/lib/mock/rocky+epel-9-x86_64/root/installation-homedir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'LC_MESSAGES': 'C.UTF-8'} and shell False
+DEBUG util.py:461:  No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+DEBUG util.py:463:  file:///home/runner/work/fffpkg/fffpkg/out/rpm. 2.9 MB/s | 3.0 kB     00:00    
+DEBUG util.py:463:  Extra Packages for Enterprise Linux 9 - x86_64  456 kB/s |  33 kB     00:00    
+DEBUG util.py:463:  Dependencies resolved.
+DEBUG util.py:463:  ================================================================================
+DEBUG util.py:463:   Package                      Arch      Version              Repository    Size
+DEBUG util.py:463:  ================================================================================
+DEBUG util.py:463:  Installing:
+DEBUG util.py:463:   python3-devel                x86_64    3.9.21-1.el9_5       appstream    205 k
+DEBUG util.py:463:   python3-hatchling            noarch    1.21.1-1.el9         epel         150 k
+DEBUG util.py:463:   python3-pip                  noarch    21.3.1-1.el9         appstream    1.7 M
+DEBUG util.py:463:   python3-pytest               noarch    6.2.2-7.el9          appstream    473 k
+DEBUG util.py:463:   python3-setuptools           noarch    53.0.0-13.el9        baseos       838 k
+DEBUG util.py:463:  Installing dependencies:
+DEBUG util.py:463:   expat                        x86_64    2.5.0-3.el9_5.1      baseos       115 k
+DEBUG util.py:463:   pyproject-rpm-macros         noarch    1.12.0-1.el9         crb           39 k
+DEBUG util.py:463:   python-rpm-macros            noarch    3.9-54.el9           appstream     14 k
+DEBUG util.py:463:   python3                      x86_64    3.9.21-1.el9_5       baseos        26 k
+DEBUG util.py:463:   python3-attrs                noarch    20.3.0-7.el9         appstream     78 k
+DEBUG util.py:463:   python3-editables            noarch    0.5-1.el9            epel          17 k
+DEBUG util.py:463:   python3-iniconfig            noarch    1.1.1-7.el9.0.1      appstream     17 k
+DEBUG util.py:463:   python3-libs                 x86_64    3.9.21-1.el9_5       baseos       7.5 M
+DEBUG util.py:463:   python3-packaging            noarch    20.9-5.el9           appstream     69 k
+DEBUG util.py:463:   python3-pathspec             noarch    0.12.1-1.el9         epel          48 k
+DEBUG util.py:463:   python3-pip-wheel            noarch    21.3.1-1.el9         baseos       1.1 M
+DEBUG util.py:463:   python3-pluggy               noarch    0.13.1-7.el9.0.1     appstream     38 k
+DEBUG util.py:463:   python3-py                   noarch    1.10.0-6.el9.0.1     appstream    428 k
+DEBUG util.py:463:   python3-pyparsing            noarch    2.4.7-9.el9          baseos       150 k
+DEBUG util.py:463:   python3-rpm-generators       noarch    12-9.el9             appstream     27 k
+DEBUG util.py:463:   python3-rpm-macros           noarch    3.9-54.el9           appstream    9.2 k
+DEBUG util.py:463:   python3-setuptools-wheel     noarch    53.0.0-13.el9        baseos       467 k
+DEBUG util.py:463:   python3-toml                 noarch    0.10.2-6.el9         appstream     39 k
+DEBUG util.py:463:   python3-tomli                noarch    2.0.1-5.el9          appstream     30 k
+DEBUG util.py:463:   python3-trove-classifiers    noarch    2025.1.7.14-1.el9    epel          26 k
+DEBUG util.py:463:  Transaction Summary
+DEBUG util.py:463:  ================================================================================
+DEBUG util.py:463:  Install  25 Packages
+DEBUG util.py:463:  Total download size: 14 M
+DEBUG util.py:463:  Installed size: 55 M
+DEBUG util.py:463:  Downloading Packages:
+DEBUG util.py:463:  (1/25): python3-pyparsing-2.4.7-9.el9.noarch.rp 309 kB/s | 150 kB     00:00    
+DEBUG util.py:463:  (2/25): expat-2.5.0-3.el9_5.1.x86_64.rpm        234 kB/s | 115 kB     00:00    
+DEBUG util.py:463:  (3/25): python3-setuptools-wheel-53.0.0-13.el9. 2.8 MB/s | 467 kB     00:00    
+DEBUG util.py:463:  (4/25): python3-pip-wheel-21.3.1-1.el9.noarch.r 1.6 MB/s | 1.1 MB     00:00    
+DEBUG util.py:463:  (5/25): python3-setuptools-53.0.0-13.el9.noarch 3.4 MB/s | 838 kB     00:00    
+DEBUG util.py:463:  (6/25): python3-3.9.21-1.el9_5.x86_64.rpm       327 kB/s |  26 kB     00:00    
+DEBUG util.py:463:  (7/25): python3-rpm-generators-12-9.el9.noarch. 239 kB/s |  27 kB     00:00    
+DEBUG util.py:463:  (8/25): python3-packaging-20.9-5.el9.noarch.rpm 1.1 MB/s |  69 kB     00:00    
+DEBUG util.py:463:  (9/25): python3-rpm-macros-3.9-54.el9.noarch.rp 282 kB/s | 9.2 kB     00:00    
+DEBUG util.py:463:  (10/25): python-rpm-macros-3.9-54.el9.noarch.rp 331 kB/s |  14 kB     00:00    
+DEBUG util.py:463:  (11/25): python3-attrs-20.3.0-7.el9.noarch.rpm  1.6 MB/s |  78 kB     00:00    
+DEBUG util.py:463:  (12/25): python3-toml-0.10.2-6.el9.noarch.rpm   1.0 MB/s |  39 kB     00:00    
+DEBUG util.py:463:  (13/25): python3-pip-21.3.1-1.el9.noarch.rpm     22 MB/s | 1.7 MB     00:00    
+DEBUG util.py:463:  (14/25): python3-devel-3.9.21-1.el9_5.x86_64.rp 5.8 MB/s | 205 kB     00:00    
+DEBUG util.py:463:  (15/25): python3-iniconfig-1.1.1-7.el9.0.1.noar 438 kB/s |  17 kB     00:00    
+DEBUG util.py:463:  (16/25): python3-libs-3.9.21-1.el9_5.x86_64.rpm  18 MB/s | 7.5 MB     00:00    
+DEBUG util.py:463:  (17/25): python3-py-1.10.0-6.el9.0.1.noarch.rpm 6.8 MB/s | 428 kB     00:00    
+DEBUG util.py:463:  (18/25): python3-pytest-6.2.2-7.el9.noarch.rpm   11 MB/s | 473 kB     00:00    
+DEBUG util.py:463:  (19/25): pyproject-rpm-macros-1.12.0-1.el9.noar 1.4 MB/s |  39 kB     00:00    
+DEBUG util.py:463:  (20/25): python3-pluggy-0.13.1-7.el9.0.1.noarch 973 kB/s |  38 kB     00:00    
+DEBUG util.py:463:  (21/25): python3-tomli-2.0.1-5.el9.noarch.rpm   812 kB/s |  30 kB     00:00    
+DEBUG util.py:463:  (22/25): python3-editables-0.5-1.el9.noarch.rpm  81 kB/s |  17 kB     00:00    
+DEBUG util.py:463:  (23/25): python3-pathspec-0.12.1-1.el9.noarch.r 183 kB/s |  48 kB     00:00    
+DEBUG util.py:463:  (24/25): python3-trove-classifiers-2025.1.7.14- 253 kB/s |  26 kB     00:00    
+DEBUG util.py:463:  (25/25): python3-hatchling-1.21.1-1.el9.noarch. 386 kB/s | 150 kB     00:00    
+DEBUG util.py:463:  --------------------------------------------------------------------------------
+DEBUG util.py:463:  Total                                           8.1 MB/s |  14 MB     00:01     
+DEBUG util.py:463:  Running transaction check
+DEBUG util.py:463:  Transaction check succeeded.
+DEBUG util.py:463:  Running transaction test
+DEBUG util.py:463:  Transaction test succeeded.
+DEBUG util.py:463:  Running transaction
+DEBUG util.py:463:    Preparing        :                                                        1/1 
+DEBUG util.py:463:    Installing       : python-rpm-macros-3.9-54.el9.noarch                   1/25 
+DEBUG util.py:463:    Installing       : python3-rpm-macros-3.9-54.el9.noarch                  2/25 
+DEBUG util.py:463:    Installing       : python3-setuptools-wheel-53.0.0-13.el9.noarch         3/25 
+DEBUG util.py:463:    Installing       : python3-pip-wheel-21.3.1-1.el9.noarch                 4/25 
+DEBUG util.py:463:    Installing       : expat-2.5.0-3.el9_5.1.x86_64                          5/25 
+DEBUG util.py:463:    Installing       : python3-3.9.21-1.el9_5.x86_64                         6/25 
+DEBUG util.py:463:    Installing       : python3-libs-3.9.21-1.el9_5.x86_64                    7/25 
+DEBUG util.py:463:    Installing       : python3-setuptools-53.0.0-13.el9.noarch               8/25 
+DEBUG util.py:463:    Installing       : python3-pluggy-0.13.1-7.el9.0.1.noarch                9/25 
+DEBUG util.py:463:    Installing       : python3-pip-21.3.1-1.el9.noarch                      10/25 
+DEBUG util.py:463:    Installing       : python3-py-1.10.0-6.el9.0.1.noarch                   11/25 
+DEBUG util.py:463:    Installing       : python3-pyparsing-2.4.7-9.el9.noarch                 12/25 
+DEBUG util.py:463:    Installing       : python3-packaging-20.9-5.el9.noarch                  13/25 
+DEBUG util.py:463:    Installing       : python3-rpm-generators-12-9.el9.noarch               14/25 
+DEBUG util.py:463:    Installing       : python3-attrs-20.3.0-7.el9.noarch                    15/25 
+DEBUG util.py:463:    Installing       : python3-toml-0.10.2-6.el9.noarch                     16/25 
+DEBUG util.py:463:    Installing       : python3-iniconfig-1.1.1-7.el9.0.1.noarch             17/25 
+DEBUG util.py:463:    Installing       : python3-tomli-2.0.1-5.el9.noarch                     18/25 
+DEBUG util.py:463:    Installing       : python3-editables-0.5-1.el9.noarch                   19/25 
+DEBUG util.py:463:    Installing       : python3-pathspec-0.12.1-1.el9.noarch                 20/25 
+DEBUG util.py:463:    Installing       : python3-trove-classifiers-2025.1.7.14-1.el9.noarch   21/25 
+DEBUG util.py:463:    Installing       : python3-hatchling-1.21.1-1.el9.noarch                22/25 
+DEBUG util.py:463:    Installing       : python3-pytest-6.2.2-7.el9.noarch                    23/25 
+DEBUG util.py:463:    Installing       : python3-devel-3.9.21-1.el9_5.x86_64                  24/25 
+DEBUG util.py:463:    Installing       : pyproject-rpm-macros-1.12.0-1.el9.noarch             25/25 
+DEBUG util.py:463:    Running scriptlet: pyproject-rpm-macros-1.12.0-1.el9.noarch             25/25 
+DEBUG util.py:463:    Verifying        : expat-2.5.0-3.el9_5.1.x86_64                          1/25 
+DEBUG util.py:463:    Verifying        : python3-pip-wheel-21.3.1-1.el9.noarch                 2/25 
+DEBUG util.py:463:    Verifying        : python3-pyparsing-2.4.7-9.el9.noarch                  3/25 
+DEBUG util.py:463:    Verifying        : python3-setuptools-wheel-53.0.0-13.el9.noarch         4/25 
+DEBUG util.py:463:    Verifying        : python3-setuptools-53.0.0-13.el9.noarch               5/25 
+DEBUG util.py:463:    Verifying        : python3-libs-3.9.21-1.el9_5.x86_64                    6/25 
+DEBUG util.py:463:    Verifying        : python3-3.9.21-1.el9_5.x86_64                         7/25 
+DEBUG util.py:463:    Verifying        : python3-rpm-generators-12-9.el9.noarch                8/25 
+DEBUG util.py:463:    Verifying        : python3-packaging-20.9-5.el9.noarch                   9/25 
+DEBUG util.py:463:    Verifying        : python3-rpm-macros-3.9-54.el9.noarch                 10/25 
+DEBUG util.py:463:    Verifying        : python-rpm-macros-3.9-54.el9.noarch                  11/25 
+DEBUG util.py:463:    Verifying        : python3-attrs-20.3.0-7.el9.noarch                    12/25 
+DEBUG util.py:463:    Verifying        : python3-pip-21.3.1-1.el9.noarch                      13/25 
+DEBUG util.py:463:    Verifying        : python3-toml-0.10.2-6.el9.noarch                     14/25 
+DEBUG util.py:463:    Verifying        : python3-devel-3.9.21-1.el9_5.x86_64                  15/25 
+DEBUG util.py:463:    Verifying        : python3-iniconfig-1.1.1-7.el9.0.1.noarch             16/25 
+DEBUG util.py:463:    Verifying        : python3-py-1.10.0-6.el9.0.1.noarch                   17/25 
+DEBUG util.py:463:    Verifying        : python3-pytest-6.2.2-7.el9.noarch                    18/25 
+DEBUG util.py:463:    Verifying        : python3-pluggy-0.13.1-7.el9.0.1.noarch               19/25 
+DEBUG util.py:463:    Verifying        : python3-tomli-2.0.1-5.el9.noarch                     20/25 
+DEBUG util.py:463:    Verifying        : pyproject-rpm-macros-1.12.0-1.el9.noarch             21/25 
+DEBUG util.py:463:    Verifying        : python3-editables-0.5-1.el9.noarch                   22/25 
+DEBUG util.py:463:    Verifying        : python3-hatchling-1.21.1-1.el9.noarch                23/25 
+DEBUG util.py:463:    Verifying        : python3-pathspec-0.12.1-1.el9.noarch                 24/25 
+DEBUG util.py:463:    Verifying        : python3-trove-classifiers-2025.1.7.14-1.el9.noarch   25/25 
+DEBUG util.py:463:  Installed:
+DEBUG util.py:463:    expat-2.5.0-3.el9_5.1.x86_64                                                  
+DEBUG util.py:463:    pyproject-rpm-macros-1.12.0-1.el9.noarch                                      
+DEBUG util.py:463:    python-rpm-macros-3.9-54.el9.noarch                                           
+DEBUG util.py:463:    python3-3.9.21-1.el9_5.x86_64                                                 
+DEBUG util.py:463:    python3-attrs-20.3.0-7.el9.noarch                                             
+DEBUG util.py:463:    python3-devel-3.9.21-1.el9_5.x86_64                                           
+DEBUG util.py:463:    python3-editables-0.5-1.el9.noarch                                            
+DEBUG util.py:463:    python3-hatchling-1.21.1-1.el9.noarch                                         
+DEBUG util.py:463:    python3-iniconfig-1.1.1-7.el9.0.1.noarch                                      
+DEBUG util.py:463:    python3-libs-3.9.21-1.el9_5.x86_64                                            
+DEBUG util.py:463:    python3-packaging-20.9-5.el9.noarch                                           
+DEBUG util.py:463:    python3-pathspec-0.12.1-1.el9.noarch                                          
+DEBUG util.py:463:    python3-pip-21.3.1-1.el9.noarch                                               
+DEBUG util.py:463:    python3-pip-wheel-21.3.1-1.el9.noarch                                         
+DEBUG util.py:463:    python3-pluggy-0.13.1-7.el9.0.1.noarch                                        
+DEBUG util.py:463:    python3-py-1.10.0-6.el9.0.1.noarch                                            
+DEBUG util.py:463:    python3-pyparsing-2.4.7-9.el9.noarch                                          
+DEBUG util.py:463:    python3-pytest-6.2.2-7.el9.noarch                                             
+DEBUG util.py:463:    python3-rpm-generators-12-9.el9.noarch                                        
+DEBUG util.py:463:    python3-rpm-macros-3.9-54.el9.noarch                                          
+DEBUG util.py:463:    python3-setuptools-53.0.0-13.el9.noarch                                       
+DEBUG util.py:463:    python3-setuptools-wheel-53.0.0-13.el9.noarch                                 
+DEBUG util.py:463:    python3-toml-0.10.2-6.el9.noarch                                              
+DEBUG util.py:463:    python3-tomli-2.0.1-5.el9.noarch                                              
+DEBUG util.py:463:    python3-trove-classifiers-2025.1.7.14-1.el9.noarch                            
+DEBUG util.py:463:  Complete!
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:185:  kill orphans in chroot /var/lib/mock/rocky+epel-9-x86_64/root
+DEBUG util.py:185:  kill orphans in chroot /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/var/lib/mock/rocky+epel-9-x86_64/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/var/lib/mock/rocky+epel-9-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/var/lib/mock/rocky+epel-9-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG backend.py:821:  Copying packages to result dir
+INFO backend.py:500:  End chain build: /home/runner/work/fffpkg/fffpkg/python3-openfeature-provider-flagd/builddir/x86_64/rpm.el9/SRPMS/python3-openfeature-provider-flagd-0.1.5-1.fff+el9.src.rpm
+INFO backend.py:512:  Success building python3-openfeature-provider-flagd-0.1.5-1.fff+el9.src.rpm
+DEBUG file_util.py:30:  touching file: /home/runner/work/fffpkg/fffpkg/out/rpm.el9.x86_64/raw/results/rocky+epel-9-x86_64/python3-openfeature-provider-flagd-0.1.5-1.fff+el9/success
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/usr/bin/createrepo_c', '-d', '-q', '-x', '*.src.rpm', '--update', '/home/runner/work/fffpkg/fffpkg/out/rpm.el9.x86_64/raw/results/rocky+epel-9-x86_64'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+INFO backend.py:541:  Results out to: /home/runner/work/fffpkg/fffpkg/out/rpm.el9.x86_64/raw/results/rocky+epel-9-x86_64
+INFO backend.py:546:  Packages built: 1
+INFO backend.py:552:  Packages successfully built in this order:
+INFO backend.py:554:  /home/runner/work/fffpkg/fffpkg/python3-openfeature-provider-flagd/builddir/x86_64/rpm.el9/SRPMS/python3-openfeature-provider-flagd-0.1.5-1.fff+el9.src.rpm
+DEBUG util.py:185:  kill orphans in chroot /var/lib/mock/rocky+epel-9-x86_64/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/rocky+epel-9-x86_64/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/rocky+epel-9-x86_64/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/rocky+epel-9-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/rocky+epel-9-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/rocky+epel-9-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/rocky+epel-9-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:185:  kill orphans in chroot /var/lib/mock/rocky+epel-9-x86_64-bootstrap/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '/var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/home/runner/work/fffpkg/fffpkg/out/rpm.el9.x86_64/raw/results/rocky+epel-9-x86_64'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/rocky+epel-9-x86_64-bootstrap/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0

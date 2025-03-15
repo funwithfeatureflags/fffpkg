@@ -1,0 +1,154 @@
+Mock Version: 5.5
+ENTER ['do_with_status'](['bash', '--login', '-c', '/usr/bin/rpmbuild -bs --noclean --target x86_64 --nodeps /builddir/build/SPECS/python3-openfeature-hooks-opentelemetry.spec'], chrootPath='/var/lib/mock/rocky+epel-9-x86_64/root'env={'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8'}shell=Falselogger=<mockbuild.trace_decorator.getLog object at 0x7f8420b2b830>timeout=0uid=1001gid=987user='mockbuild'nspawn_args=[]unshare_net=TrueprintOutput=False)
+Executing command: ['bash', '--login', '-c', '/usr/bin/rpmbuild -bs --noclean --target x86_64 --nodeps /builddir/build/SPECS/python3-openfeature-hooks-opentelemetry.spec'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8'} and shell False
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1675209600
+Wrote: /builddir/build/SRPMS/python3-openfeature-hooks-opentelemetry-0.1.1-1.el9.src.rpm
+Child return code was: 0
+ENTER ['do_with_status'](['bash', '--login', '-c', '/usr/bin/rpmbuild -bb --noclean --target x86_64 --nodeps /builddir/build/SPECS/python3-openfeature-hooks-opentelemetry.spec'], chrootPath='/var/lib/mock/rocky+epel-9-x86_64/root'env={'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8'}shell=Falselogger=<mockbuild.trace_decorator.getLog object at 0x7f8420b2b830>timeout=0uid=1001gid=987user='mockbuild'nspawn_args=[]unshare_net=TrueprintOutput=False)
+Executing command: ['bash', '--login', '-c', '/usr/bin/rpmbuild -bb --noclean --target x86_64 --nodeps /builddir/build/SPECS/python3-openfeature-hooks-opentelemetry.spec'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8'} and shell False
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1675209600
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.Lok1wn
++ umask 022
++ cd /builddir/build/BUILD
++ cd /builddir/build/BUILD
++ rm -rf python3-openfeature-hooks-opentelemetry-0.1.1
++ /usr/bin/gzip -dc /builddir/build/SOURCES/python3-openfeature-hooks-opentelemetry-0.1.1.tar.gz
++ /usr/bin/tar -xof -
++ STATUS=0
++ '[' 0 -ne 0 ']'
++ cd python3-openfeature-hooks-opentelemetry-0.1.1
++ /usr/bin/chmod -Rf a+rX,u+w,g-w,o-w .
++ echo pyproject-rpm-macros
++ echo python3-devel
+pyproject-rpm-macros
+python3-devel
+python3dist(pip) >= 19
+python3dist(packaging)
+(python3dist(tomli) if python3-devel < 3.11)
++ echo 'python3dist(pip) >= 19'
++ echo 'python3dist(packaging)'
++ '[' -f pyproject.toml ']'
++ echo '(python3dist(tomli) if python3-devel < 3.11)'
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3 ']'
++ mkdir -p /builddir/build/BUILD/.pyproject-builddir
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/.pyproject-builddir
++ RPM_TOXENV=py39
++ HOSTNAME=rpmbuild
++ /usr/bin/python3 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3 --wheeldir /builddir/build/BUILD/pyproject-wheeldir --output /builddir/build/BUILD/python3-openfeature-hooks-opentelemetry-0.1.1-1.el9.x86_64-pyproject-buildrequires
+Handling hatchling from build-system.requires
+Requirement satisfied: hatchling
+   (installed: hatchling 1.21.1)
+Handling openfeature-sdk>=0.4.0 from hook generated metadata: Requires-Dist (openfeature-hooks-opentelemetry)
+Requirement not satisfied: openfeature-sdk>=0.4.0
+Handling opentelemetry-api from hook generated metadata: Requires-Dist (openfeature-hooks-opentelemetry)
+Requirement not satisfied: opentelemetry-api
++ cat /builddir/build/BUILD/python3-openfeature-hooks-opentelemetry-0.1.1-1.el9.x86_64-pyproject-buildrequires
+python3dist(hatchling)
+python3dist(openfeature-sdk) >= 0.4
+python3dist(opentelemetry-api)
++ rm -rfv openfeature_hooks_opentelemetry-0.1.1.dist-info/
+removed 'openfeature_hooks_opentelemetry-0.1.1.dist-info/METADATA'
+removed directory 'openfeature_hooks_opentelemetry-0.1.1.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.gSTstc
++ umask 022
++ cd /builddir/build/BUILD
++ cd python3-openfeature-hooks-opentelemetry-0.1.1
++ rm -rf /builddir/build/BUILDROOT/python3-openfeature-hooks-opentelemetry-0.1.1-1.el9.x86_64
++ mkdir -p /builddir/build/BUILD/python3-openfeature-hooks-opentelemetry-0.1.1/.pyproject-builddir
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/python3-openfeature-hooks-opentelemetry-0.1.1/.pyproject-builddir
++ /usr/bin/python3 -Bs /usr/lib/rpm/redhat/pyproject_wheel.py /builddir/build/BUILD/python3-openfeature-hooks-opentelemetry-0.1.1/pyproject-wheeldir
+Processing /builddir/build/BUILD/python3-openfeature-hooks-opentelemetry-0.1.1
+  Preparing metadata (pyproject.toml): started
+  Running command /usr/bin/python3 /usr/lib/python3.9/site-packages/pip/_vendor/pep517/in_process/_in_process.py prepare_metadata_for_build_wheel /builddir/build/BUILD/python3-openfeature-hooks-opentelemetry-0.1.1/.pyproject-builddir/tmpycfp36bs
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: openfeature-hooks-opentelemetry
+  Building wheel for openfeature-hooks-opentelemetry (pyproject.toml): started
+  Running command /usr/bin/python3 /usr/lib/python3.9/site-packages/pip/_vendor/pep517/in_process/_in_process.py build_wheel /builddir/build/BUILD/python3-openfeature-hooks-opentelemetry-0.1.1/.pyproject-builddir/tmpbdr11hch
+  Building wheel for openfeature-hooks-opentelemetry (pyproject.toml): finished with status 'done'
+  Created wheel for openfeature-hooks-opentelemetry: filename=openfeature_hooks_opentelemetry-0.1.1-py3-none-any.whl size=10752 sha256=04a593a980dc81fabd5694def12b0d71961abd7f63d2b09395d7c87cff56b22a
+  Stored in directory: /builddir/.cache/pip/wheels/90/2f/68/9670a18b44b5045f6b219b9bb417ddc7a5c185ec62e897aa96
+Successfully built openfeature-hooks-opentelemetry
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.LRldpw
++ umask 022
++ cd /builddir/build/BUILD
++ '[' /builddir/build/BUILDROOT/python3-openfeature-hooks-opentelemetry-0.1.1-1.el9.x86_64 '!=' / ']'
++ rm -rf /builddir/build/BUILDROOT/python3-openfeature-hooks-opentelemetry-0.1.1-1.el9.x86_64
+++ dirname /builddir/build/BUILDROOT/python3-openfeature-hooks-opentelemetry-0.1.1-1.el9.x86_64
++ mkdir -p /builddir/build/BUILDROOT
++ mkdir /builddir/build/BUILDROOT/python3-openfeature-hooks-opentelemetry-0.1.1-1.el9.x86_64
++ cd python3-openfeature-hooks-opentelemetry-0.1.1
+++ ls /builddir/build/BUILD/python3-openfeature-hooks-opentelemetry-0.1.1/pyproject-wheeldir/openfeature_hooks_opentelemetry-0.1.1-py3-none-any.whl
+++ xargs basename --multiple
+++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
++ specifier=openfeature_hooks_opentelemetry==0.1.1
++ '[' -z openfeature_hooks_opentelemetry==0.1.1 ']'
++ TMPDIR=/builddir/build/BUILD/python3-openfeature-hooks-opentelemetry-0.1.1/.pyproject-builddir
++ /usr/bin/python3 -m pip install --root /builddir/build/BUILDROOT/python3-openfeature-hooks-opentelemetry-0.1.1-1.el9.x86_64 --prefix /usr --no-deps --disable-pip-version-check --progress-bar off --verbose --ignore-installed --no-warn-script-location --no-index --no-cache-dir --find-links /builddir/build/BUILD/python3-openfeature-hooks-opentelemetry-0.1.1/pyproject-wheeldir openfeature_hooks_opentelemetry==0.1.1
+Using pip 21.3.1 from /usr/lib/python3.9/site-packages/pip (python 3.9)
+Looking in links: /builddir/build/BUILD/python3-openfeature-hooks-opentelemetry-0.1.1/pyproject-wheeldir
+Processing ./pyproject-wheeldir/openfeature_hooks_opentelemetry-0.1.1-py3-none-any.whl
+Installing collected packages: openfeature-hooks-opentelemetry
+Successfully installed openfeature-hooks-opentelemetry-0.1.1
++ '[' -d /builddir/build/BUILDROOT/python3-openfeature-hooks-opentelemetry-0.1.1-1.el9.x86_64/usr/bin ']'
++ rm -f /builddir/build/BUILD/python3-openfeature-hooks-opentelemetry-0.1.1-1.el9.x86_64-pyproject-ghost-distinfo
++ site_dirs=()
++ '[' -d /builddir/build/BUILDROOT/python3-openfeature-hooks-opentelemetry-0.1.1-1.el9.x86_64/usr/lib/python3.9/site-packages ']'
++ site_dirs+=("/usr/lib/python3.9/site-packages")
++ '[' /builddir/build/BUILDROOT/python3-openfeature-hooks-opentelemetry-0.1.1-1.el9.x86_64/usr/lib64/python3.9/site-packages '!=' /builddir/build/BUILDROOT/python3-openfeature-hooks-opentelemetry-0.1.1-1.el9.x86_64/usr/lib/python3.9/site-packages ']'
++ '[' -d /builddir/build/BUILDROOT/python3-openfeature-hooks-opentelemetry-0.1.1-1.el9.x86_64/usr/lib64/python3.9/site-packages ']'
++ for site_dir in ${site_dirs[@]}
++ for distinfo in /builddir/build/BUILDROOT/python3-openfeature-hooks-opentelemetry-0.1.1-1.el9.x86_64$site_dir/*.dist-info
++ echo '%ghost /usr/lib/python3.9/site-packages/openfeature_hooks_opentelemetry-0.1.1.dist-info'
++ sed -i s/pip/rpm/ /builddir/build/BUILDROOT/python3-openfeature-hooks-opentelemetry-0.1.1-1.el9.x86_64/usr/lib/python3.9/site-packages/openfeature_hooks_opentelemetry-0.1.1.dist-info/INSTALLER
++ PYTHONPATH=/usr/lib/rpm/redhat
++ /usr/bin/python3 -B /usr/lib/rpm/redhat/pyproject_preprocess_record.py --buildroot /builddir/build/BUILDROOT/python3-openfeature-hooks-opentelemetry-0.1.1-1.el9.x86_64 --record /builddir/build/BUILDROOT/python3-openfeature-hooks-opentelemetry-0.1.1-1.el9.x86_64/usr/lib/python3.9/site-packages/openfeature_hooks_opentelemetry-0.1.1.dist-info/RECORD --output /builddir/build/BUILD/python3-openfeature-hooks-opentelemetry-0.1.1-1.el9.x86_64-pyproject-record
++ rm -fv /builddir/build/BUILDROOT/python3-openfeature-hooks-opentelemetry-0.1.1-1.el9.x86_64/usr/lib/python3.9/site-packages/openfeature_hooks_opentelemetry-0.1.1.dist-info/RECORD
+removed '/builddir/build/BUILDROOT/python3-openfeature-hooks-opentelemetry-0.1.1-1.el9.x86_64/usr/lib/python3.9/site-packages/openfeature_hooks_opentelemetry-0.1.1.dist-info/RECORD'
++ rm -fv /builddir/build/BUILDROOT/python3-openfeature-hooks-opentelemetry-0.1.1-1.el9.x86_64/usr/lib/python3.9/site-packages/openfeature_hooks_opentelemetry-0.1.1.dist-info/REQUESTED
+removed '/builddir/build/BUILDROOT/python3-openfeature-hooks-opentelemetry-0.1.1-1.el9.x86_64/usr/lib/python3.9/site-packages/openfeature_hooks_opentelemetry-0.1.1.dist-info/REQUESTED'
+++ wc -l /builddir/build/BUILD/python3-openfeature-hooks-opentelemetry-0.1.1-1.el9.x86_64-pyproject-ghost-distinfo
+++ cut -f1 '-d '
++ lines=1
++ '[' 1 -ne 1 ']'
++ /usr/bin/find-debuginfo -j4 --strict-build-id -m -i --build-id-seed 0.1.1-1.el9 --unique-debug-suffix -0.1.1-1.el9.x86_64 --unique-debug-src-base python3-openfeature-hooks-opentelemetry-0.1.1-1.el9.x86_64 --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 --remove-section .gnu.build.attributes -S debugsourcefiles.list /builddir/build/BUILD/python3-openfeature-hooks-opentelemetry-0.1.1
+find: 'debug': No such file or directory
++ /usr/lib/rpm/check-buildroot
++ /usr/lib/rpm/redhat/brp-ldconfig
++ /usr/lib/rpm/brp-compress
++ /usr/lib/rpm/redhat/brp-strip-lto /usr/bin/strip
++ /usr/lib/rpm/brp-strip-static-archive /usr/bin/strip
++ /usr/lib/rpm/redhat/brp-python-bytecompile '' 1 0
+Bytecompiling .py files below /builddir/build/BUILDROOT/python3-openfeature-hooks-opentelemetry-0.1.1-1.el9.x86_64/usr/lib/python3.9 using python3.9
++ /usr/lib/rpm/brp-python-hardlink
++ /usr/lib/rpm/redhat/brp-mangle-shebangs
+Executing(%check): /bin/sh -e /var/tmp/rpm-tmp.U1V5lN
++ umask 022
++ cd /builddir/build/BUILD
++ cd python3-openfeature-hooks-opentelemetry-0.1.1
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Processing files: python3-openfeature-hooks-opentelemetry-0.1.1-1.el9.noarch
+Provides: python-openfeature-hooks-opentelemetry = 0.1.1-1.el9 python3-openfeature-hooks-opentelemetry = 0.1.1-1.el9 python3.9-openfeature-hooks-opentelemetry = 0.1.1-1.el9 python3.9dist(openfeature-hooks-opentelemetry) = 0.1.1 python3dist(openfeature-hooks-opentelemetry) = 0.1.1
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PartialHardlinkSets) <= 4.0.4-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires: python(abi) = 3.9 python3.9dist(openfeature-sdk) >= 0.4 python3.9dist(opentelemetry-api)
+Obsoletes: python39-openfeature-hooks-opentelemetry < 0.1.1-1.el9
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILDROOT/python3-openfeature-hooks-opentelemetry-0.1.1-1.el9.x86_64
+Wrote: /builddir/build/RPMS/python3-openfeature-hooks-opentelemetry-0.1.1-1.el9.noarch.rpm
+Child return code was: 0

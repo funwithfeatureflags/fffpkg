@@ -1,0 +1,16 @@
+2025-03-15 15:25:22,238 - Mock Version: 5.5
+2025-03-15 15:25:22,248 - Start: clean chroot
+2025-03-15 15:25:27,523 - Finish: clean chroot
+2025-03-15 15:25:27,532 - Start(bootstrap): chroot init
+2025-03-15 15:25:34,921 - Finish(bootstrap): chroot init
+2025-03-15 15:25:34,928 - Start: chroot init
+2025-03-15 15:25:35,334 - Start: installing minimal buildroot with dnf
+2025-03-15 15:25:55,188 - Finish: installing minimal buildroot with dnf
+2025-03-15 15:25:55,369 - Finish: chroot init
+2025-03-15 15:25:55,516 - Start: build phase for python3-openfeature-sdk-0.7.4-1.fff+el9.src.rpm
+2025-03-15 15:25:55,522 - Start: build setup for python3-openfeature-sdk-0.7.4-1.fff+el9.src.rpm
+2025-03-15 15:25:58,521 - Finish: build setup for python3-openfeature-sdk-0.7.4-1.fff+el9.src.rpm
+2025-03-15 15:25:58,522 - Start: rpmbuild python3-openfeature-sdk-0.7.4-1.fff+el9.src.rpm
+2025-03-15 15:26:00,406 - Finish: rpmbuild python3-openfeature-sdk-0.7.4-1.fff+el9.src.rpm
+2025-03-15 15:26:00,408 - Finish: build phase for python3-openfeature-sdk-0.7.4-1.fff+el9.src.rpm
+2025-03-15 15:26:00,463 - Finish: run

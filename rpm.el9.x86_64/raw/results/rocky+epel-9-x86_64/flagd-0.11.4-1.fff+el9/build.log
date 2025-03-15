@@ -1,0 +1,230 @@
+Mock Version: 5.5
+ENTER ['do_with_status'](['bash', '--login', '-c', '/usr/bin/rpmbuild -bs --noclean --target x86_64 --nodeps /builddir/build/SPECS/flagd.spec'], chrootPath='/var/lib/mock/rocky+epel-9-x86_64/root'env={'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8'}shell=Falselogger=<mockbuild.trace_decorator.getLog object at 0x7f9ab857f290>timeout=0uid=1001gid=987user='mockbuild'nspawn_args=[]unshare_net=FalseprintOutput=False)
+Executing command: ['bash', '--login', '-c', '/usr/bin/rpmbuild -bs --noclean --target x86_64 --nodeps /builddir/build/SPECS/flagd.spec'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8'} and shell False
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1741996800
+Wrote: /builddir/build/SRPMS/flagd-0.11.4-1.el9.src.rpm
+Child return code was: 0
+ENTER ['do_with_status'](['bash', '--login', '-c', '/usr/bin/rpmbuild -bb --noclean --target x86_64 --nodeps /builddir/build/SPECS/flagd.spec'], chrootPath='/var/lib/mock/rocky+epel-9-x86_64/root'env={'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8'}shell=Falselogger=<mockbuild.trace_decorator.getLog object at 0x7f9ab857f290>timeout=0uid=1001gid=987user='mockbuild'nspawn_args=[]unshare_net=FalseprintOutput=False)
+Executing command: ['bash', '--login', '-c', '/usr/bin/rpmbuild -bb --noclean --target x86_64 --nodeps /builddir/build/SPECS/flagd.spec'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8'} and shell False
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1741996800
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.3UZJC1
++ umask 022
++ cd /builddir/build/BUILD
++ cd /builddir/build/BUILD
++ rm -rf flagd-0.11.4
++ /usr/bin/gzip -dc /builddir/build/SOURCES/flagd-0.11.4.tar.gz
++ /usr/bin/tar -xof -
++ STATUS=0
++ '[' 0 -ne 0 ']'
++ cd flagd-0.11.4
++ /usr/bin/chmod -Rf a+rX,u+w,g-w,o-w .
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.Oowcc3
++ umask 022
++ cd /builddir/build/BUILD
++ cd flagd-0.11.4
++ export GOPROXY=proxy.golang.org
++ GOPROXY=proxy.golang.org
++ export GOSUMDB=sum.golang.org
++ GOSUMDB=sum.golang.org
++ export GO111MODULE=on
++ GO111MODULE=on
++ make workspace-init
+rm -rf go.work
+go work init
+go work use ./core;  go work use ./flagd;  go work use ./flagd-proxy;  go work use ./flagd-proxy/tests/loadtest;  go work use ./test/integration;  go work use ./test/loadtest;  go work use ./test/zero-downtime-flagd-proxy;
++ go build -ldflags '-X main.version=0.11.4 -X main.commit=0.11.4 -X main.date=1970-01-00T00:01:00Z' -o ./bin/flagd ./flagd
+go: downloading github.com/dimiro1/banner v1.1.0
+go: downloading github.com/mattn/go-colorable v0.1.13
+go: downloading github.com/spf13/cobra v1.8.1
+go: downloading github.com/spf13/viper v1.19.0
+go: downloading go.uber.org/zap v1.27.0
+go: downloading github.com/robfig/cron v1.2.0
+go: downloading gocloud.dev v0.40.0
+go: downloading k8s.io/client-go v0.31.1
+go: downloading golang.org/x/sync v0.8.0
+go: downloading github.com/mattn/go-isatty v0.0.20
+go: downloading github.com/common-nighthawk/go-figure v0.0.0-20210622060536-734e95fb86be
+go: downloading github.com/fsnotify/fsnotify v1.7.0
+go: downloading github.com/mitchellh/mapstructure v1.5.0
+go: downloading github.com/sagikazarmark/slog-shim v0.1.0
+go: downloading github.com/spf13/afero v1.11.0
+go: downloading github.com/spf13/cast v1.6.0
+go: downloading github.com/spf13/pflag v1.0.5
+go: downloading github.com/cpuguy83/go-md2man/v2 v2.0.4
+go: downloading gopkg.in/yaml.v3 v3.0.1
+go: downloading google.golang.org/grpc v1.67.1
+go: downloading buf.build/gen/go/open-feature/flagd/grpc/go v1.5.1-20240906125204-0a6a901b42e8.1
+go: downloading buf.build/gen/go/open-feature/flagd/protocolbuffers/go v1.35.1-20240906125204-0a6a901b42e8.1
+go: downloading go.uber.org/multierr v1.11.0
+go: downloading golang.org/x/crypto v0.28.0
+go: downloading github.com/open-feature/open-feature-operator/apis v0.2.44
+go: downloading k8s.io/apimachinery v0.31.1
+go: downloading connectrpc.com/connect v1.17.0
+go: downloading github.com/diegoholiveira/jsonlogic/v3 v3.5.3
+go: downloading github.com/open-feature/flagd-schemas v0.2.9-0.20240708163558-2aa89b314322
+go: downloading github.com/twmb/murmur3 v1.1.8
+go: downloading github.com/xeipuuv/gojsonschema v1.2.0
+go: downloading github.com/zeebo/xxh3 v1.0.2
+go: downloading go.opentelemetry.io/otel v1.31.0
+go: downloading go.opentelemetry.io/otel/trace v1.31.0
+go: downloading golang.org/x/exp v0.0.0-20240506185415-9bf2ced13842
+go: downloading golang.org/x/mod v0.21.0
+go: downloading connectrpc.com/otelconnect v0.7.1
+go: downloading github.com/prometheus/client_golang v1.20.5
+go: downloading go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc v1.31.0
+go: downloading go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.31.0
+go: downloading go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.31.0
+go: downloading go.opentelemetry.io/otel/exporters/prometheus v0.53.0
+go: downloading go.opentelemetry.io/otel/metric v1.31.0
+go: downloading go.opentelemetry.io/otel/sdk v1.31.0
+go: downloading go.opentelemetry.io/otel/sdk/metric v1.31.0
+go: downloading buf.build/gen/go/open-feature/flagd/connectrpc/go v1.17.0-20240906125204-0a6a901b42e8.1
+go: downloading github.com/rs/xid v1.6.0
+go: downloading golang.org/x/net v0.30.0
+go: downloading google.golang.org/protobuf v1.35.1
+go: downloading github.com/gorilla/mux v1.8.1
+go: downloading github.com/rs/cors v1.11.1
+go: downloading go.opencensus.io v0.24.0
+go: downloading golang.org/x/sys v0.26.0
+go: downloading golang.org/x/text v0.19.0
+go: downloading k8s.io/klog/v2 v2.130.1
+go: downloading k8s.io/klog v1.0.0
+go: downloading github.com/subosito/gotenv v1.6.0
+go: downloading github.com/hashicorp/hcl v1.0.0
+go: downloading gopkg.in/ini.v1 v1.67.0
+go: downloading github.com/magiconair/properties v1.8.7
+go: downloading github.com/imdario/mergo v0.3.16
+go: downloading golang.org/x/term v0.25.0
+go: downloading github.com/pelletier/go-toml/v2 v2.2.2
+go: downloading k8s.io/utils v0.0.0-20240711033017-18e509b52bc8
+go: downloading github.com/Azure/azure-sdk-for-go/sdk/azcore v1.14.0
+go: downloading github.com/Azure/azure-sdk-for-go/sdk/azidentity v1.7.0
+go: downloading github.com/Azure/azure-sdk-for-go/sdk/storage/azblob v1.3.2
+go: downloading github.com/Azure/go-autorest/autorest/to v0.4.0
+go: downloading github.com/Azure/go-autorest/autorest v0.11.18
+go: downloading github.com/Azure/go-autorest v14.2.0+incompatible
+go: downloading github.com/google/wire v0.6.0
+go: downloading cloud.google.com/go/compute/metadata v0.5.0
+go: downloading cloud.google.com/go/compute v1.27.4
+go: downloading cloud.google.com/go/iam v1.1.13
+go: downloading cloud.google.com/go/storage v1.43.0
+go: downloading cloud.google.com/go v0.115.0
+go: downloading github.com/googleapis/gax-go/v2 v2.13.0
+go: downloading golang.org/x/oauth2 v0.23.0
+go: downloading google.golang.org/api v0.191.0
+go: downloading github.com/russross/blackfriday/v2 v2.1.0
+go: downloading k8s.io/api v0.31.1
+go: downloading sigs.k8s.io/controller-runtime v0.19.0
+go: downloading github.com/gogo/protobuf v1.3.2
+go: downloading github.com/google/gofuzz v1.2.0
+go: downloading sigs.k8s.io/structured-merge-diff/v4 v4.4.1
+go: downloading github.com/barkimedes/go-deepcopy v0.0.0-20220514131651-17c30cfc62df
+go: downloading github.com/xeipuuv/gojsonreference v0.0.0-20180127040603-bd5ef7bd5415
+go: downloading github.com/klauspost/cpuid/v2 v2.2.7
+go: downloading github.com/go-logr/logr v1.4.2
+go: downloading go.opentelemetry.io/proto/otlp v1.3.1
+go: downloading google.golang.org/genproto/googleapis/rpc v0.0.0-20241007155032-5fefd90f89a9
+go: downloading google.golang.org/genproto v0.0.0-20240812133136-8ffd90a71988
+go: downloading github.com/prometheus/client_model v0.6.1
+go: downloading github.com/prometheus/common v0.60.0
+go: downloading github.com/beorn7/perks v1.0.1
+go: downloading github.com/cespare/xxhash/v2 v2.3.0
+go: downloading github.com/cespare/xxhash v1.1.0
+go: downloading github.com/prometheus/procfs v0.15.1
+go: downloading github.com/google/uuid v1.6.0
+go: downloading github.com/klauspost/compress v1.17.9
+go: downloading golang.org/x/xerrors v0.0.0-20240716161551-93cc26a95ae9
+go: downloading sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd
+go: downloading sigs.k8s.io/yaml v1.4.0
+go: downloading github.com/google/go-cmp v0.6.0
+go: downloading golang.org/x/time v0.6.0
+go: downloading github.com/Azure/azure-sdk-for-go/sdk/internal v1.10.0
+go: downloading github.com/AzureAD/microsoft-authentication-library-for-go v1.2.2
+go: downloading google.golang.org/genproto/googleapis/api v0.0.0-20241007155032-5fefd90f89a9
+go: downloading gomodules.xyz/jsonpatch/v2 v2.4.0
+go: downloading gopkg.in/inf.v0 v0.9.1
+go: downloading github.com/json-iterator/go v1.1.12
+go: downloading gopkg.in/yaml.v2 v2.4.0
+go: downloading github.com/xeipuuv/gojsonpointer v0.0.0-20190905194746-02993c407bfb
+go: downloading github.com/go-logr/stdr v1.2.2
+go: downloading github.com/cenkalti/backoff/v4 v4.3.0
+go: downloading github.com/grpc-ecosystem/grpc-gateway/v2 v2.22.0
+go: downloading github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822
+go: downloading github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da
+go: downloading github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc
+go: downloading cloud.google.com/go/auth v0.8.1
+go: downloading cloud.google.com/go/auth/oauth2adapt v0.2.4
+go: downloading go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.53.0
+go: downloading go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.53.0
+go: downloading github.com/kylelemons/godebug v1.1.0
+go: downloading github.com/pkg/browser v0.0.0-20240102092130-5ac0b6a4141c
+go: downloading github.com/fxamacker/cbor/v2 v2.7.0
+go: downloading github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd
+go: downloading github.com/modern-go/reflect2 v1.0.2
+go: downloading github.com/google/s2a-go v0.1.8
+go: downloading github.com/googleapis/enterprise-certificate-proxy v0.3.2
+go: downloading github.com/golang-jwt/jwt/v5 v5.2.1
+go: downloading github.com/felixge/httpsnoop v1.0.4
+go: downloading github.com/golang-jwt/jwt v3.2.1+incompatible
+go: downloading github.com/evanphx/json-patch/v5 v5.9.0
+go: downloading k8s.io/apiextensions-apiserver v0.31.0
+go: downloading github.com/evanphx/json-patch v5.6.0+incompatible
+go: downloading github.com/golang/protobuf v1.5.4
+go: downloading github.com/grpc-ecosystem/grpc-gateway v1.16.0
+go: downloading github.com/google/gnostic-models v0.6.8
+go: downloading github.com/x448/float16 v0.8.4
+go: downloading k8s.io/kube-openapi v0.0.0-20240403164606-bc84c2ddaf99
+go: downloading github.com/pkg/errors v0.9.1
+go: downloading github.com/go-openapi/jsonreference v0.21.0
+go: downloading github.com/go-openapi/swag v0.23.0
+go: downloading github.com/emicklei/go-restful/v3 v3.12.0
+go: downloading github.com/go-openapi/jsonpointer v0.21.0
+go: downloading github.com/mailru/easyjson v0.7.7
+go: downloading github.com/josharian/intern v1.0.0
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.orwC4O
++ umask 022
++ cd /builddir/build/BUILD
++ '[' /builddir/build/BUILDROOT/flagd-0.11.4-1.el9.x86_64 '!=' / ']'
++ rm -rf /builddir/build/BUILDROOT/flagd-0.11.4-1.el9.x86_64
+++ dirname /builddir/build/BUILDROOT/flagd-0.11.4-1.el9.x86_64
++ mkdir -p /builddir/build/BUILDROOT
++ mkdir /builddir/build/BUILDROOT/flagd-0.11.4-1.el9.x86_64
++ cd flagd-0.11.4
++ rm -rf /builddir/build/BUILDROOT/flagd-0.11.4-1.el9.x86_64
++ mkdir -p /builddir/build/BUILDROOT/flagd-0.11.4-1.el9.x86_64/usr/bin
++ mkdir -p /builddir/build/BUILDROOT/flagd-0.11.4-1.el9.x86_64/etc/flagd/
++ mkdir -p /builddir/build/BUILDROOT/flagd-0.11.4-1.el9.x86_64/usr/lib/systemd/system/
++ install -m 755 bin/flagd /builddir/build/BUILDROOT/flagd-0.11.4-1.el9.x86_64/usr/bin/
++ install -m 644 /builddir/build/SOURCES/flagd.service /builddir/build/BUILDROOT/flagd-0.11.4-1.el9.x86_64/usr/lib/systemd/system/
++ install -m 644 /builddir/build/SOURCES/flags.json /builddir/build/BUILDROOT/flagd-0.11.4-1.el9.x86_64/etc/flagd/
++ /usr/lib/rpm/check-buildroot
++ /usr/lib/rpm/redhat/brp-ldconfig
++ /usr/lib/rpm/brp-compress
++ /usr/lib/rpm/brp-strip /usr/bin/strip
++ /usr/lib/rpm/brp-strip-comment-note /usr/bin/strip /usr/bin/objdump
++ /usr/lib/rpm/redhat/brp-strip-lto /usr/bin/strip
++ /usr/lib/rpm/brp-strip-static-archive /usr/bin/strip
++ /usr/lib/rpm/redhat/brp-python-bytecompile '' 1 0
++ /usr/lib/rpm/brp-python-hardlink
++ /usr/lib/rpm/redhat/brp-mangle-shebangs
+Processing files: flagd-0.11.4-1.el9.x86_64
+Provides: config(flagd) = 0.11.4-1.el9 flagd = 0.11.4-1.el9 flagd(x86-64) = 0.11.4-1.el9
+Requires(interp): /bin/sh /bin/sh /bin/sh
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires(post): /bin/sh
+Requires(preun): /bin/sh
+Requires(postun): /bin/sh
+Requires: libc.so.6()(64bit) libc.so.6(GLIBC_2.2.5)(64bit) libc.so.6(GLIBC_2.3.2)(64bit) libc.so.6(GLIBC_2.32)(64bit) libc.so.6(GLIBC_2.34)(64bit) libresolv.so.2()(64bit) rtld(GNU_HASH)
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILDROOT/flagd-0.11.4-1.el9.x86_64
+Wrote: /builddir/build/RPMS/flagd-0.11.4-1.el9.x86_64.rpm
+Child return code was: 0
