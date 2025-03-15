@@ -55,12 +55,12 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          wget -qO - https://mirror.kakwalab.ovh/debian-rpm-build-tools/GPG-KEY.pub | gpg --dearmor > kakwalab.gpg
-          sudo install -o root -g root -m 644 kakwalab.gpg /etc/apt/trusted.gpg.d/
-          echo "deb https://mirror.kakwalab.ovh/debian-rpm-build-tools/deb.noble/ noble main" | sudo tee /etc/apt/sources.list.d/kakwalab-rpm-build-tools.list
+          . /etc/os-release
+          wget -qO - https://kakwa.github.io/debian-rpm-build-tools/GPG-KEY.pub | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/debian-rpm-build-tools.gpg
+          echo "deb [arch=$(dpkg --print-architecture)] https://kakwa.github.io/debian-rpm-build-tools/deb.${VERSION_CODENAME}.$(dpkg --print-architecture)/ ${VERSION_CODENAME} main"  | sudo tee /etc/apt/sources.list.d/debian-rpm-build-tools.list
           sudo apt update
           sudo apt install -y make debhelper reprepro cowbuilder wget
-          sudo apt install -y binfmt-support qemu-utils qemu-user-static qemu-system-arm qemu-system-misc
+          sudo apt install -y binfmt-support qemu-utils qemu-user-static qemu-system-arm qemu-system-misc qemu-system-ppc qemu-system-s390x
           sudo apt install -y debian-archive-keyring debian-keyring debian-ports-archive-keyring ubuntu-keyring
           if [ "${{ matrix.target }}" == "rpm" ];then sudo apt install -y mock createrepo-c rpm dnf gnupg2; fi
 
