@@ -30,6 +30,7 @@ LICENSE=Apache License 2.0
 #SKIP=<=:deb:8 <=:el:6 <=:fc:29 <=:ubu:18.4
 
 COWBUILD_BUILD_ADDITIONAL_ARGS=--use-network yes
+MOCK_BUILD_ADDITIONAL_ARGS=--enable-network
 
 ###############################################################################
 # Rule #

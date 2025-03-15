@@ -1,0 +1,12 @@
+{
+  "flags": {
+    "example-flag": {
+      "state": "ENABLED",
+      "variants": {
+        "on": true,
+        "off": false
+      },
+      "defaultVariant": "on"
+    }
+  }
+} 

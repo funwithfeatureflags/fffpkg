@@ -1,0 +1,15 @@
+[Unit]
+Description=Feature Flag Daemon Service
+Documentation=https://github.com/open-feature/flagd
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/flagd start -f /etc/flagd/flags.json
+Restart=on-failure
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target 
