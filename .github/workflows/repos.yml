@@ -72,7 +72,7 @@ jobs:
         run: make ${{ matrix.target }}_repo ARCH=${{ matrix.arch }} DIST=${{ matrix.dist }} -j${{ matrix.jobs }}
 
       - name: Random delay to mitigate for publication collision
-        run: sleep $(( $RANDOM % 120 ))
+        run: sleep $(( $RANDOM % 180 ))
 
       - name: Deploy Repositories to GitHub Pages
         if: ${{ github.event_name != 'pull_request' }}
