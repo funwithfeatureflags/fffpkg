@@ -1,3 +1,37 @@
+Package: flagd
+Version: 0.11.4-1~fff+deb13
+Architecture: riscv64
+Maintainer: kawkwa <carpentier.pf@gmail.com>
+Installed-Size: 48920
+Homepage: https://github.com/open-feature/flagd
+Priority: optional
+Section: kakwa
+Filename: pool/main/f/flagd/flagd_0.11.4-1~fff+deb13_riscv64.deb
+Size: 10407180
+SHA256: b0b0693691e180585c854fcb81da952bbccd48988c36b2a50b372f3bb53a2878
+SHA1: 739976d0fdcf4cb95f07a35ce656308ca02f27e2
+MD5sum: 14151ef7e2b736f0f00c78a68b810a17
+Description: A feature flag daemon with a Unix philosophy
+ A feature flag daemon with a Unix philosophy
+
+Package: flagd-dbgsym
+Source: flagd
+Version: 0.11.4-1~fff+deb13
+Auto-Built-Package: debug-symbols
+Architecture: riscv64
+Maintainer: kawkwa <carpentier.pf@gmail.com>
+Installed-Size: 22883
+Depends: flagd (= 0.11.4-1~fff+deb13)
+Priority: optional
+Section: kakwa
+Filename: pool/main/f/flagd/flagd-dbgsym_0.11.4-1~fff+deb13_riscv64.deb
+Size: 16243152
+SHA256: 3b885e7d5f3d3eeb69c0b308f76c96db865237b4b00a7099d20d73a6541d80a8
+SHA1: b083d738ca13e10013d35cd1a369ef1cb51a25a3
+MD5sum: 254e5df8354e1643a5e8a505c2aef710
+Description: debug symbols for flagd
+Build-Ids: e7a423947dd0c38ba7686867bf41a8e5c042e4d2
+
 Package: python3-openfeature-hooks-opentelemetry
 Version: 0.1.1-1~fff+deb13
 Architecture: all
@@ -8,10 +42,10 @@ Homepage: https://github.com/open-feature/python-sdk-contrib
 Priority: optional
 Section: kakwa
 Filename: pool/main/p/python3-openfeature-hooks-opentelemetry/python3-openfeature-hooks-opentelemetry_0.1.1-1~fff+deb13_all.deb
-Size: 7964
-SHA256: c99c3b7d466c802c81a0d29c96b9ae9645a1f7067375ce1a38e440b75eddaefe
-SHA1: 0ec1135d87922312688066976a35e4a9f023ca84
-MD5sum: 41ed887d342c4c9a1af494f3b701cabe
+Size: 7952
+SHA256: 2e9c733791ef78e4929520364336bad6deb802c3fe77bd0008e023b888882b2d
+SHA1: fd921008bbb15e2807aa07f38c8bdb5b46b18684
+MD5sum: 291421a6a9cdebdb47765e486909e298
 Description: Python SDK for OpenFeature
  Python SDK for OpenFeature
 
@@ -25,10 +59,10 @@ Homepage: https://github.com/open-feature/python-sdk-contrib
 Priority: optional
 Section: kakwa
 Filename: pool/main/p/python3-openfeature-provider-flagd/python3-openfeature-provider-flagd_0.1.5-1~fff+deb13_all.deb
-Size: 18648
-SHA256: b5df0d5d86d3d7807d0d17848d71ed1da853dab447d8110047c1539706acd917
-SHA1: 881d4d202343708ad814dc519c2a2ef3b1dc1bb2
-MD5sum: 6819095d7eff93f73b0bd234b7d6ccb9
+Size: 18652
+SHA256: 1209ba563e7f9b5e672dd781979003eabcd8d2debe238eda58e0386b540a04b4
+SHA1: d8caf6f0e50a032ac2d16f019dfc9c62fac5b975
+MD5sum: 0410c30a6580f684acd396830ef414bb
 Description: Python SDK for OpenFeature
  Python SDK for OpenFeature
 
@@ -42,10 +76,10 @@ Homepage: https://github.com/open-feature/python-sdk-contrib
 Priority: optional
 Section: kakwa
 Filename: pool/main/p/python3-openfeature-provider-ofrep/python3-openfeature-provider-ofrep_0.1.0-1~fff+deb13_all.deb
-Size: 8744
-SHA256: 2a057ae5cf3315404fdbf765af842241731a749e18da6fd9a38510aac64684c3
-SHA1: 8d34c874a7f840a13e7a427b934154a6c468443d
-MD5sum: ba8f89525fb21d7a7a8f534b64618a32
+Size: 8748
+SHA256: bdfa3fb865cf929d4e8d6a3e9d3cc35741c0535a783a5da81541389ad9eb9d12
+SHA1: 1187f1236aa3628740a7d8408a7f96636f132af9
+MD5sum: dd07139c597503f9ced515a77a4153db
 Description: Python SDK for OpenFeature
  Python SDK for OpenFeature
 
@@ -59,10 +93,10 @@ Homepage: https://github.com/open-feature/python-sdk
 Priority: optional
 Section: kakwa
 Filename: pool/main/p/python3-openfeature-sdk/python3-openfeature-sdk_0.7.4-1~fff+deb13_all.deb
-Size: 29164
-SHA256: 19f9b3bc4b53431d1374e0209935acbb2eeb6da8be135672d71b399122f8bd88
-SHA1: a4fceabf25ea1dc09d4f21838b22b676851f1e5b
-MD5sum: 088e75017524cb3948b1c7f4679a87f8
+Size: 29160
+SHA256: d26940d69635d24946da5c975be716c3a5060fd2ef8141b8640e335454cc3172
+SHA1: d1aa69dc0db73d37bbd9582d4fe995454f008f53
+MD5sum: a4cd589ebb7da22f84adc27c13a2a72e
 Description: Python SDK for OpenFeature
  Python SDK for OpenFeature
 
