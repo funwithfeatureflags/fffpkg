@@ -6,6 +6,8 @@ Just a few packages for playing with Open Feature Flags.
 
 # Repositories
 
+The `.deb`/`.rpm` repositories are available at the following url: https://funwithfeatureflags.github.io/fffpkg/
+
 ## Ubuntu/Debian
 
 To install the repository on `Ubuntu`/`Debian`:
