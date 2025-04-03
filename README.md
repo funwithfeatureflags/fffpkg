@@ -50,7 +50,7 @@ else
 fi
 
 # Create the repository file
-cat << EOF | ${SUDO} tee /etc/dnf/dnf.conf
+cat << EOF | ${SUDO} tee -a /etc/dnf/dnf.conf
 [fffpkg]
 name=fffpkg
 baseurl=https://funwithfeatureflags.github.io/fffpkg/rpm.${DISTRO_PREFIX}\$releasever.\$basearch/\$releasever/\$basearch/
